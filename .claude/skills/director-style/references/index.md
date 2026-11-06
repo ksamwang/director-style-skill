@@ -1,6 +1,6 @@
 # 导演总表
 
-> 共 100 位。按地域分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。
+> 共 125 位。按地域分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。
 
 ## 华语（21）
 
@@ -28,7 +28,7 @@
 | [李安 Ang Lee](directors/ang-lee.md) | 台湾 / 美国 | 1991– | 家庭仪式 / 压抑情节剧 | 人物关系、表演与对白 | 每个人都活在体面里，欲望只从裂缝漏出来。 | [提示](prompts/ang-lee.md) |
 | [蔡明亮 Tsai Ming-liang](directors/tsai-ming-liang.md) | 台湾 / 马来西亚 | 1992– | 极简长镜 / 身体与空间 | 时间与剪辑、视觉规则 | 镜头不剪，是因为逃不掉；人只能和漏水待着。 | [提示](prompts/tsai-ming-liang.md) |
 
-## 日本（10）
+## 日本（11）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
@@ -37,6 +37,7 @@
 | [北野武 Takeshi Kitano](directors/takeshi-kitano.md) | 日本 | 1989– | 极简暴力 / 沉默喜剧 | 时间与剪辑、表演与对白 | 最狠的一刀在画外，最软的一句话没说出口。 | [提示](prompts/takeshi-kitano.md) |
 | [大岛渚 Nagisa Oshima](directors/nagisa-oshima.md) | 日本 | 1959–1999 | 政治挑衅 / 间离叙事 | 时间与剪辑、表演与对白 | 性和权力是同一种东西，爱只是它的借口。 | [提示](prompts/nagisa-oshima.md) |
 | [宫崎骏 Hayao Miyazaki](directors/hayao-miyazaki.md) | 日本 | 1979– | 手绘奇幻 / 成长史诗 | 视觉规则、镜头语法 | 世界很脏，但还是值得飞一次。 | [提示](prompts/hayao-miyazaki.md) |
+| [小林正树 Masaki Kobayashi](directors/masaki-kobayashi.md) | 日本 | 1952–1996 | 武士构图 / 制度审判 | 视觉规则、镜头语法 | 让规矩自己开口，它就会承认吃了人。 | [提示](prompts/masaki-kobayashi.md) |
 | [小津安二郎 Yasujiro Ozu](directors/yasujiro-ozu.md) | 日本 | 1927–1962 | 家庭剧 / 极简构图 | 视觉规则、表演与对白 | 家迟早要散，人只能笑着说"是啊"。 | [提示](prompts/yasujiro-ozu.md) |
 | [岩井俊二 Shunji Iwai](directors/iwai-shunji.md) | 日本 | 1995– | 青春记忆 / 媒介通信 | 声音规则、时间与剪辑 | 他拍的不是青春，是青春变成回忆的那一秒。 | [提示](prompts/iwai-shunji.md) |
 | [是枝裕和 Hirokazu Kore-eda](directors/hirokazu-kore-eda.md) | 日本 | 1995– | 日常家庭 / 观察式长镜头 | 人物关系、镜头语法 | 家人是一起吃过很多顿饭的人，不是血缘。 | [提示](prompts/hirokazu-kore-eda.md) |
@@ -52,32 +53,42 @@
 | [李沧东 Lee Chang-dong](directors/lee-chang-dong.md) | 韩国 | 1997– | 社会写实 / 道德剧 | 镜头语法、表演与对白 | 人想体面地活着，可体面在这个世界里没有位置。 | [提示](prompts/lee-chang-dong.md) |
 | [洪常秀 Hong Sang-soo](directors/hong-sang-soo.md) | 韩国 | 1996– | 日常结构喜剧 / 偶然重复 | 时间与剪辑、表演与对白 | 人反复回到同一个地方，说同一句话，以为这次会不同。 | [提示](prompts/hong-sang-soo.md) |
 
-## 南亚 / 东南亚 / 西亚（10）
+## 南亚 / 东南亚 / 西亚（16）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
 | [贾法·帕纳西 Jafar Panahi](directors/jafar-panahi.md) | 伊朗 | 1995– | 社会写实 / 元电影 | 镜头语法、时间与剪辑 | 在不能拍的地方拍，电影就成了证词。 | [提示](prompts/jafar-panahi.md) |
 | [阿巴斯·基亚罗斯塔米 Abbas Kiarostami](directors/abbas-kiarostami.md) | 伊朗 | 1970–2016 | 元电影 / 极简写实 | 镜头语法、声音规则 | 摄影机一出现，真实就开始表演。 | [提示](prompts/abbas-kiarostami.md) |
 | [阿斯哈·法哈蒂 Asghar Farhadi](directors/asghar-farhadi.md) | 伊朗 | 2003– | 道德悬疑 / 家庭剧 | 表演与对白、镜头语法 | 没有人撒谎，每个人说的都是对自己有利的版本。 | [提示](prompts/asghar-farhadi.md) |
+| [马基德·马基迪 Majid Majidi](directors/majid-majidi.md) | 伊朗 | 1992– | 儿童视角 / 自然光写实 | 视觉规则、表演与对白 | 孩子把世界当真，世界因此露出破绽。 | [提示](prompts/majid-majidi.md) |
 | [努里·比格·锡兰 Nuri Bilge Ceylan](directors/nuri-bilge-ceylan.md) | 土耳其 | 1995– | 慢电影 / 心理写实 | 镜头语法、声音规则 | 人挨得越近，越听不见对方。 | [提示](prompts/nuri-bilge-ceylan.md) |
 | [埃利亚·苏莱曼 Elia Suleiman](directors/elia-suleiman.md) | 巴勒斯坦 / 法国 | 1996– | 冷面政治 / 固定景框 | 视觉规则、表演与对白 | 在占领之下，沉默是唯一没有被征用的语言。 | [提示](prompts/elia-suleiman.md) |
+| [乌彭德拉 Upendra](directors/upendra.md) | 印度 | 1992– | 实验喜剧 / 元电影 | 镜头语法、声音规则 | 人是一个被观看的角色，而观众也买了票。 | [提示](prompts/upendra.md) |
 | [古鲁·杜特 Guru Dutt](directors/guru-dutt.md) | 印度 | 1951–1964 | 情节剧 / 歌曲叙事 | 视觉规则、声音规则 | 成功和爱情都是社会编的，失败者才有人样。 | [提示](prompts/guru-dutt.md) |
+| [姆里纳尔·森 Mrinal Sen](directors/mrinal-sen.md) | 印度 | 1955–2002 | 政治现代主义 / 论文电影 | 时间与剪辑、声音规则 | 人首先是政治动物，其次才是私人。 | [提示](prompts/mrinal-sen.md) |
+| [拉吉库马尔·希拉尼 Rajkumar Hirani](directors/rajkumar-hirani.md) | 印度 | 2003– | 商业喜剧 / 情感调度 | 表演与对白、时间与剪辑 | 人不是坏，是怕丢脸；笑是丢脸松开的那一秒。 | [提示](prompts/rajkumar-hirani.md) |
+| [曼尼·拉特纳姆 Mani Ratnam](directors/mani-ratnam.md) | 印度 | 1983– | 歌舞史诗 / 政治情节剧 | 镜头语法、声音规则 | 爱是个人的，但它的代价总是国家的。 | [提示](prompts/mani-ratnam.md) |
+| [比马尔·罗伊 Bimal Roy](directors/bimal-roy.md) | 印度 | 1944–1963 | 人道写实 / 社会情节剧 | 视觉规则、表演与对白 | 尊严不在于拥有什么，而在于失去时怎么站着。 | [提示](prompts/bimal-roy.md) |
 | [萨蒂亚吉特·雷伊 Satyajit Ray](directors/satyajit-ray.md) | 印度 | 1955–1990 | 人文写实 / 成长叙事 | 镜头语法、声音规则 | 人在贫困里学会看见，而不是学会抱怨。 | [提示](prompts/satyajit-ray.md) |
 | [阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul](directors/apichatpong-weerasethakul.md) | 泰国 | 2000– | 热带记忆 / 慢电影 | 时间与剪辑、声音规则 | 过去不是被想起的，是住进身体里、半夜发作的。 | [提示](prompts/apichatpong-weerasethakul.md) |
 | [拉夫·迪亚兹 Lav Diaz](directors/lav-diaz.md) | 菲律宾 | 1998– | 历史长夜 / 慢电影 | 时间与剪辑、视觉规则 | 历史不是过去，是一间还没服完的牢房。 | [提示](prompts/lav-diaz.md) |
 | [陈英雄 Tran Anh Hung](directors/tran-anh-hung.md) | 越南 / 法国 | 1993– | 感官记忆 / 室内触觉 | 视觉规则、声音规则 | 爱是照料，不是表白。 | [提示](prompts/tran-anh-hung.md) |
 
-## 欧洲（28）
+## 欧洲（39）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
 | [克莱尔·德尼 Claire Denis](directors/claire-denis.md) | 法国 | 1988– | 身体感官 / 殖民空间 | 视觉规则、声音规则 | 身体先知道，意识后解释。 | [提示](prompts/claire-denis.md) |
 | [埃里克·侯麦 Éric Rohmer](directors/eric-rohmer.md) | 法国 | 1959–2007 | 话语伦理 / 自然光 | 表演与对白、视觉规则 | 人用语言为欲望编理由，从不承认那是理由。 | [提示](prompts/eric-rohmer.md) |
 | [罗贝尔·布列松 Robert Bresson](directors/robert-bresson.md) | 法国 | 1943–1983 | 缩减 / 必然性 | 时间与剪辑、声音规则 | 人不表演，人只被动作穿过。 | [提示](prompts/robert-bresson.md) |
+| [让-皮埃尔·梅尔维尔 Jean-Pierre Melville](directors/jean-pierre-melville.md) | 法国 | 1947–1972 | 冷峻犯罪 / 极简仪式 | 视觉规则、镜头语法 | 人靠一套自己定的规矩活着，规矩比命长。 | [提示](prompts/jean-pierre-melville.md) |
 | [阿涅斯·瓦尔达 Agnès Varda](directors/agnes-varda.md) | 法国 | 1955–2019 | 散文电影 / 记忆采集 | 声音规则、时间与剪辑 | 拍摄就是陪伴，不让东西消失。 | [提示](prompts/agnes-varda.md) |
 | [雅克·塔蒂 Jacques Tati](directors/jacques-tati.md) | 法国 | 1949–1971 | 空间喜剧 / 声音设计 | 视觉规则、声音规则 | 现代世界很精确，人很笨拙，笨拙是最后一点自由。 | [提示](prompts/jacques-tati.md) |
 | [让-吕克·戈达尔 Jean-Luc Godard](directors/jean-luc-godard.md) | 法国 / 瑞士 | 1960–2022 | 影像批判 / 拼贴 | 时间与剪辑、声音规则 | 画面不是记录，是谎言；剪辑是拆穿它的唯一手段。 | [提示](prompts/jean-luc-godard.md) |
+| [卢基诺·维斯康蒂 Luchino Visconti](directors/luchino-visconti.md) | 意大利 | 1943–1976 | 贵族衰败 / 歌剧式调度 | 视觉规则、时间与剪辑 | 人逃不出自己的阶级，只能把衰落演得体面。 | [提示](prompts/luchino-visconti.md) |
+| [吉洛·蓬泰科尔沃 Gillo Pontecorvo](directors/gillo-pontecorvo.md) | 意大利 | 1953–1997 | 政治纪实 / 群众调度 | 镜头语法、时间与剪辑 | 街垒不是背景，是人用身体排成的政治。 | [提示](prompts/gillo-pontecorvo.md) |
 | [塞尔吉奥·莱昂内 Sergio Leone](directors/sergio-leone.md) | 意大利 | 1964–1984 | 仪式暴力 / 时间延宕 | 时间与剪辑、声音规则 | 英雄不靠先开枪赢，靠比对方多等三秒。 | [提示](prompts/sergio-leone.md) |
+| [朱塞佩·托纳多雷 Giuseppe Tornatore](directors/giuseppe-tornatore.md) | 意大利 | 1988– | 怀旧装置 / 抒情记忆 | 视觉规则、声音规则 | 人回不去故乡，只能回到放映机里。 | [提示](prompts/giuseppe-tornatore.md) |
 | [皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini](directors/pier-paolo-pasolini.md) | 意大利 | 1961–1975 | 身体神话 / 亵渎圣像 | 视觉规则、声音规则 | 身体是最后的圣地，现代性正把它做成商品。 | [提示](prompts/pier-paolo-pasolini.md) |
 | [米开朗基罗·安东尼奥尼 Michelangelo Antonioni](directors/michelangelo-antonioni.md) | 意大利 | 1950–1995 | 现代性悬置 / 空间异化 | 视觉规则、时间与剪辑 | 人没有失踪，是空间把人慢慢吸走了。 | [提示](prompts/michelangelo-antonioni.md) |
 | [费德里科·费里尼 Federico Fellini](directors/federico-fellini.md) | 意大利 | 1950–1990 | 狂欢幻想 / 自传神话 | 视觉规则、声音规则 | 现实不够，他用梦、马戏和记忆把它撑破。 | [提示](prompts/federico-fellini.md) |
@@ -88,8 +99,12 @@
 | [英格玛·伯格曼 Ingmar Bergman](directors/ingmar-bergman.md) | 瑞典 | 1946–2003 | 信仰沉默 / 室内剧 | 表演与对白、视觉规则 | 上帝不说话，人还在对着空椅子说话。 | [提示](prompts/ingmar-bergman.md) |
 | [拉斯·冯·提尔 Lars von Trier](directors/lars-von-trier.md) | 丹麦 | 1984– | 牺牲神学 / 形式挑衅 | 表演与对白、时间与剪辑 | 爱要证明，就得有人被献祭。 | [提示](prompts/lars-von-trier.md) |
 | [阿基·考里斯马基 Aki Kaurismäki](directors/aki-kaurismaki.md) | 芬兰 | 1983– | 极简冷面 / 工人阶级寓言 | 表演与对白、视觉规则 | 人物把话咽下去，导演把颜色摆上来；尊严靠不开口守住。 | [提示](prompts/aki-kaurismaki.md) |
+| [大卫·里恩 David Lean](directors/david-lean.md) | 英国 | 1942–1984 | 史诗远景 / 古典剪辑 | 视觉规则、时间与剪辑 | 先量天地，再量人；人的尺寸由他愿意走多远决定。 | [提示](prompts/david-lean.md) |
 | [琳恩·拉姆塞 Lynne Ramsay](directors/lynne-ramsay.md) | 英国 | 1996– | 感官记忆 / 创伤诗学 | 声音规则、时间与剪辑 | 记忆不讲故事，它从皮肤和声音里突然回来。 | [提示](prompts/lynne-ramsay.md) |
 | [肯·洛奇 Ken Loach](directors/ken-loach.md) | 英国 | 1966– | 社会写实 / 制度批判 | 表演与对白、镜头语法 | 镜头不替他们说话，只把柜台前的等待拍完。 | [提示](prompts/ken-loach.md) |
+| [萨姆·门德斯 Sam Mendes](directors/sam-mendes.md) | 英国 | 1999– | 古典构图 / 单镜调度 | 场面调度、单镜战争 | 人都在演一个被分配的角色，戏发生在面具滑落的一瞬。 | [提示](prompts/sam-mendes.md) |
+| [克里斯托弗·诺兰 Christopher Nolan](directors/christopher-nolan.md) | 英国 / 美国 | 1998– | 时间结构 / 实拍奇观 | 时间与剪辑、大规模实拍 | 人靠一个不肯放下的念头活着，时间只是把它放大。 | [提示](prompts/christopher-nolan.md) |
+| [查理·卓别林 Charlie Chaplin](directors/charlie-chaplin.md) | 英国 / 美国 | 1914–1967 | 身体喜剧 / 古典场面调度 | 表演与对白、视觉规则 | 礼帽可以旧，背脊不能弯。 | [提示](prompts/charlie-chaplin.md) |
 | [阿尔弗雷德·希区柯克 Alfred Hitchcock](directors/alfred-hitchcock.md) | 英国 / 美国 | 1925–1976 | 悬疑机关 / 罪与窥视 | 镜头语法、时间与剪辑 | 先让观众知道得比人物多，恐惧才会自己长出来。 | [提示](prompts/alfred-hitchcock.md) |
 | [佩德罗·阿莫多瓦 Pedro Almodóvar](directors/pedro-almodovar.md) | 西班牙 | 1980– | 情节剧 / 欲望拼贴 | 视觉规则、表演与对白 | 把最痛的事，用最饱和的颜色说完。 | [提示](prompts/pedro-almodovar.md) |
 | [路易斯·布努埃尔 Luis Buñuel](directors/luis-bunuel.md) | 西班牙 / 墨西哥 / 法国 | 1929–1977 | 超现实 / 礼俗解剖 | 时间与剪辑、视觉规则 | 礼俗把餐桌摆好，欲望从桌布下面伸手。 | [提示](prompts/luis-bunuel.md) |
@@ -98,9 +113,12 @@
 | [克日什托夫·基耶斯洛夫斯基 Krzysztof Kieślowski](directors/krzysztof-kieslowski.md) | 波兰 / 法国 | 1975–1994 | 道德悬疑 / 偶然命运 | 时间与剪辑、声音规则 | 人物以为自己在做选择，其实是在被巧合挑选。 | [提示](prompts/krzysztof-kieslowski.md) |
 | [罗曼·波兰斯基 Roman Polanski](directors/roman-polanski.md) | 波兰 / 法国 / 美国 | 1962– | 幽闭惊悚 / 日常噬人 | 镜头语法、声音规则 | 最安全的地方已经有人进来了，而且他不会走。 | [提示](prompts/roman-polanski.md) |
 | [贝拉·塔尔 Béla Tarr](directors/bela-tarr.md) | 匈牙利 | 1979–2011 | 长镜头 / 存在主义 | 镜头语法、时间与剪辑 | 世界不下判决，只把重量压在人的脊背上。 | [提示](prompts/bela-tarr.md) |
+| [埃米尔·库斯图里卡 Emir Kusturica](directors/emir-kusturica.md) | 塞尔维亚 | 1981– | 狂欢 / 魔幻现实主义 | 视觉规则、声音规则 | 世界在崩塌，乐队不能停。 | [提示](prompts/emir-kusturica.md) |
+| [克里斯蒂安·蒙久 Cristian Mungiu](directors/cristian-mungiu.md) | 罗马尼亚 | 2002– | 道德写实 / 固定长镜 | 镜头语法、时间与剪辑 | 镜头不审判，只陪你把代价看完。 | [提示](prompts/cristian-mungiu.md) |
 | [西奥·安哲罗普洛斯 Theo Angelopoulos](directors/theo-angelopoulos.md) | 希腊 | 1970–2012 | 长镜头 / 历史寓言 | 镜头语法、时间与剪辑 | 历史从人身上碾过，人还在找回家的路。 | [提示](prompts/theo-angelopoulos.md) |
+| [米洛斯·福尔曼 Miloš Forman](directors/milos-forman.md) | 捷克 / 美国 | 1963–2006 | 群像讽刺 / 社会喜剧 | 表演与对白、视觉规则 | 所有人都在演正经，只有尴尬是真的。 | [提示](prompts/milos-forman.md) |
 
-## 北美（16）
+## 北美（20）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
@@ -110,6 +128,7 @@
 | [大卫·林奇 David Lynch](directors/david-lynch.md) | 美国 | 1977–2017 | 超现实 / 美国梦的背面 | 声音规则、时间与剪辑 | 白栅栏下面，有一张嘴在呼吸。 | [提示](prompts/david-lynch.md) |
 | [大卫·芬奇 David Fincher](directors/david-fincher.md) | 美国 | 1992– | 控制惊悚 / 数字精确 | 镜头语法、时间与剪辑 | 控制得越精确，越说明有人在害怕失控。 | [提示](prompts/david-fincher.md) |
 | [奥逊·威尔斯 Orson Welles](directors/orson-welles.md) | 美国 | 1941–1985 | 景深调度 / 巴洛克 | 视觉规则、时间与剪辑 | 权力是一场演给空座看的戏。 | [提示](prompts/orson-welles.md) |
+| [弗兰克·达拉邦特 Frank Darabont](directors/frank-darabont.md) | 美国 | 1994– | 古典叙事 / 监狱剧 | 时间与剪辑、视觉规则 | 把日子过成仪式，墙就关不住人。 | [提示](prompts/frank-darabont.md) |
 | [弗朗西斯·福特·科波拉 Francis Ford Coppola](directors/francis-ford-coppola.md) | 美国 | 1963– | 歌剧史诗 / 家族权力 | 时间与剪辑、人物关系 | 权力是一家人分食同一块肉。 | [提示](prompts/francis-ford-coppola.md) |
 | [昆汀·塔伦蒂诺 Quentin Tarantino](directors/quentin-tarantino.md) | 美国 | 1992– | 类型拼贴 / 对话悬念 | 表演与对白、时间与剪辑 | 先用嘴造一个世界，再让暴力把它撕开。 | [提示](prompts/quentin-tarantino.md) |
 | [比利·怀尔德 Billy Wilder](directors/billy-wilder.md) | 美国 | 1934–1981（好莱坞时期 1942 起） | 讽刺情节剧 / 古典好莱坞 | 表演与对白、时间与剪辑 | 人人都腐败，但人人都想保留一点体面。 | [提示](prompts/billy-wilder.md) |
@@ -117,11 +136,14 @@
 | [科恩兄弟 Coen Brothers](directors/coen-brothers.md) | 美国 | 1984– | 黑色寓言 / 形式反讽 | 时间与剪辑、声音规则 | 人把偶然当成命运，宇宙连回信都懒得写。 | [提示](prompts/coen-brothers.md) |
 | [约翰·卡萨维茨 John Cassavetes](directors/john-cassavetes.md) | 美国 | 1959–1984 | 独立表演 / 情绪近身 | 表演与对白、镜头语法 | 人撑不住体面的时候，才是他真正的样子。 | [提示](prompts/john-cassavetes.md) |
 | [约翰·福特 John Ford](directors/john-ford.md) | 美国 | 1917–1966 | 西部 / 古典共同体 | 视觉规则、人物关系 | 文明靠暴力开路，再把开路的人关在门外。 | [提示](prompts/john-ford.md) |
+| [达伦·阿罗诺夫斯基 Darren Aronofsky](directors/darren-aronofsky.md) | 美国 | 1998– | 身体恐怖 / 主观心理 | 镜头语法、声音规则 | 身体先于意志说话，意志只是事后编的故事。 | [提示](prompts/darren-aronofsky.md) |
 | [韦斯·安德森 Wes Anderson](directors/wes-anderson.md) | 美国 | 1996– | 秩序喜剧 / 手工平面 | 视觉规则、表演与对白 | 越对称，越说明有人在拼命不让生活散架。 | [提示](prompts/wes-anderson.md) |
 | [马丁·斯科塞斯 Martin Scorsese](directors/martin-scorsese.md) | 美国 | 1967– | 都市犯罪 / 宗教罪感 | 镜头语法、声音规则 | 暴力是男人的圣礼，罪感是事后才到的账单。 | [提示](prompts/martin-scorsese.md) |
 | [斯坦利·库布里克 Stanley Kubrick](directors/stanley-kubrick.md) | 美国 / 英国 | 1953–1999 | 控制 / 冷面讽刺 | 视觉规则、镜头语法 | 人以为自己在下棋，其实棋盘是别人画的。 | [提示](prompts/stanley-kubrick.md) |
+| [丹尼斯·维伦纽瓦 Denis Villeneuve](directors/denis-villeneuve.md) | 加拿大 | 1998– | 极简科幻 / 雾与巨物 | 雾与尺度、静止构图 | 人在巨物面前很小，尊严是站着不解释。 | [提示](prompts/denis-villeneuve.md) |
+| [詹姆斯·卡梅隆 James Cameron](directors/james-cameron.md) | 加拿大 | 1984– | 技术奇观 / 深水情节剧 | 深水与蓝色、实拍技术 | 人被逼到极限时才说真话，爱用牺牲证明，不用嘴。 | [提示](prompts/james-cameron.md) |
 
-## 拉美（6）
+## 拉美（7）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
@@ -129,6 +151,7 @@
 | [沃尔特·萨列斯 Walter Salles](directors/walter-salles.md) | 巴西 | 1991– | 公路人文 / 纪实抒情 | 镜头语法、声音规则 | 上路不是为了到达，是为了被迫靠近一个具体的人。 | [提示](prompts/walter-salles.md) |
 | [小克莱伯·门东萨 Kleber Mendonça Filho](directors/kleber-mendonca-filho.md) | 巴西（累西腓） | 2000– | 空间政治 / 声音惊悚 | 声音规则、视觉规则 | 暴力不敲门，它早就住在墙里。 | [提示](prompts/kleber-mendonca-filho.md) |
 | [卢奎西亚·马特尔 Lucrecia Martel](directors/lucrecia-martel.md) | 阿根廷（萨尔塔） | 1995– | 感官现实主义 / 阶层病理 | 声音规则、视觉规则 | 压迫者不是坏，是听不见。 | [提示](prompts/lucrecia-martel.md) |
+| [亚利桑德罗·冈萨雷斯·伊纳里图 Alejandro G. Iñárritu](directors/alejandro-gonzalez-inarritu.md) | 墨西哥 | 2000– | 多线叙事 / 长镜 | 镜头语法、时间与剪辑 | 一个人的灾难，是另一个人故事里的背景音。 | [提示](prompts/alejandro-gonzalez-inarritu.md) |
 | [卡洛斯·雷加达斯 Carlos Reygadas](directors/carlos-reygadas.md) | 墨西哥 | 2002– | 先验写实 / 身体与神性 | 时间与剪辑、视觉规则 | 人跪着，等一个可能不来的神。 | [提示](prompts/carlos-reygadas.md) |
 | [阿方索·卡隆 Alfonso Cuarón](directors/alfonso-cuaron.md) | 墨西哥 | 1991– | 体制空间 / 移动长镜头 | 镜头语法、视觉规则 | 镜头不切，因为制度不给你出口。 | [提示](prompts/alfonso-cuaron.md) |
 
@@ -140,9 +163,11 @@
 | [吉布里尔·迪奥普·曼贝蒂 Djibril Diop Mambéty](directors/djibril-diop-mambety.md) | 塞内加尔 | 1968–1998 | 非洲寓言 / 感官拼贴 | 时间与剪辑、声音规则 | 逃离不是出路，是唯一的舞步。 | [提示](prompts/djibril-diop-mambety.md) |
 | [阿布德拉曼·西萨科 Abderrahmane Sissako](directors/abderrahmane-sissako.md) | 毛里塔尼亚 / 马里 | 1993– | 静观写实 / 日常抵抗 | 时间与剪辑、视觉规则 | 暴力来了，日子还得过下去。 | [提示](prompts/abderrahmane-sissako.md) |
 
-## 大洋洲（2）
+## 大洋洲（4）
 
 | 导演 | 地域 | 年代 | 风格族 | 签名层 | 一句话签名 | AI 提示 |
 |---|---|---|---|---|---|---|
 | [乔治·米勒 George Miller](directors/george-miller.md) | 澳大利亚 | 1979– | 动能神话 / 类型极致 | 镜头语法、时间与剪辑 | 停下来的人，就已经输了。 | [提示](prompts/george-miller.md) |
+| [塔伊加·维迪提 Taika Waititi](directors/taika-waititi.md) | 新西兰 | 2007– | 冷面喜剧 / 反殖民 | 表演与对白、声音规则 | 先把权力变成笑话，再让笑话里的人被抱住。 | [提示](prompts/taika-waititi.md) |
+| [彼得·杰克逊 Peter Jackson](directors/peter-jackson.md) | 新西兰 | 1987– | 奇幻史诗 / 景观与尺度 | 景观尺度、航拍运动 | 小人物背着世界的重量往前走，勇气是继续走，不是赢。 | [提示](prompts/peter-jackson.md) |
 | [简·坎皮恩 Jane Campion](directors/jane-campion.md) | 新西兰 / 澳大利亚 | 1989– | 身体欲望 / 殖民风景 | 视觉规则、声音规则 | 欲望先发生在皮肤上，后发生在语言里。 | [提示](prompts/jane-campion.md) |

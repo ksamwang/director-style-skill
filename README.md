@@ -1,6 +1,6 @@
 # 导演风格技能包
 
-100 位导演的可执行风格约束，主用途是 **AI 图像 / 视频生成**。它不是影评库，而是把“某位导演的画面”拆成模型能执行的 prompt、镜头运动和负面约束。
+125 位导演的可执行风格约束，主用途是 **AI 图像 / 视频生成**。它不是影评库，而是把“某位导演的画面”拆成模型能执行的 prompt、镜头运动和负面约束。
 
 ## 快速开始
 
@@ -47,12 +47,12 @@
 .claude/skills/director-style/
   SKILL.md                  触发条件 + AI-first 工作流 + 自检
   references/
-    index.md                100 人总表（地域/风格族/签名层/一句签名/提示入口）
+    index.md                125 人总表（地域/风格族/签名层/一句签名/提示入口）
     taxonomy.md             12 个风格族 + 近亲替代规则
     mixing.md               混搭协议
     prompting.md            从档案到 prompt 的转换规则与平台适配
-    directors/<slug>.md     100 份风格档案
-    prompts/<slug>.md       100 份 AI 提示基元
+    directors/<slug>.md     125 份风格档案
+    prompts/<slug>.md       125 份 AI 提示基元
   templates/
     ai-prompt.md            AI 生成提示卡
     style-brief.md          剧本/分镜执行卡

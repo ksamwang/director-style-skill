@@ -72,8 +72,8 @@ def main() -> None:
             print(f"[ok] {path.stem}: {chars} 字")
 
     print(f"\nChecked {len(files)} files, {problems} with issues.")
-    if len(files) != 100:
-        print(f"WARNING: expected 100 files, got {len(files)}")
+    if len(files) != 125:
+        print(f"WARNING: expected 125 files, got {len(files)}")
 
 
 if __name__ == "__main__":

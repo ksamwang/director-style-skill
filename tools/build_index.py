@@ -150,8 +150,8 @@ def main() -> None:
     missing = [r for r in rows if not r["signature"]]
     if missing:
         print("MISSING SIGNATURE:", ", ".join(r["slug"] for r in missing))
-    if len(rows) != 100:
-        print(f"WARNING: expected 100, got {len(rows)}")
+    if len(rows) != 125:
+        print(f"WARNING: expected 125, got {len(rows)}")
 
 
 if __name__ == "__main__":

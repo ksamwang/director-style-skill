@@ -64,8 +64,8 @@ def main() -> None:
             print(f"[ok] {name}: anchor {words} words")
 
     print(f"\nChecked {len(files)} files, {issues} with issues.")
-    if len(files) != 100:
-        print(f"WARNING: expected 100 prompt files, got {len(files)}")
+    if len(files) != 125:
+        print(f"WARNING: expected 125 prompt files, got {len(files)}")
 
 
 if __name__ == "__main__":
