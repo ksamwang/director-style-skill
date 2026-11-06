@@ -1,0 +1,38 @@
+---
+name: pema-tseden
+title: 万玛才旦 Pema Tseden
+style_file: ../directors/pema-tseden.md
+---
+
+## 风格锚点
+Cinematic film still, Tibetan plateau village, low-saturation earth yellow, muted crimson and grey blue, flat frontal medium shot at eye level, subject centered and facing the camera in a static frame, natural window light and bare bulb, whitewashed mud wall, plastic sheeting, worn sweater, 35–50mm lens, 1.85:1, documentary stillness, no spectacle.
+
+## 图像提示
+- 主体 / 场景：an old herdsman and a young monk bargaining across a table in a whitewashed room; a man on a motorcycle stopped on a dirt road beside power poles; a woman hanging laundry against a mud wall.
+- 景别 / 构图：medium shot and full shot, frontal, subject centered with near-thangka frontality, background of white wall, grassland or prayer flags; no close-up, the figure does not fill the frame.
+- 镜头 / 焦段：35–50mm, eye level, static.
+- 光线：natural window light indoors; bare bulb and stove fire at night; no shaped key light, no fill.
+- 色彩：low saturation; earth yellow, Tibetan red, grey blue; the sky must not read as vivid blue.
+- 材质：mud wall, plastic sheeting, worn sweater, motorcycle, prayer flags handled and dirty.
+- 画幅：1.85:1.
+
+## 视频提示
+- 镜头运动（只选一种）：static locked-off camera at eye level; the only permitted move is a slow lateral pan during silence, never a push-in.
+- 主体运动：riding a motorbike, herding sheep, walking a mountain road, handing over documents, bargaining; small gestures, no emotional display.
+- 时长 / 帧率 / 运动模糊：10–20 seconds, 24fps, natural motion blur only, no slow motion.
+
+## 负面提示
+no postcard grassland, no horizon pinned to the rule of thirds, no pristine landscape without power poles, plastic sheeting or dirt roads, no mystical glow, no ethereal atmosphere, no ritual staged as spectacle, no glamorized religious imagery, no fluent urban styling, no tearful close-up, no handheld shake for realism, no saturated turquoise sky, no voice-over explaining the era, no resolved reconciliation ending.
+
+## 一致性锚点
+- 色彩：low-saturation earth yellow, Tibetan red, grey blue; sky held back from vivid blue.
+- 镜头：35–50mm, eye level, 1.85:1, medium shot as default.
+- 光线：window light, bare bulb, stove fire; no shaped key.
+- 构图：frontal and centered, near-thangka frontality, background wall or grassland.
+- 材质：mud wall, plastic sheeting, worn sweater, motorcycle, used prayer flags.
+- 禁止漂移：no tourism-postcard horizon, no clean new props, no mystical haze, no drone landscape.
+
+## 平台备注
+- Midjourney：`--ar 1.85:1 --style raw --stylize 150`；用一张正面中景的藏地生活照做 `--sref`，避免风景图参考。
+- SDXL / ComfyUI：固定正面构图 prompt 块；用 ControlNet depth 锁人物居中与背景墙体；negative 里强制排除 postcard、mystical glow。
+- Runway / Kling / Sora / Veo：从正面中景首帧开始，只给固定机位，10–20 秒，24fps；不要加推近或手持。

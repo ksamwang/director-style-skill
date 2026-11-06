@@ -1,0 +1,34 @@
+---
+name: pier-paolo-pasolini
+title: 皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini
+style_file: ../directors/pier-paolo-pasolini.md
+---
+
+## 风格锚点
+Cinematic film still, sacred icon composition, figures arranged in a frontal row facing the camera, altar-like symmetry, flat fixed frontal camera, hard natural side light splitting each face into light and shadow, ochre earth red and deep green like a damp fresco, coarse plaster wall, rough cloth, ruin, sea, heavy 16mm grain, 1.85:1, austere, accusatory, pre-modern.
+
+## 图像提示
+- 主体 / 场景：peasants, street boys, a Christ figure or a classical mythic body posed against a plaster wall, a ruin, a shoreline; arranged as a row, not caught mid-action.
+- 景别 / 构图：only two scales — full or medium body lined up frontally like an altarpiece, or a face filling the frame; no naturalistic medium-shot transition. Symmetrical, frontal, centered.
+- 镜头 / 焦段：35–50mm frontal at 3–5 meters for the row; 85mm for the icon close-up. Camera at eye level, level horizon, fixed.
+- 光线：hard natural side light, no fill; the face is cut into a lit half and a dark half; overcast only when the scene is documentary.
+- 色彩：early work coarse high-grain black and white; later earth red, ochre yellow, deep green like wet fresco pigment.
+- 材质：coarse plaster, rubble, rough wool and linen, damp fresco surface, sea spray, dust.
+- 画幅：1.85:1 (black-and-white period 1.37:1).
+
+## 视频提示
+- 镜头运动（只选一种）：completely static frontal camera in sacred space; handheld follow is permitted only for entering the market or the slum.
+- 主体运动：people stand, stare into the lens, turn slowly; no choreographed action; the gaze holds longer than is comfortable.
+- 时长 / 帧率 / 运动模糊：6–10 seconds, 24fps, no motion blur, held stillness.
+
+## 负面提示
+no tasteful nude photography, no aestheticized bodies, no violence-as-thrill, no modern score over ancient material, no devotional propaganda, no blasphemy without consequence, no moving camera in sacred space, no naturalistic medium-shot transitions, no picturesque poverty, no pure-innocent peasant cliché, no comfortable martyr ending, no soft fill light.
+
+## 一致性锚点
+- 色彩 / 镜头 / 光线 / 构图 / 材质：ochre, earth red, deep green or coarse black and white; 35–50mm frontal, 85mm icon close-up; hard side light with split face; altar symmetry and frontal row; plaster, rough cloth, fresco.
+- 禁止漂移：no glossy skin, no fashion lighting, no shallow-focus bokeh portrait, no handheld shake in sacred scenes, no modern clothing, no warm color grade, no smile for the camera.
+
+## 平台备注
+- Midjourney：`--ar 1.85:1 --style raw --stylize 100`；用湿壁画或新现实主义黑白剧照做 `--sref`，压低模型的唯美默认值。
+- SDXL / ComfyUI：positive 固定“frontal row / altar symmetry”块；用 ControlNet pose 或 canny 锁正面排站，negative 里写掉 `boudoir lighting` 与 `glossy skin`。
+- Runway / Kling / Sora / Veo：只给静止镜头与首帧；若必须运动，限定为“跟随人物走入市场”的手持段，且与神圣段分开生成。

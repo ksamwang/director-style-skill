@@ -1,0 +1,38 @@
+---
+name: alfred-hitchcock
+title: 阿尔弗雷德·希区柯克 Alfred Hitchcock
+style_file: ../directors/alfred-hitchcock.md
+---
+
+## 风格锚点
+Classic suspense film still, geometrically legible space, doorframes inside doorframes cutting the figure into sections, eye-level camera with one precise high or low angle, 35–50mm lens and 75–100mm for object close-ups, high-saturation red, green and grey-blue or hard-lit black and white, single-source light with half the face in shadow, wooden staircase, glass, telephone, curtain, 1.85:1, controlled and almost too calm.
+
+## 图像提示
+- 主体 / 场景：a middle-class professional in a suit inside a readable interior; a blonde woman holding her expression; an ordinary domestic object — a glass of milk, a key, a telephone — carrying the whole threat.
+- 景别 / 构图：establish a wide shot that reads the entire space first, then cut to an object close-up with no medium-shot transition; doorframes, window frames and railings slice the body into sections; high angle turns people into chess pieces, low angle inflates power.
+- 镜头 / 焦段：35–50mm to keep the geometry readable; 75–100mm compressed close-up; never a wide lens distorting the face.
+- 光线：single source, expressionist hard light, one half of the face in shadow, outlines retained in the darks; no naturalistic flat fill.
+- 色彩：high-saturation red, green and grey-blue blocks; in black and white, hard contrast with readable silhouettes.
+- 材质：wooden staircase, drinking glass, telephone, curtains, polished banister.
+- 画幅：1.85:1；宽银幕段落用 2.35:1。
+
+## 视频提示
+- 镜头运动（只选一种）：slow dolly in toward an object or a face — never used to drift away, never for lyricism; otherwise the camera stays static and waits.
+- 主体运动：ordinary controlled actions — climbing stairs, carrying a tray, opening a door, straightening a jacket — while the threat stays off-screen; posture stays formal even in fear.
+- 时长 / 帧率 / 运动模糊：5–8 seconds, 24fps, sharp frames, no motion blur, no slow motion.
+
+## 负面提示
+no jump-scare sound stinger, no shock cut, no explained psychological villain, no on-screen violence process, no gore, no self-analysis monologue, no prop changing function mid-scene, no subjective camera used for style alone, no shaky handheld, no symmetrical safe framing, no dream sequence explaining the subconscious, no modern glass architecture, no warm naturalism, no twist standing in for suspense.
+
+## 一致性锚点
+- 色彩：saturated red / green / grey-blue blocks, or hard black-and-white contrast.
+- 镜头：35–50mm readable space, 75–100mm object close-ups, 1.85:1.
+- 光线：single-source expressionist hard light, half-face shadow, rim in the darks.
+- 构图：doorframe-within-doorframe, figure cut into sections, eye level broken only by one planned high or low angle.
+- 材质：wood staircase, glass, telephone, curtains.
+- 禁止漂移：no shaky camera, no modern surveillance aesthetic, no clean digital glass, no neon, no realistic handheld chase, no naturalistic flat lighting.
+
+## 平台备注
+- Midjourney：`--ar 185:100 --style raw --stylize 150`（宽银幕段落改 `--ar 235:100`）；用一张门框套门框的静帧做 `--sref`，不要用惊悚片海报做参考。
+- SDXL / ComfyUI：用 ControlNet depth/canny 锁死门框、楼梯级数与走廊透视线；negative 必写 `shaky camera, dutch angle, gore, jump scare`；同一场景固定 seed。
+- Runway / Kling / Sora / Veo：先给首帧建立完整空间，运镜只写 `slow dolly in toward the object`，5–8 秒，24fps；暴力切在画外，不要生成动作过程。

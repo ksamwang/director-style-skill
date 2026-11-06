@@ -1,0 +1,34 @@
+---
+name: steven-spielberg
+title: 史蒂文·斯皮尔伯格 Steven Spielberg
+style_file: ../directors/steven-spielberg.md
+---
+
+## 风格锚点
+Cinematic film still, 24–35mm wide, camera low looking up past a foreground figure's back and shoulder toward a distant spectacle, backlight rimming the silhouette, warm amber and blue with practical night sources, suburban kitchen or garage texture, dust in the beam, 1.85:1, wonder and dread on the same face, classical.
+
+## 图像提示
+- 主体 / 场景：a child in a suburban backyard looking up at a lit sky; a family argument in a kitchen while something moves outside the window; a soldier on a beach staring at the horizon. Keep a reaction position in frame.
+- 景别 / 构图：medium and close-up with a wide spectacle shot; foreground back and shoulder, spectacle in the background, empty space reserved for the face; no clean symmetrical hero shot.
+- 镜头 / 焦段：24–35mm wide for the wonder; long lens to compress a distant marvel; camera lower than the subject's eye line.
+- 光线：backlight and off-screen source, figures reduced to rim-lit silhouettes; door-crack light, headlights, practical night lamps; no flat even fill.
+- 色彩：warm amber, blue, white; practical night sources; no cold grey filter, no teal-orange blockbuster grade.
+- 材质：suburban timber wall, curtain, old car, dust, kitchen tile, garage clutter; no futuristic metal.
+- 画幅：1.85:1.
+
+## 视频提示
+- 镜头运动（只选一种）：low-angle push-in over the shoulder — from the back of the head toward the distant thing, then hold.
+- 主体运动：the figure tilts the head up, shoulders still, one hand raised; the crowd freezes; the reaction is the action.
+- 时长 / 帧率 / 运动模糊：6–10 seconds, 24fps, natural blur; no whip, no speed ramp; the camera eases to a stop before the reveal.
+
+## 负面提示
+no cynical voice-over, no spectacle without a reaction shot, no incoherent action geography, no cold blue filter on family scenes, no adult dialogue in a child's mouth, no gross-out horror, no wall-to-wall score, no Dutch angle chaos, no handheld shakycam, no digital sheen, no ironic distance, no endless CGI establishing shot.
+
+## 一致性锚点
+- 色彩 / 镜头 / 光线 / 构图 / 材质：warm amber blue and white, 24–35mm low angle at 1.85:1, backlight rim and practical night source, foreground back with spectacle behind, suburban wood and dust.
+- 禁止漂移：no teal-orange grade, no drone flyover, no grey desaturation, no handheld, no glossy sci-fi chrome, no centered hero portrait.
+
+## 平台备注
+- Midjourney：`--ar 1.85:1 --style raw --stylize 250`；提示词必须成对出现 `over the shoulder` 与 `reaction`；`--no cold, handheld, grey`。
+- SDXL / ComfyUI：ControlNet depth 锁前景背影与后景奇观的距离；不要用 canny（会让逆光轮廓过锐）；negative 里加 `flat lighting`。
+- Runway / Kling / Sora / Veo：先出首帧（背影 + 远景），再让模型只做 `low-angle push-in over the shoulder`；切回脸部要另起一镜，不要在同一条 prompt 里写两个运动。

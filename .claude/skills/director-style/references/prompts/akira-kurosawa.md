@@ -1,0 +1,39 @@
+---
+name: akira-kurosawa
+title: 黑泽明 Akira Kurosawa
+style_file: ../directors/akira-kurosawa.md
+---
+
+## 风格锚点
+Cinematic film still, epic historical action, three planes of depth held in one frame: a figure's back of head in the foreground, bodies and movement in the midground, mountain or storm sky behind, compressed by a long lens, low angle against hard outdoor sunlight, rain, mud and torn armor, wind pulling cloth sideways, high-contrast black and white, academy ratio, tense, elemental, human against weather.
+
+## 图像提示
+- 主体 / 场景：a lone swordsman at one end of a muddy village road, villagers behind him; foot soldiers advancing through driving rain; a general on a rise above a burning plain.
+- 景别 / 构图：full shot or extreme wide with three planes in one frame — foreground back of a head, midground action, distant mountain or sky; figures at opposite frame edges with empty space between; no shot-reverse-shot for a standoff.
+- 镜头 / 焦段：50–200mm long lens compressing the three planes; camera below eye level for the hero, above for the battlefield.
+- 光线：hard direct outdoor sun; rain, snow, dust and smoke cut the light into layers; no soft studio light.
+- 色彩：high-contrast monochrome, deep blacks and blown highlights; in color, large flat blocks per faction, no delicate midtones.
+- 材质：mud, dented armor, cracked wood, fire, rain, dirty cloth.
+- 画幅：1.37:1 monochrome; 2.35:1 Tohoscope after 1958; 1.85:1 for late color.
+
+## 视频提示
+- 镜头运动（只选一种）：slow lateral track following the direction of force — running men, horses, slanting rain; no handheld, no zoom.
+- 主体运动：crowds moving as one body, a charge across the frame, wind tearing at banners and clothes; freeze only at the moment of decision.
+- 时长 / 帧率 / 运动模糊：3–5 seconds, 24fps, natural motion blur; no slow motion except a single decisive strike.
+
+## 负面提示
+no handheld camera, no zoom lens, no duel in clear weather, no shot-reverse-shot in a standoff, no POV shot during action, no slow motion except the decisive blow, no crowd used as background texture, no villain psychology monologue, no victory without cost, no clean studio lighting, no rain-and-slow-motion sword commercial look, no low angle as simple hero worship, no shallow-focus bokeh portrait.
+
+## 一致性锚点
+- 色彩 / 镜头 / 光线 / 构图 / 材质：跨镜头锁定以下五项。
+  - 色彩：high-contrast black and white; in color, flat faction blocks, no subtle grading.
+  - 镜头：50–200mm, low and high angle paired, 1.37:1 (2.35:1 after 1958, 1.85:1 late color).
+  - 光线：hard sun, weather used as light layers.
+  - 构图：three planes, opposing figures at the frame edges, empty center.
+  - 材质：mud, armor, wood, fire, rain.
+- 禁止漂移：no clean digital mud, no wire-fu floating, no teal-and-orange, no modern armor, no drone shot, no shallow-focus hero portrait, no glossy rain.
+
+## 平台备注
+- Midjourney：`--ar 1.37:1 --style raw --stylize 200`；把 `black and white` 放在前段，否则默认彩色；用一张雨战静帧做 `--sref`；避免 `epic fantasy`。
+- SDXL / ComfyUI：黑白胶片颗粒 LoRA + ControlNet depth 搭三层空间；negative 单独写手持、变焦、柔光、浅景深。
+- Runway / Kling / Sora / Veo：先给宽画幅战场首帧，只给一次横移，3–5 秒、24fps；多机位动作靠剪辑完成，不要在一次生成里叠运动。

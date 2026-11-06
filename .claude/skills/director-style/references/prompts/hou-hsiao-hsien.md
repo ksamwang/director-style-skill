@@ -1,0 +1,38 @@
+---
+name: hou-hsiao-hsien
+title: 侯孝贤 Hou Hsiao-hsien
+style_file: ../directors/hou-hsiao-hsien.md
+---
+
+## 风格锚点
+Cinematic film still, southern Taiwanese wooden house or mountain village, fixed very long shot from outside a doorway, a small figure inside a door or window frame, layered deep space, low-saturation grey-green and earth brown, soft natural daylight, dark interior, wood, lime plaster, tatami, rain, 1.85:1, patient, distant, historical weight in the empty edges.
+
+## 图像提示
+- 主体 / 场景：a family eating inside a wooden house seen from the yard; a young man standing at a doorway; a figure walking a mountain path; the event happens in depth or beyond the frame.
+- 景别 / 构图：medium-long and far shot, subject small, heavy negative space of sky, wall and trees; door or window as a frame within the frame.
+- 镜头 / 焦段：medium-long to long lens, camera placed outside the room, deep space.
+- 光线：natural daylight, underexposed interiors, readable direction; no fill.
+- 色彩：low saturation, grey-green, earth brown, no warm nostalgia.
+- 材质：wood, lime plaster, tatami, rain, bamboo.
+- 画幅：1.85:1.
+
+## 视频提示
+- 镜头运动（只选一种）：completely static lock-off; at most one very slow lateral pan, never a push-in.
+- 主体运动：entering and leaving frame, eating, walking, waiting; the key action stays offscreen or in the depth of the shot.
+- 时长 / 帧率 / 运动模糊：20–40 seconds, 24fps, no motion-blur stylization.
+
+## 负面提示
+no dolly-in toward emotion, no tearful close-up, no voice-over explaining history, no score filling the ellipsis, no fast montage of the era, no actor performing grief, no warm nostalgia filter, no cut to the violent event, no symmetrical postcard composition, no clean digital sharpness.
+
+## 一致性锚点
+- 色彩：low-saturation grey-green and earth brown.
+- 镜头：medium-long to long, deep focus, 1.85:1.
+- 光线：natural daylight, dark interiors, no fill.
+- 构图：camera outside the room, door or window framing, subject small, large empty areas.
+- 材质：wood, lime plaster, tatami, rain.
+- 禁止漂移：no push-in, no warm filter, no modern glass, no drone landscape, no digital-clean image.
+
+## 平台备注
+- Midjourney：`--ar 1.85:1 --style raw --stylize 100`；用门框内景的实拍参考做 `--sref`，强调人物偏小与留白。
+- SDXL / ComfyUI：用 ControlNet depth 锁门框套景与纵深；negative 排除 dolly-in、tearful close-up、nostalgia filter。
+- Runway / Kling / Sora / Veo：首帧用屋外固定远景，只给固定机位，20–40 秒，24fps；不要让人物走向镜头。

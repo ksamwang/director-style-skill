@@ -1,0 +1,34 @@
+---
+name: satyajit-ray
+title: 萨蒂亚吉特·雷伊 Satyajit Ray
+style_file: ../directors/satyajit-ray.md
+---
+
+## 风格锚点
+Cinematic black-and-white film still, Indian humanist realism, 1.37:1 Academy ratio, 35–50mm at eye level, subject small in a doorway or under a tree, deep tonal range from available daylight, mud walls and worn cloth, long static observation, patient, unhurried, no melodrama.
+
+## 图像提示
+- 主体 / 场景：a boy mending a broken instrument by a window; a young wife at a barred window holding a letter; a child running through a courtyard, adults watching from a doorway.
+- 景别 / 构图：medium and medium wide; environment frames the person first — doorframe, window, tree shadow, field; subject occupies one corner; sightline leaves the frame; reserve close-ups for solitude or after a decision.
+- 镜头 / 焦段：35–50mm standard, close to the human eye; no wide-angle exaggeration, no long-lens compression.
+- 光线：natural and practical; window light indoors, un-supplemented; deep blacks and soft highlights held in one continuous range.
+- 色彩：black-and-white built on tonal separation, not filters; later color work stays low-saturation natural.
+- 材质：mud wall, old wood, cotton cloth, brass and pottery, rain, dust.
+- 画幅：1.37:1 Academy.
+
+## 视频提示
+- 镜头运动（只选一种）：camera holds completely still; the only move is one unhurried pan after the subject leaves the frame.
+- 主体运动：hands at work — mending, writing, cooking, combing hair; a child allowed to drift and dawdle; no performed emotion, only action.
+- 时长 / 帧率 / 运动模糊：10–25 seconds, 24fps, no motion blur, no cut inside the emotional beat.
+
+## 负面提示
+no poverty as spectacle, no music cueing sadness before the character turns, no saintly characters, no fast cutting for drama, no high-angle pity shot, no sweeping landscape lyricism standing in for feeling, no ignored women's interiority, no growth-as-success-story, no sepia nostalgia filter, no handheld, no telephoto glamour.
+
+## 一致性锚点
+- 色彩 / 镜头 / 光线 / 构图 / 材质：monochrome tonal range, 35–50mm, 1.37:1; available daylight with window key and no fill; frame-within-frame, subject in one corner, sightline out of frame; mud wall, old wood, cotton, brass, rain.
+- 禁止漂移：no modern crisp digital black-and-white, no bleeding highlights, no anamorphic flare, no aerial vista, no contemporary clothing or interiors, no forced shallow depth of field.
+
+## 平台备注
+- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；黑白用 `black and white film still` 前置并加 `--no color`；`--sref` 用《大地之歌》静帧。
+- SDXL / ComfyUI：B&W 胶片 LoRA 轻量；ControlNet canny 或 depth 锁门框／窗框；negative 里压掉 `sepia, warm tint, HDR`。
+- Runway / Kling / Sora / Veo：首帧多为静止中景或远景，运动写 `static`；10–25 秒、24fps；动作具体到"修补琴弦""写字"；不要写 pan + zoom 组合。
