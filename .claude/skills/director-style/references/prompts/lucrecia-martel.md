@@ -5,7 +5,7 @@ style_file: ../directors/lucrecia-martel.md
 ---
 
 ## 风格锚点
-Cinematic film still, a sweltering Salta afternoon, a middle-class family crushed around a plastic table, 100mm telephoto compressing shoulders and heads, top of frame cropping a forehead, damp moss-green wall, mildew yellow, faded pink, diffuse light through a gauze curtain, skin slick with sweat, blurred garden green behind, 1.85:1, soft grain, someone off-frame is being ignored.
+Cinematic film still, a sweltering Salta afternoon, a middle-class family crushed around a plastic table, 100mm telephoto compressing shoulders and heads, top of frame cropping a forehead, damp moss-green wall, mildew yellow, faded pink, diffuse light through a gauze curtain, skin slick with sweat, blurred garden green behind, soft grain, someone off-frame is being ignored.
 
 ## 图像提示
 - 主体 / 场景：women half-lying beside a green pool while children watch from the water; a family lunch where a maid passes in the next room, only partly visible; a car stopped on a rain-dark road, the event itself outside the frame.
@@ -14,7 +14,6 @@ Cinematic film still, a sweltering Salta afternoon, a middle-class family crushe
 - 光线：diffused, never direct; through louvered blinds, gauze curtains, water reflection; humid, slightly dim.
 - 色彩：moss green, mildew yellow, faded pink, hospital white; desaturated by moisture, no clean primaries.
 - 材质：sweat, water, mud, tile, plastic tablecloth, damp fabric.
-- 画幅：1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow lateral drift at seated height, as if the camera is looking at the wrong thing; no push-in.
@@ -25,10 +24,10 @@ Cinematic film still, a sweltering Salta afternoon, a middle-class family crushe
 no establishing wide shot of the location, no high-angle or overhead view, no clean symmetrical family portrait, no glossy green art-film filter, no orchestral cue telling us danger, no servants framed as victim posters, no centered composition, no crisp digital skin, no clear face-forward speech staging, no awakening moment for the middle class.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：moss green, mildew yellow, faded pink, hospital white / 100mm, 1.85:1 / diffused through blinds, gauze, water / chest-shoulder height, cropped heads, figures at edges / sweat, water, mud, tile, plastic.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：moss green, mildew yellow, faded pink, hospital white / 100mm, / diffused through blinds, gauze, water / chest-shoulder height, cropped heads, figures at edges / sweat, water, mud, tile, plastic.
 - 禁止漂移：no drone or aerial, no clean modern interiors, no saturated emerald filter, no sharp digital texture, no heroic close-up.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 120`；用潮湿的室内照片做 `--sref`，避免模型默认的柔光人像。
+- Midjourney：`--style raw --stylize 120`；用潮湿的室内照片做 `--sref`，避免模型默认的柔光人像。
 - SDXL / ComfyUI：negative 里强化 `no establishing shot, no high angle`；ControlNet depth 或 canny 锁切头、切半身的边缘构图。
 - Runway / Kling / Sora / Veo：首帧为拥挤的桌边近景，只给 slow lateral drift；6–8 秒，24fps；人物对话留在画外，不要生成清晰对口型。

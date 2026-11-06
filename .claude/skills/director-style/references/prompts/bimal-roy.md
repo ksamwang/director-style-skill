@@ -5,7 +5,7 @@ style_file: ../directors/bimal-roy.md
 ---
 
 ## 风格锚点
-Lyrical black-and-white humanist realism, 1950s Bengal and Bombay, 35–50mm at eye level, soft directional window light, deep-focus composition through doorways and riverbanks, figures small inside the landscape, mud cloth brass and rain, 1.37:1, restrained grief, dignity without pity, fine film grain, no melodramatic close-up.
+Lyrical black-and-white humanist realism, 1950s Bengal and Bombay, 35–50mm at eye level, soft directional window light, deep-focus composition through doorways and riverbanks, figures small inside the landscape, mud cloth brass and rain, restrained grief, dignity without pity, fine film grain, no melodramatic close-up.
 
 ## 图像提示
 - 主体 / 场景：a peasant family standing on a riverbank with their belongings, a woman pausing in a lit doorway, a man walking a long road toward the city.
@@ -14,7 +14,6 @@ Lyrical black-and-white humanist realism, 1950s Bengal and Bombay, 35–50mm at 
 - 光线：soft directional window light, kerosene lamp and streetlamp at night; retain detail in shadows, no hard studio key.
 - 色彩：black and white with full tonal range; later color films use muted earth tones.
 - 材质：mud, jute, cotton, brass vessels, rain, river water, fine grain.
-- 画幅：1.37:1 Academy.
 
 ## 视频提示
 - 镜头运动：slow lateral track, one move only, following the figure along the riverbank or road, keeping the same distance.
@@ -26,13 +25,13 @@ no pity close-up, no high-angle shot of the poor, no crying close-up, no sweepin
 
 ## 一致性锚点
 - 色彩：black and white, full tonal range, fine grain.
-- 镜头：35–50mm deep focus, eye level, 1.37:1.
+- 镜头：35–50mm deep focus, eye level.
 - 光线：soft directional window light, practical oil lamp, textured shadows.
 - 构图：three depth layers, figure in the inner layer, doorframe division.
 - 材质：mud, jute, cotton, brass, rain, river water.
 - 禁止漂移：no sepia, no HDR, no shallow bokeh, no modern architecture, no digital skin, no handheld.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；加 `1950s Bengali black-and-white, deep focus, soft window light, fine grain`；避免 `sepia` 和 `vintage filter`。
-- SDXL / ComfyUI：正向固定“deep-focus humanist realism, 1.37:1, fine grain”；负面加 `sepia, HDR, bokeh, high angle`；用 ControlNet depth 锁门框三层。
+- Midjourney：`--style raw --stylize 100`；加 `1950s Bengali black-and-white, deep focus, soft window light, fine grain`；避免 `sepia`和 `vintage filter`。
+- SDXL / ComfyUI：正向固定“deep-focus humanist realism, fine grain”；负面加 `sepia, HDR, bokeh, high angle`；用 ControlNet depth 锁门框三层。
 - Runway / Kling / Sora / Veo：首帧为纵深构图，只写一种运镜（slow lateral track），8–10 秒，24fps；不要叠加推近。

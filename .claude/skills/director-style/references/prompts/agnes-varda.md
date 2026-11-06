@@ -5,7 +5,7 @@ style_file: ../directors/agnes-varda.md
 ---
 
 ## 风格锚点
-Cinematic film still, handheld 35mm at the subject's eye height, available daylight, cluttered real location with passers-by and cables left in frame, collage of pink, blue and yellow against faded wall plaster, old clothes and handwritten paper, the photographer's shadow or hand entering the frame, medium close-up, 1.66:1, tender, unsentimental, imperfect, alive.
+Cinematic film still, handheld 35mm at the subject's eye height, available daylight, cluttered real location with passers-by and cables left in frame, collage of pink, blue and yellow against faded wall plaster, old clothes and handwritten paper, the photographer's shadow or hand entering the frame, medium close-up, tender, unsentimental, imperfect, alive.
 
 ## 图像提示
 - 主体 / 场景：an old woman sorting discarded vegetables; a woman walking a beach in a black dress; a wall of handwritten notes; the filmmaker's own reflection in a mirror.
@@ -14,7 +14,6 @@ Cinematic film still, handheld 35mm at the subject's eye height, available dayli
 - 光线：available light, no studio fill；《克莱奥》controlled light is the exception; imperfect shadows are allowed.
 - 色彩：collage pink, blue and yellow that can clash；《克莱奥》black and white with color only in the song sequence.
 - 材质：old clothes, sand, peeling plaster, mirror, mural, handwritten paper.
-- 画幅：1.66:1（《克莱奥》）；散文纪录片 1.37–16:9 混用.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow at the subject's height; the camera may stop and stare at a face, a hand or a wall; no smooth dolly.
@@ -26,13 +25,13 @@ no unified color grade, no hidden camera or invisible crew, no interviewee treat
 
 ## 一致性锚点
 - 色彩：clashing pink / blue / yellow; or pure black and white with color only in the song.
-- 镜头：35mm handheld, 1.66:1（散文片 1.37–16:9）.
+- 镜头：35mm handheld, （散文片 1.37–）.
 - 光线：available light, imperfect, no fill.
 - 构图：asymmetric, clutter retained, camera's own shadow or hand in frame, subject at eye height.
 - 材质：old clothes, sand, peeling plaster, mirror, handwriting.
 - 禁止漂移：no drone, no stabilized gimbal, no HDR, no vintage filter, no clean minimalist set.
 
 ## 平台备注
-- Midjourney：`--ar 1.66:1 --style raw --stylize 150`；手写纸与旧墙静帧做 `--sref`；不要写 “perfect composition”。
+- Midjourney：`--style raw --stylize 150`；手写纸与旧墙静帧做 `--sref`；不要写 “perfect composition”。
 - SDXL / ComfyUI：固定 prompt 块；ControlNet 保留杂物与不对称；negative 里禁 “clean background”。
 - Runway / Kling / Sora / Veo：首帧图起，handheld follow 单一运镜，5–10 秒，24fps，不加稳定器与变速。

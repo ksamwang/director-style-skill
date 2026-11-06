@@ -5,7 +5,7 @@ style_file: ../directors/shohei-imamura.md
 ---
 
 ## 风格锚点
-Cinematic film still, Japanese lower-depths naturalism, camera dropped to knee height, handheld 28mm wide angle close to bodies and clutter, people and animals sharing the same muddy ground, crowded wet hovel with laundry, crates and chickens, hard available daylight and dim underexposed interiors, desaturated earth brown and green, grime on the lens, 1.85:1, raw, unpolished, alive.
+Cinematic film still, Japanese lower-depths naturalism, camera dropped to knee height, handheld 28mm wide angle close to bodies and clutter, people and animals sharing the same muddy ground, crowded wet hovel with laundry, crates and chickens, hard available daylight and dim underexposed interiors, desaturated earth brown and green, grime on the lens, raw, unpolished, alive.
 
 ## 图像提示
 - 主体 / 场景：a fisherman gutting a catch beside a pig; a family eating at a low table with laundry hanging overhead; a woman carrying a child through a muddy yard; chickens crossing the doorway.
@@ -14,7 +14,6 @@ Cinematic film still, Japanese lower-depths naturalism, camera dropped to knee h
 - 光线：available light only, hard outdoors, dim and underexposed indoors, no fill, no rim.
 - 色彩：earth brown, moss green, ochre; low saturation, underexposure allowed.
 - 材质：mud, water, grass, rough planks, animal fur, sweat, grime on the lens.
-- 画幅：1.85:1 (early work 1.37:1).
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow at knee height, unsteady and searching; no gimbal smoothness.
@@ -26,14 +25,14 @@ no beautified poverty, no moral halo on the poor, no clean symmetrical compositi
 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：跨镜头锁定以下五项。
-  - 色彩：earth brown / green / ochre, low saturation, underexposed.
-  - 镜头：28–35mm, knee height, handheld, 1.85:1.
-  - 光线：available only, hard outdoors, dim indoors.
-  - 构图：crowded and asymmetric, bodies among objects, no clean space.
-  - 材质：mud, water, planks, fur, grime.
+ - 色彩：earth brown / green / ochre, low saturation, underexposed.
+ - 镜头：28–35mm, knee height, handheld.
+ - 光线：available only, hard outdoors, dim indoors.
+ - 构图：crowded and asymmetric, bodies among objects, no clean space.
+ - 材质：mud, water, planks, fur, grime.
 - 禁止漂移：no clean digital skin, no drone, no color grade, no modern appliances, no tidy set dressing, no shallow-focus portrait, no studio backdrop.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`；避免 `cinematic`，改写为 `documentary photo, dirty lens, available light`；用一张粗颗粒静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 50`；避免 `cinematic`，改写为 `documentary photo, dirty lens, available light`；用一张粗颗粒静帧做 `--sref`。
 - SDXL / ComfyUI：可加 handheld blur LoRA；ControlNet depth 只定大布局，允许杂乱；negative 强写 `clean, minimal, studio, beautified`。
 - Runway / Kling / Sora / Veo：手持贴地跟拍，3–6 秒、24fps；动物插入镜头单独生成一条，剪辑时不加解释。

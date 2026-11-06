@@ -14,7 +14,6 @@ Cinematic wide film still, classical symmetrical composition, a figure framed by
 - 光线：window light and practicals, soft but directional, figures often backlit into silhouette; no even commercial lighting.
 - 色彩：muted olive, grey, brown; one warm amber source per interior; no saturated primaries.
 - 材质：wood, glass, mud, water, wool, smoke; period detail, 35mm grain.
-- 画幅：2.39:1 for war and landscape; 1.85:1 for interiors.
 
 ## 视频提示
 - 镜头运动：steady Steadicam follow, one continuous direction; no handheld shake, no cutaway.
@@ -26,13 +25,13 @@ no handheld shake, no fast cutting, no dutch angle, no saturated color, no music
 
 ## 一致性锚点
 - 色彩：olive-grey / brown / one amber interior source, low saturation.
-- 镜头：35–50mm main lens, 75–100mm close-up, 2.39:1 or 1.85:1.
+- 镜头：35–50mm main lens, 75–100mm close-up, or .
 - 光线：window and practical light, soft directional, backlit silhouette.
 - 构图：classical symmetry, doorway or window frame, deep staged space.
 - 材质：wood, glass, mud, water, wool, smoke, 35mm grain.
 - 禁止漂移：no modern glass architecture, no neon, no digital skin, no drone aerial.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 150`；用古典绘画或电影静帧做 `--sref`，锁低饱和。
+- Midjourney：`--style raw --stylize 150`；用古典绘画或电影静帧做 `--sref`，锁低饱和。
 - SDXL / ComfyUI：ControlNet depth 锁纵深与门框；positive 固定 "classical symmetrical composition"；negative 保留 no handheld。
 - Runway / Kling / Sora / Veo：首帧图起手，只给 steady Steadicam follow，6–10 秒，24fps；不要叠加推轨和摇镜。

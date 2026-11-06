@@ -5,7 +5,7 @@ style_file: ../directors/john-ford.md
 ---
 
 ## 风格锚点
-Cinematic film still, 35mm, eye-level camera fixed like a bystander in the crowd, low horizon and a vast sky, a small figure framed inside a doorway, monument valley sandstone, dust, wooden porch, natural light, hard noon or long dusk, muted ochre and grey-blue, 1.85:1, classical, communal, elegiac.
+Cinematic film still, 35mm, eye-level camera fixed like a bystander in the crowd, low horizon and a vast sky, a small figure framed inside a doorway, monument valley sandstone, dust, wooden porch, natural light, hard noon or long dusk, muted ochre and grey-blue, classical, communal, elegiac.
 
 ## 图像提示
 - 主体 / 场景：a rider standing in a cabin doorway while a family sits at the table inside; a cavalry column crossing a plain; a town street with a porch and a church. The community is in the frame; the loner is at its edge.
@@ -14,7 +14,6 @@ Cinematic film still, 35mm, eye-level camera fixed like a bystander in the crowd
 - 光线：natural light only — hard noon, long dusk; no studio softness, no rim-light glamour.
 - 色彩：earth ochre, grey-blue, dark red; muted, no high saturation; black and white for the dust-bowl passages.
 - 材质：weathered wood door, porch boards, sandstone, dust, leather tack, wool uniforms; no smooth modern material.
-- 画幅：1.85:1 (1.37:1 for the black-and-white period).
 
 ## 视频提示
 - 镜头运动（只选一种）：static camera — it does not move; riders, wagons or a crowd pass through the frame.
@@ -29,6 +28,6 @@ no fast cutting, no shaky handheld, no psychological monologue staging, no postc
 - 禁止漂移：no anamorphic western pastiche, no drone landscape, no teal-orange grade, no handheld, no centered hero portrait, no modern costumes.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 200 --no close-up, sepia, handheld`；`--sref` 用《搜索者》静帧；提示词保留 “doorway” 与 “low horizon” 两个词。
-- SDXL / ComfyUI：用 ControlNet canny 锁门框与地平线的直线；不要用 depth 单独控制，广袤天空容易被压平。negative 单列，避免 `cinematic` 这种会引入现代调色的词。
+- Midjourney：`--style raw --stylize 200 --no close-up, sepia, handheld`；`--sref`用《搜索者》静帧；提示词保留 “doorway” 与 “low horizon” 两个词。
+- SDXL / ComfyUI：用 ControlNet canny 锁门框与地平线的直线；不要用 depth 单独控制，广袤天空容易被压平。negative 单列，避免 `cinematic`这种会引入现代调色的词。
 - Runway / Kling / Sora / Veo：首帧是门框内景；只写 “static camera”；让马队或人群横穿画面；结尾明确 “camera holds on the interior, the rider does not enter”。

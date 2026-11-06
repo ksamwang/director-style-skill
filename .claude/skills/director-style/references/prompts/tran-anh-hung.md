@@ -5,7 +5,7 @@ style_file: ../directors/tran-anh-hung.md
 ---
 
 ## 风格锚点
-Cinematic film still, humid Indochina interior, wet green foliage and milky white papaya, warm brown wood, striped shadows from a wooden window lattice on a face, medium close-up at seated working height, hands and bowls in the foreground, layered curtain and window frame dividing the space, 35–50mm, natural window light, no fill, steam and oil sheen, 1.85:1, tactile, quiet, amber and copper.
+Cinematic film still, humid Indochina interior, wet green foliage and milky white papaya, warm brown wood, striped shadows from a wooden window lattice on a face, medium close-up at seated working height, hands and bowls in the foreground, layered curtain and window frame dividing the space, 35–50mm, natural window light, no fill, steam and oil sheen, tactile, quiet, amber and copper.
 
 ## 图像提示
 - 主体 / 场景：a young woman preparing green papaya in a wooden house; a cook finishing a copper pot of consommé; a family at a table beside shutters.
@@ -14,7 +14,6 @@ Cinematic film still, humid Indochina interior, wet green foliage and milky whit
 - 光线：natural light through the lattice, real striped shadows, no flat fill; kitchen fire as secondary source.
 - 色彩：humid green, milky white, warm wood brown; in the French kitchen amber, copper and white linen; never a saturated “Vietnam filter”.
 - 材质：wood, gauze, steam, oil, fruit skin, copper pot, condensation.
-- 画幅：1.85:1（《青木瓜之味》接近 1.66:1，待核验）.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly along a door, window or curtain, joining two rooms in one breath; no handheld.
@@ -26,13 +25,13 @@ no yellow-green Vietnam filter, no saturated tropical grade, no food as symbol w
 
 ## 一致性锚点
 - 色彩：humid green / milky white / warm brown; amber-copper-white for the French kitchen.
-- 镜头：35–50mm, 1.85:1.
+- 镜头：35–50mm.
 - 光线：window-lattice daylight, striped shadows, no fill.
 - 构图：medium close, seated or working height, layered door / window / curtain, hands in foreground.
 - 材质：wood, gauze, steam, oil, copper, fruit skin.
 - 禁止漂移：no drone, no HDR, no clean digital kitchen, no food-styling gloss, no handheld shake, no saturated green grade.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 200`；用静帧做 `--sref` 锁色彩；主体写在风格锚点之后。
+- Midjourney：`--style raw --stylize 200`；用静帧做 `--sref`锁色彩；主体写在风格锚点之后。
 - SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁窗格与前景手部；可加 palette 参考图锁湿绿与暖褐。
 - Runway / Kling / Sora / Veo：首帧图起，只给 slow dolly / lateral track 一种，8–15 秒，24fps，动作必须完成再停。

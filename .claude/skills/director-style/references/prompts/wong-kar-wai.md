@@ -5,7 +5,7 @@ style_file: ../directors/wong-kar-wai.md
 ---
 
 ## 风格锚点
-Cinematic film still, 1990s Hong Kong, saturated emerald green and deep crimson neon, tungsten practical lights, smoky narrow interior, foreground doorframe or window frame cutting the subject, half the face lost in shadow, shallow depth of field, 35mm film grain, 1.66:1, melancholic, intimate, off-center, slight motion blur on a passing figure.
+Cinematic film still, 1990s Hong Kong, saturated emerald green and deep crimson neon, tungsten practical lights, smoky narrow interior, foreground doorframe or window frame cutting the subject, half the face lost in shadow, shallow depth of field, 35mm film grain, melancholic, intimate, off-center, slight motion blur on a passing figure.
 
 ## 图像提示
 - 主体 / 场景：a lonely woman in a cheongsam in a cramped noodle shop at midnight; a man smoking in a narrow corridor.
@@ -14,7 +14,6 @@ Cinematic film still, 1990s Hong Kong, saturated emerald green and deep crimson 
 - 光线：practical sources only — neon sign, desk lamp, fridge, television; one side of the face falls into shadow; retain detail in the darks.
 - 色彩：saturated green, red, amber; mixed color temperatures; no unified grade.
 - 材质：smoke, rain, wet glass, cheap wallpaper, silk, film grain.
-- 画幅：1.66:1 or 2.39:1.
 
 ## 视频提示
 - 镜头运动：slow handheld drift, follow from behind, then hold; no whip pan.
@@ -26,13 +25,13 @@ no clean symmetrical composition, no even studio lighting, no modern glass archi
 
 ## 一致性锚点
 - 色彩：emerald green / deep red / amber, high saturation, mixed tungsten-neon.
-- 镜头：50–85mm, shallow depth, 1.66:1.
+- 镜头：50–85mm, shallow depth.
 - 光线：practical sources, half-face shadow, detailed darks.
 - 构图：doorframe or window frame, foreground obstruction, off-center.
 - 材质：smoke, rain, wet glass, film grain.
 - 禁止漂移：no modern LED white, no clean glass towers, no digital skin.
 
 ## 平台备注
-- Midjourney：`--ar 1.66:1 --style raw --stylize 250`；用一张电影静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 250`；用一张电影静帧做 `--sref`。
 - SDXL / ComfyUI：固定 prompt 块 + film-grain LoRA；用 ControlNet 锁门框构图。
 - Runway / Kling / Sora / Veo：从首帧图开始，只给一种运镜，4–6 秒，24fps。

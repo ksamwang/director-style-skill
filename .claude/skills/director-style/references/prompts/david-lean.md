@@ -5,7 +5,7 @@ style_file: ../directors/david-lean.md
 ---
 
 ## 风格锚点
-Cinematic film still, 1960s 70mm epic, extreme wide desert or snow plain, a tiny figure walking along a measurable horizon, vast empty sky, sun-bleached ochre khaki and slate blue, hard noon sunlight and long shadows, deep focus, 28–40mm wide lens, no medium-shot bridge, one face held at the end of the journey, fine 65mm grain, 2.20:1, patient, austere, monumental.
+Cinematic film still, 1960s 70mm epic, extreme wide desert or snow plain, a tiny figure walking along a measurable horizon, vast empty sky, sun-bleached ochre khaki and slate blue, hard noon sunlight and long shadows, deep focus, 28–40mm wide lens, no medium-shot bridge, one face held at the end of the journey, fine 65mm grain, patient, austere, monumental.
 
 ## 图像提示
 - 主体 / 场景：a lone officer or engineer crossing a desert, a snow plain, a railway bridge, a station platform; the figure tiny against the land, carrying a task rather than a mood.
@@ -14,7 +14,6 @@ Cinematic film still, 1960s 70mm epic, extreme wide desert or snow plain, a tiny
 - 光线：hard noon sun, long shadows, mirage shimmer; interiors lit by a single shaft of window light, no fill.
 - 色彩：sun-bleached sand, khaki, slate blue, faded olive; low saturation but not grey; no vivid primaries, no modern teal-orange grade.
 - 材质：sand, sweat, canvas, steel rails, ice, wool, cracked leather; no clean new props.
-- 画幅：2.20:1 (70mm) or 2.35:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow forward tracking behind a walking figure, matching his pace, then stop when he stops.
@@ -26,13 +25,13 @@ no handheld camera, no fast cutting, no medium-shot dialogue coverage, no warm d
 
 ## 一致性锚点
 - 色彩：sun-bleached sand, khaki, slate blue; low saturation, hard sun.
-- 镜头：28–40mm wide and 100–150mm close-up, nothing comfortable in between; 2.20:1.
+- 镜头：28–40mm wide and 100–150mm close-up, nothing comfortable in between; .
 - 光线：single hard key, long shadows, one window shaft indoors.
 - 构图：low or high horizon, figure small on the line, deep measurable space.
 - 材质：sand, sweat, canvas, steel, ice, wool.
 - 禁止漂移：no teal-orange grade, no golden-hour glow, no drone shot, no modern vehicles, no clean digital skin, no medium two-shot.
 
 ## 平台备注
-- Midjourney：`--ar 2.2:1 --style raw --stylize 200`；用 70mm 宽银幕静帧做 `--sref`，锁住沙黄与石板蓝；`--no medium shot, warm filter, drone view`。
-- SDXL / ComfyUI：positive 明确写 `extreme wide` 或 `extreme close-up`，二选一，不留中间值；用 ControlNet depth 锁地平线高度与人物比例。
+- Midjourney：`--style raw --stylize 200`；用 70mm 宽银幕静帧做 `--sref`，锁住沙黄与石板蓝；`--no medium shot, warm filter, drone view`。
+- SDXL / ComfyUI：positive 明确写 `extreme wide`或 `extreme close-up`，二选一，不留中间值；用 ControlNet depth 锁地平线高度与人物比例。
 - Runway / Kling / Sora / Veo：首帧用大远景，只写 `slow forward tracking`；人物停下时补一句 `camera stops with the figure`，不要同时要求推近和升降。

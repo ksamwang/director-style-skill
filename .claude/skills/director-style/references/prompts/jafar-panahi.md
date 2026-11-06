@@ -5,7 +5,7 @@ style_file: ../directors/jafar-panahi.md
 ---
 
 ## 风格锚点
-Cinematic film still, Iranian documentary realism, 1.85:1, 24–35mm wide-angle handheld from behind or beside the subject, a barrier — checkpoint gate, turnstile, car window — cutting the frame, flat fluorescent and daylight, restrained grey, beige and asphalt black with red only on a sign or scarf, real tile and steel.
+Cinematic film still, Iranian documentary realism, 24–35mm wide-angle handheld from behind or beside the subject, a barrier — checkpoint gate, turnstile, car window — cutting the frame, flat fluorescent and daylight, restrained grey, beige and asphalt black with red only on a sign or scarf, real tile and steel.
 
 ## 图像提示
 - 主体 / 场景：a woman arguing with a guard at a stadium turnstile; two passengers in a taxi with the camera on the dashboard; a man waiting at a barred gate in the rain.
@@ -14,7 +14,6 @@ Cinematic film still, Iranian documentary realism, 1.85:1, 24–35mm wide-angle 
 - 光线：on-location only — fluorescent tubes, car headlights, flat daylight; no fill, no shaping.
 - 色彩：restrained grey, beige, asphalt black; red reserved for prohibition signs and headscarves.
 - 材质：glazed tile, iron railing, plastic chair, windshield reflection, rain on glass.
-- 画幅：1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow from behind the subject, moving when they move, stopping dead when they are stopped.
@@ -25,10 +24,10 @@ Cinematic film still, Iranian documentary realism, 1.85:1, 24–35mm wide-angle 
 no pretty composition of a confined space, no protest-slogan ending, no invisible camera, no victim without agency, no "limited conditions" used as an excuse for no staging, no score, no political speech, no polished art direction, no drone, no color grading, no shallow-focus beauty.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：grey, beige, asphalt black with a single red accent; 24–35mm wide, 1.85:1; flat on-location fluorescent and daylight; barrier cutting the frame, figure behind or beside camera; tile, iron, plastic, wet glass.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：grey, beige, asphalt black with a single red accent; 24–35mm wide; flat on-location fluorescent and daylight; barrier cutting the frame, figure behind or beside camera; tile, iron, plastic, wet glass.
 - 禁止漂移：no drone shots, no anamorphic flare, no warm cinematic grade, no clean modern architecture, no staged symmetrical framing, no invisible omniscient camera move.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`；写 `handheld documentary still` 但静帧只能体现构图，运动交给视频模型；`--sref` 用《出租车》车内或检查站静帧。
+- Midjourney：`--style raw --stylize 50`；写 `handheld documentary still`但静帧只能体现构图，运动交给视频模型；`--sref`用《出租车》车内或检查站静帧。
 - SDXL / ComfyUI：广角 + 障碍物构图写进 positive；ControlNet depth 锁栏杆与门框；negative 压掉 `cinematic lighting, bokeh, drone view`。
 - Runway / Kling / Sora / Veo：首帧后写 `handheld follow, camera behind subject`；10–20 秒、24fps；被拦下时明确写 `camera stops`；不要写推轨或升降。

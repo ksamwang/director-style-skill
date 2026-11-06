@@ -5,7 +5,7 @@ style_file: ../directors/hong-sang-soo.md
 ---
 
 ## 风格锚点
-Cinematic film still, deadpan Korean everyday comedy, flat available window light with blown-out highlights, 1.85:1, static eye-level long lens, a man and a woman seated off-center with empty space between them, cheap plastic tablecloth and soju bottles, loose framing, natural color, awkward pause held.
+Cinematic film still, deadpan Korean everyday comedy, flat available window light with blown-out highlights, static eye-level long lens, a man and a woman seated off-center with empty space between them, cheap plastic tablecloth and soju bottles, loose framing, natural color, awkward pause held.
 
 ## 图像提示
 - 主体 / 场景：a film director and a younger woman at a cafe table with half-finished soju glasses; two people in winter coats walking a wet beach; a man talking too much while the woman looks at the window.
@@ -14,7 +14,6 @@ Cinematic film still, deadpan Korean everyday comedy, flat available window ligh
 - 光线：available light only, flat; window light may blow out; no shaping, no rim light, no fill.
 - 色彩：natural everyday color, mildly cool; black-and-white only as a whole-film exception, never mixed within a shot.
 - 材质：plastic tablecloth, soju bottle, concrete wall, wet coat, umbrella, old bookshop shelves.
-- 画幅：1.85:1 or 1.66:1, close to a television ratio.
 
 ## 视频提示
 - 镜头运动（只选一种）：one slow zoom in (or out), mechanical and even, no cut, no track.
@@ -25,10 +24,10 @@ Cinematic film still, deadpan Korean everyday comedy, flat available window ligh
 no dramatic event to drive the scene, no witty one-liners or aphorisms, no moral verdict from the camera, no zoom as showmanship, no polished lighting, no self-flattering male artist, no simple replay of a repeated scene, no black-and-white-plus-drinking cliché, no symmetrical composition, no score, no shallow-focus beauty shot.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：natural muted color, 85–200mm long lens, 1.85:1; flat available window light with allowed overexposure; off-center figures with wide negative space; plastic tablecloth, soju bottle, concrete, wet coat.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：natural muted color, 85–200mm long lens; flat available window light with allowed overexposure; off-center figures with wide negative space; plastic tablecloth, soju bottle, concrete, wet coat.
 - 禁止漂移：no cinematic teal grade, no anamorphic flare, no dolly or handheld drift, no glossy production design, no symmetry, no subtitle-style text in frame.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`，刻意压掉美化；不要用 `--sref` 电影感强的图，否则会漂成"文艺片"；构图词写 off-center, negative space。
+- Midjourney：`--style raw --stylize 50`，刻意压掉美化；不要用 `--sref`电影感强的图，否则会漂成"文艺片"；构图词写 off-center, negative space。
 - SDXL / ComfyUI：不要加风格 LoRA；prompt 保持朴素，负面里明确 no bokeh, no rim light；用 ControlNet depth 控制人物偏置。
 - Runway / Kling / Sora / Veo：首帧固定机位，运动只写 `slow zoom in`；6–10 秒、24fps；不要同时写推拉与横移；人物一致性靠参考图。

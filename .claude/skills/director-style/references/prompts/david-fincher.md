@@ -5,7 +5,7 @@ style_file: ../directors/david-fincher.md
 ---
 
 ## 风格锚点
-Cinematic film still, cold green-cyan and sodium-yellow palette, hard directional practical light, deep crushed blacks, camera at surveillance height slightly above eye line, subject boxed by a doorframe or monitor frame, center composition deliberately a few centimeters off, 35–50mm lens, glass, brushed metal, rain, screen pixels, 2.39:1, controlled, clinical, no comfort.
+Cinematic film still, cold green-cyan and sodium-yellow palette, hard directional practical light, deep crushed blacks, camera at surveillance height slightly above eye line, subject boxed by a doorframe or monitor frame, center composition deliberately a few centimeters off, 35–50mm lens, glass, brushed metal, rain, screen pixels, controlled, clinical, no comfort.
 
 ## 图像提示
 - 主体 / 场景：an investigator at a desk of files and monitors; a figure in a corridor seen from its far end; a room reproduced step by step; a face half-eaten by shadow in an interview room.
@@ -14,7 +14,6 @@ Cinematic film still, cold green-cyan and sodium-yellow palette, hard directiona
 - 光线：existing sources only, hard contrast, uneven fill, shadows allowed to swallow half the face; no sourceless soft light.
 - 色彩：cold green, cyan-blue, sodium yellow; warm tone only while a character feels safe, pulled away at the loss of control.
 - 材质：glass, metal, rain, screen pixels, files, fluorescent surfaces; no soft fabric or warm wood as comfort.
-- 画幅：2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：precise slow dolly-in on a locked axis, machine-steady, no drift.
@@ -27,13 +26,13 @@ no handheld shake, no warm nostalgia grade, no jump scare, no sudden loud sting,
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：以下五项为全片锁定值，逐镜不重设。
 - 色彩：cold green, cyan-blue, sodium yellow, black; low warmth, high contrast.
-- 镜头：35–50mm, 75mm close-up, 2.39:1.
+- 镜头：35–50mm, 75mm close-up.
 - 光线：practical sources, hard direction, deep shadows.
 - 构图：slightly high, off-center, subject boxed by architecture or monitor.
 - 材质：glass, brushed metal, rain, screen pixels, paper files.
 - 禁止漂移：no modern phone UI parody, no HDR bloom, no clean showroom lighting, no warm domestic glow.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 100`；冷调靠参考图与 prompt 双锁，避免默认暖光。
+- Midjourney：`--style raw --stylize 100`；冷调靠参考图与 prompt 双锁，避免默认暖光。
 - SDXL / ComfyUI：positive/negative 分离，固定冷调 prompt 块；ControlNet canny 锁门框与走廊线条。
 - Runway / Kling / Sora / Veo：首帧图 + 只写 precise dolly-in 或 static；4–6 秒、24fps，运动模糊写 none。

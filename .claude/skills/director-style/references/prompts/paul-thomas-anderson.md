@@ -5,7 +5,7 @@ style_file: ../directors/paul-thomas-anderson.md
 ---
 
 ## 风格锚点
-Cinematic film still, 2.39:1 anamorphic widescreen, low camera angle, 35–50mm lens, staged Steadicam tracking through a real room, visible tungsten practical lamps, warm amber-brown 1970s palette or cool green-cream 1950s palette, wood paneling, carpet, pool water, film grain, bodies with weight, power written in who holds frame center.
+Cinematic film still, anamorphic widescreen, low camera angle, 35–50mm lens, staged Steadicam tracking through a real room, visible tungsten practical lamps, warm amber-brown 1970s palette or cool green-cream 1950s palette, wood paneling, carpet, pool water, film grain, bodies with weight, power written in who holds frame center.
 
 ## 图像提示
 - 主体 / 场景：a performer or salesman mid-address in a wood-paneled room; two men across a table, one leaning in; a woman in a workroom lit by one lamp; a pool at night.
@@ -14,7 +14,6 @@ Cinematic film still, 2.39:1 anamorphic widescreen, low camera angle, 35–50mm 
 - 光线：visible tungsten practicals as the key; window light as supplement; cold white only for institutional spaces; no sourceless soft light.
 - 色彩：1970s orange-brown, or 1950s cool green and cream; per-film temperature, no single global filter.
 - 材质：wood, carpet, pool water, wallpaper, fabric, sweat, 35mm grain.
-- 画幅：2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：choreographed Steadicam follow — enter the door, circle the table, settle where the power settles.
@@ -27,13 +26,13 @@ no handheld shake, no improvised camera, no cut to close-up at the emotional pea
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：以下五项为全片锁定值，逐镜不重设。
 - 色彩：amber-orange and brown, or cool green and cream; medium saturation, film contrast.
-- 镜头：35–50mm, wide for long takes, 2.39:1.
+- 镜头：35–50mm, wide for long takes.
 - 光线：visible tungsten sources, window fill, no even wash.
 - 构图：low angle, figure and room in the same frame, power holder centered.
 - 材质：wood, carpet, pool water, wallpaper, fabric, film grain.
 - 禁止漂移：no handheld documentary shake, no modern LED white, no digital skin, no empty minimalist interiors, no present-day devices.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 200`；用年代室内静帧做 `--sref` 锁色温。
+- Midjourney：`--style raw --stylize 200`；用年代室内静帧做 `--sref`锁色温。
 - SDXL / ComfyUI：固定 prompt 块 + 颗粒 LoRA；ControlNet depth 锁房间纵深与人物站位，IP-Adapter 给年代色板。
 - Runway / Kling / Sora / Veo：首帧图 + 只写一种 Steadicam follow；8–12 秒、24fps，不要叠加推轨和手持。

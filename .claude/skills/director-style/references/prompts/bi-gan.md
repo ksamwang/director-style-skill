@@ -5,7 +5,7 @@ style_file: ../directors/bi-gan.md
 ---
 
 ## 风格锚点
-Cinematic film still, damp southern Chinese town of Kaili, 24–35mm wide lens close behind the subject's head, long unbroken take changing time inside the frame, green and blue with mold stains, old half-broken neon, practical corridor and car light keeping density in the shadows, fog placed behind the figure not in front, water dripping and pooling, moldy wall, stained ceiling, 16mm-like grain, 1.85:1, humid, dreamlike.
+Cinematic film still, damp southern Chinese town of Kaili, 24–35mm wide lens close behind the subject's head, long unbroken take changing time inside the frame, green and blue with mold stains, old half-broken neon, practical corridor and car light keeping density in the shadows, fog placed behind the figure not in front, water dripping and pooling, moldy wall, stained ceiling, 16mm-like grain, humid, dreamlike.
 
 ## 图像提示
 - 主体 / 场景：a man walking into a tunnel; a woman singing in a rundown KTV; a clock on a moldy wall; a figure crossing a wet bridge at night.
@@ -14,7 +14,6 @@ Cinematic film still, damp southern Chinese town of Kaili, 24–35mm wide lens c
 - 光线：practical only — corridor bulb, headlights, flashlight; keep density in the darks, no even fill.
 - 色彩：green, blue, mold stains, old neon that looks half broken; each light source keeps its own colour, no global green filter.
 - 材质：moldy walls, water stains, old clothes, wet floor, film grain.
-- 画幅：1.85:1（部分段落 2.39:1）。
 
 ## 视频提示
 - 镜头运动（只选一种）：one continuous take following behind the head at shoulder height, moving with the subject; no cut, no orbit, no rise in the same prompt.
@@ -25,10 +24,10 @@ Cinematic film still, damp southern Chinese town of Kaili, 24–35mm wide lens c
 no long take as mere duration, no global green filter, no poetic voice-over explaining the image, no weightless dream, no imitation dialect accent, no clocks as stickers, no rain in every scene, no actor “performing poetry”, no fast cutting, no HDR, no drone.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：green, blue and mold with old neon; 24–35mm, 1.85:1; practical light, dense darks; follow behind the head, asymmetric depth, fog behind the figure; mold, water stain, old cloth, film grain.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：green, blue and mold with old neon; 24–35mm; practical light, dense darks; follow behind the head, asymmetric depth, fog behind the figure; mold, water stain, old cloth, film grain.
 - 禁止漂移：no global green filter, no clean digital, no HDR, no drone, no fast cut.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 180`；用一张潮湿室内的静帧做 `--sref`，不要整片绿。
+- Midjourney：`--style raw --stylize 180`；用一张潮湿室内的静帧做 `--sref`，不要整片绿。
 - SDXL / ComfyUI：negative 强化“green filter, teal and orange”；ControlNet（depth）锁隧道纵深；固定实用光关键词。
 - Runway / Kling / Sora / Veo：单个 20–40 秒长镜，24fps；先给首帧，再只写一种跟拍/环绕运动，不要剪。

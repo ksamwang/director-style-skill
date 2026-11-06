@@ -5,7 +5,7 @@ style_file: ../directors/rainer-werner-fassbinder.md
 ---
 
 ## 风格锚点
-Cinematic film still, 1970s German melodrama, two people held apart by a doorframe and a table corner, frame-within-frame, eye-level static camera at room distance, flat bright shadowless light like a showroom, saturated catalogue colors — green wallpaper, red sofa, gold curtain — glossy plastic and mirror surfaces, polite posture, formal clothing, 35mm grain, 1.66:1, composed, cruel, tender.
+Cinematic film still, 1970s German melodrama, two people held apart by a doorframe and a table corner, frame-within-frame, eye-level static camera at room distance, flat bright shadowless light like a showroom, saturated catalogue colors — green wallpaper, red sofa, gold curtain — glossy plastic and mirror surfaces, polite posture, formal clothing, 35mm grain, composed, cruel, tender.
 
 ## 图像提示
 - 主体 / 场景：a widow and a younger immigrant worker at a bar table, a designer and her lover in a sterile apartment, a war bride alone in a furnished room; workplace, stairwell, bar, living room.
@@ -14,7 +14,6 @@ Cinematic film still, 1970s German melodrama, two people held apart by a doorfra
 - 光线：flat, bright, shadowless light like a showroom; when conflict is about to break, it flattens further into plain white walls.
 - 色彩：catalogue saturation — green wall, red sofa, gold curtain; the more polite the exchange, the more saturated the room.
 - 材质：patterned wallpaper, glass, plastic, mirror, venetian blind, cheap ornament, cigarettes.
-- 画幅：1.66:1 or 1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：locked-off static camera; at most one slow lateral track that reveals an identical couple in the next room.
@@ -29,6 +28,6 @@ no shouting argument, no noir shadow or venetian-blind villainy, no sympathetic 
 - 禁止漂移：no cool blue-grey arthouse grade, no warm wood nostalgia, no handheld coverage, no wide open space, no glamorous fashion lighting, no period-accurate nostalgia haze.
 
 ## 平台备注
-- Midjourney：`--ar 1.66:1 --style raw --stylize 150`；用 1970 年代德国彩色情节剧静帧做 `--sref`，锁墙纸色与平光。
+- Midjourney：`--style raw --stylize 150`；用 1970 年代德国彩色情节剧静帧做 `--sref`，锁墙纸色与平光。
 - SDXL / ComfyUI：用 ControlNet depth 或 canny 锁门框/桌角分隔；negative 写掉 `cinematic dramatic lighting`、`shallow depth of field`。
-- Runway / Kling / Sora / Veo：首帧给框中框双人，运动只写 `static` 或 `very slow lateral track`；人物动作按舞台节拍写，不要写自然即兴。
+- Runway / Kling / Sora / Veo：首帧给框中框双人，运动只写 `static`或 `very slow lateral track`；人物动作按舞台节拍写，不要写自然即兴。

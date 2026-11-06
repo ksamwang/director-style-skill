@@ -5,7 +5,7 @@ style_file: ../directors/pedro-almodovar.md
 ---
 
 ## 风格锚点
-Melodrama film still, saturated red as the emotional key with yellow and blue arranged around it, bright even stage light with almost no shadow, symmetrical frontal composition, characters framed by doorways and mirrors, 35–50mm with an 85mm close-up, glossy lacquer, glass, plastic and printed fabric, medium close-up faces allowed to perform, 1.85:1, warm, theatrical, unashamed of tears.
+Melodrama film still, saturated red as the emotional key with yellow and blue arranged around it, bright even stage light with almost no shadow, symmetrical frontal composition, characters framed by doorways and mirrors, 35–50mm with an 85mm close-up, glossy lacquer, glass, plastic and printed fabric, medium close-up faces allowed to perform, warm, theatrical, unashamed of tears.
 
 ## 图像提示
 - 主体 / 场景：a mother, an actress or a trans woman speaking directly across a table; a chosen family seated at dinner; a woman walking from kitchen to corridor while talking; a hospital bed or a flashback as a cooler phase.
@@ -14,7 +14,6 @@ Melodrama film still, saturated red as the emotional key with yellow and blue ar
 - 光线：bright, even, theatrical light, very few shadows; cool tone only for flashback or hospital bed, never for the whole film.
 - 色彩：one red key — curtain, sofa or coat — with yellow and blue arranged around it; color carries emotion so the performance does not have to explain it.
 - 材质：lacquer, glass, plastic, printed fabric, tiles, glossy reflective surfaces.
-- 画幅：1.85:1。
 
 ## 视频提示
 - 镜头运动（只选一种）：slow push-in on a speaking face, allowed to complete a long monologue — no cutaway, no whip, no handheld.
@@ -26,13 +25,13 @@ no grey desaturated distance, no ironic distance from tears, no punishing or cur
 
 ## 一致性锚点
 - 色彩：saturated red key plus yellow and blue groups; color participates in the story.
-- 镜头：35–50mm, 85mm close-up, 1.85:1.
+- 镜头：35–50mm, 85mm close-up.
 - 光线：bright even stage light, few shadows; cool only as a temporary phase.
 - 构图：symmetrical frontal, doorframes and mirrors framing the figure.
 - 材质：lacquer, glass, plastic, printed fabric, tiles.
 - 禁止漂移：no grey arthouse grade, no desaturated skin, no shaky camera, no empty minimalist set, no ironic distance, no naturalistic window-only light.
 
 ## 平台备注
-- Midjourney：`--ar 185:100 --style raw --stylize 250`；用一张红黄蓝成组的室内静帧做 `--sref`，不要用时尚大片做参考。
+- Midjourney：`--style raw --stylize 250`；用一张红黄蓝成组的室内静帧做 `--sref`，不要用时尚大片做参考。
 - SDXL / ComfyUI：用 IP-Adapter 锁红/黄/蓝色板；ControlNet pose/depth 锁正面对称和门框；同一场戏固定 seed，negative 写 `desaturated, grey, minimalist, handheld`。
 - Runway / Kling / Sora / Veo：从首帧人物正面中近景开始，运镜只写 `slow push-in on the face`，8–12 秒，24fps；坦白段落不要切走。

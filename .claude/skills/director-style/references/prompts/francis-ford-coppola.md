@@ -5,7 +5,7 @@ style_file: ../directors/francis-ford-coppola.md
 ---
 
 ## 风格锚点
-Cinematic film still, 35–50mm, slow dolly and crane moving from outside a group into the table, low camera, deep corridor and doorframe layering, amber and deep brown with black and blood red, warm shadow, candle smoke, dark wood, velvet curtain, fresco, 1.85:1, operatic, ceremonial, heavy with obligation.
+Cinematic film still, 35–50mm, slow dolly and crane moving from outside a group into the table, low camera, deep corridor and doorframe layering, amber and deep brown with black and blood red, warm shadow, candle smoke, dark wood, velvet curtain, fresco, operatic, ceremonial, heavy with obligation.
 
 ## 图像提示
 - 主体 / 场景：a family seated around a long dark table; a man in a doorway watching a wedding; a boat on a river at dusk. The group is the subject and the frame is built like a stage.
@@ -14,7 +14,6 @@ Cinematic film still, 35–50mm, slow dolly and crane moving from outside a grou
 - 光线：warm shadow, candle, window and top light; flat light only at the moment a character loses power; no even high-key.
 - 色彩：amber, deep brown, black, blood red; each film keeps one fixed colour group; the war film adds orange, green and purple smoke; no cold blue in any film.
 - 材质：dark wood table, velvet curtain, candle smoke, fresco, lace, sweat; no plastic or modern sheen.
-- 画幅：1.85:1 (2.35:1 for the river epic).
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly in from the doorway to the table — one continuous approach, no cut.
@@ -25,10 +24,10 @@ Cinematic film still, 35–50mm, slow dolly and crane moving from outside a grou
 no handheld modern realism, no fast cutting of a ritual, no saturated colour mishmash, no clean family reconciliation, no flat high-key light, no minimal empty frame, no cool blue grade, no shaky vérité, no ironic distance, no symmetrical sitcom staging, no modern furniture, no bloodless violence.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：amber brown black and blood red, 35–50mm at 1.85:1, warm shadow with candle and top light, doorway corridor depth and ranked group framing, dark wood and velvet.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：amber brown black and blood red, 35–50mm at , warm shadow with candle and top light, doorway corridor depth and ranked group framing, dark wood and velvet.
 - 禁止漂移：no teal-orange digital grade, no handheld, no drone, no fluorescent white, no modern glass tower, no bright primary colours.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 250 --no handheld, bright, modern`；`--sref` 用《教父》室内群像静帧；把 `amber`、`candle`、`doorway` 写进提示词。
+- Midjourney：`--style raw --stylize 250 --no handheld, bright, modern`；`--sref`用《教父》室内群像静帧；把 `amber`、`candle`、`doorway`写进提示词。
 - SDXL / ComfyUI：ControlNet depth 锁桌边与走廊纵深；用 IP-Adapter 喂琥珀色板，避免模型自动加冷蓝补光；negative 单独写 `cool tone`。
-- Runway / Kling / Sora / Veo：首帧定在门外；只写 `slow dolly in toward the table`；仪式动作要完整走完，不要写 `montage` 或 `cut`。
+- Runway / Kling / Sora / Veo：首帧定在门外；只写 `slow dolly in toward the table`；仪式动作要完整走完，不要写 `montage`或 `cut`。

@@ -5,7 +5,7 @@ style_file: ../directors/yasujiro-ozu.md
 ---
 
 ## 风格锚点
-Cinematic film still, Japanese family drama, camera fixed at tatami height about seventy centimetres, low and level, frontal symmetrical composition, figures seated to one side, the other side left as doorway, shoji screen or courtyard, layered interior frames, soft even diffuse light with no hard shadows, warm low-key wood beige grey and deep blue, tatami and cotton, 1.37:1, still, polite, quietly dissolving.
+Cinematic film still, Japanese family drama, camera fixed at tatami height about seventy centimetres, low and level, frontal symmetrical composition, figures seated to one side, the other side left as doorway, shoji screen or courtyard, layered interior frames, soft even diffuse light with no hard shadows, warm low-key wood beige grey and deep blue, tatami and cotton, still, polite, quietly dissolving.
 
 ## 图像提示
 - 主体 / 场景：an elderly couple seated on tatami in an otherwise empty room; a daughter serving tea at a low table; a father and daughter with a sake bottle between them; clothes folded on the floor.
@@ -14,7 +14,6 @@ Cinematic film still, Japanese family drama, camera fixed at tatami height about
 - 光线：even diffuse daylight, no hard shadow, no rim light; interiors evenly lit.
 - 色彩：warm and low — wood, beige, grey, deep blue; kimono almost the same value as the wall.
 - 材质：tatami, shoji paper, wooden posts, cotton fabric, old household objects.
-- 画幅：1.37:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：static, locked off; no pan, tilt, dolly or follow; changes of view come only from cuts.
@@ -26,14 +25,14 @@ no moving camera, no pan or dolly, no handheld, no shot-reverse-shot with matche
 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：跨镜头锁定以下五项。
-  - 色彩：warm low saturation — wood, beige, grey, deep blue.
-  - 镜头：50mm, tatami height about 70cm, static, 1.37:1.
-  - 光线：even diffuse, no hard shadow, no rim.
-  - 构图：frontal symmetry, figure to one side, empty frame on the other, layered doorways.
-  - 材质：tatami, shoji paper, wood, cotton.
+ - 色彩：warm low saturation — wood, beige, grey, deep blue.
+ - 镜头：50mm, tatami height about 70cm, static.
+ - 光线：even diffuse, no hard shadow, no rim.
+ - 构图：frontal symmetry, figure to one side, empty frame on the other, layered doorways.
+ - 材质：tatami, shoji paper, wood, cotton.
 - 禁止漂移：no handheld, no drone, no modern apartment, no LED white, no teal-and-orange, no shallow bokeh, no camera height drift, no Western living room.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；避免 `cinematic lighting`（会加戏剧光），改写成 `flat even daylight`；用榻榻米房间静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 100`；避免 `cinematic lighting`（会加戏剧光），改写成 `flat even daylight`；用榻榻米房间静帧做 `--sref`。
 - SDXL / ComfyUI：ControlNet depth 或 canny 锁门框格子与正面构图；固定 50mm 描述；negative 必写 `dramatic lighting, rim light, high angle`。
-- Runway / Kling / Sora / Veo：只给 `static` 一种运镜，6–10 秒、24fps；人物出画后的空房间单独生成一条 hold 镜头，再在剪辑里接上。
+- Runway / Kling / Sora / Veo：只给 `static`一种运镜，6–10 秒、24fps；人物出画后的空房间单独生成一条 hold 镜头，再在剪辑里接上。

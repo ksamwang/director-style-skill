@@ -5,7 +5,7 @@ style_file: ../directors/kenji-mizoguchi.md
 ---
 
 ## 风格锚点
-Cinematic film still, Japanese period tragedy, one continuous lateral tracking shot along a scroll-like horizontal axis, deep focus holding foreground, middle and far planes, a woman walking at the lower edge of the frame, vast wall, sky and mist above her, layered doorways, curtains and trees opening the space, soft fog-diffused light with no hard shadow, muted earth yellow indigo and dark red, silk and water, 1.37:1, restrained, fated.
+Cinematic film still, Japanese period tragedy, one continuous lateral tracking shot along a scroll-like horizontal axis, deep focus holding foreground, middle and far planes, a woman walking at the lower edge of the frame, vast wall, sky and mist above her, layered doorways, curtains and trees opening the space, soft fog-diffused light with no hard shadow, muted earth yellow indigo and dark red, silk and water, restrained, fated.
 
 ## 图像提示
 - 主体 / 场景：a woman in kimono walking the full length of a corridor; a man crossing a foggy market and shrinking into the crowd; a mother and child at the edge of a field.
@@ -14,7 +14,6 @@ Cinematic film still, Japanese period tragedy, one continuous lateral tracking s
 - 光线：soft and foggy, low contrast, no hard edge; lantern or window light diffused through paper.
 - 色彩：monochrome greys, or earth yellow, indigo and dark red; no vivid contrast.
 - 材质：silk with visible folds, wood, paper, water, mist.
-- 画幅：1.37:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：one slow lateral track that follows the walking figure and never closes in; no cut inside the scene.
@@ -26,14 +25,14 @@ no shot-reverse-shot, no push-in during a woman's suffering, no fast cutting, no
 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：跨镜头锁定以下五项。
-  - 色彩：greys, or earth yellow / indigo / dark red, low contrast.
-  - 镜头：35–50mm deep focus, one scene one take, 1.37:1.
-  - 光线：soft fog-diffused, low ratio, no hard edge.
-  - 构图：horizontal scroll, figure at the lower edge, headroom of wall and sky.
-  - 材质：silk folds, wood, paper, water, mist.
+ - 色彩：greys, or earth yellow / indigo / dark red, low contrast.
+ - 镜头：35–50mm deep focus, one scene one take.
+ - 光线：soft fog-diffused, low ratio, no hard edge.
+ - 构图：horizontal scroll, figure at the lower edge, headroom of wall and sky.
+ - 材质：silk folds, wood, paper, water, mist.
 - 禁止漂移：no drone, no handheld, no shallow focus, no modern costumes, no teal-and-orange, no crisp digital fog, no centered portrait.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 150`；明确写 `figure small at the bottom of frame, large empty upper space`；用一张长镜头静帧做 `--sref`；避免 `epic`。
+- Midjourney：`--style raw --stylize 150`；明确写 `figure small at the bottom of frame, large empty upper space`；用一张长镜头静帧做 `--sref`；避免 `epic`。
 - SDXL / ComfyUI：ControlNet depth 做前中后景深焦；用横幅式构图提示；negative 写 `close-up, shallow depth of field, fast cut energy`。
 - Runway / Kling / Sora / Veo：只给一次横向移动（lateral truck），8–12 秒、24fps；转场用前景柱子或帘子划过镜头，在剪辑里完成，不靠模型切场。

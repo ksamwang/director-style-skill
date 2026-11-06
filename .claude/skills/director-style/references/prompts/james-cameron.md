@@ -14,7 +14,6 @@ Cinematic underwater film still, a diver suspended in deep teal water, volumetri
 - 光线：underwater artificial beams, bioluminescence, hard practicals, visible volumetric shafts; no flat lighting.
 - 色彩：deep cyan and blue-green, saturated, with warm orange fire or practical accent; no desaturated grey.
 - 材质：water, steel, glass, rubber, wet skin, bioluminescent plants; real water and practical texture.
-- 画幅：2.39:1; 1.78:1 for Avatar.
 
 ## 视频提示
 - 镜头运动：smooth underwater tracking shot, one direction only; no handheld, no whip pan.
@@ -26,13 +25,13 @@ no handheld shake, no ironic tone, no desaturated grey grade, no dry studio ligh
 
 ## 一致性锚点
 - 色彩：deep cyan / blue-green / warm orange accent, high saturation.
-- 镜头：21–35mm wide, 50–85mm close, 2.39:1 or 1.78:1.
+- 镜头：21–35mm wide, 50–85mm close, or .
 - 光线：underwater beams, bioluminescence, hard practicals, volumetric shafts.
 - 构图：centered and stable, human lower third, mass above.
 - 材质：water, steel, glass, rubber, wet skin, 35mm grain.
 - 禁止漂移：no neon cyberpunk, no grey desaturation, no clean digital skin, no drone aerial.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 250`；用水下电影静帧做 `--sref`，锁蓝橙互补。
+- Midjourney：`--style raw --stylize 250`；用水下电影静帧做 `--sref`，锁蓝橙互补。
 - SDXL / ComfyUI：ControlNet depth 锁人体与机械比例；positive 固定 "volumetric light shafts"；negative 保留 no dry lighting。
 - Runway / Kling / Sora / Veo：首帧图起手，只给 smooth underwater tracking shot，5–8 秒，24fps；运动写慢，不要叠加推进。

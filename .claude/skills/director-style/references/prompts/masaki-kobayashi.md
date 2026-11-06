@@ -5,7 +5,7 @@ style_file: ../directors/masaki-kobayashi.md
 ---
 
 ## 风格锚点
-Cinematic film still, black-and-white 1960s Japan, a wide symmetrical interior of a samurai house, tatami geometry, shoji screens, figures placed on precise marks, deep focus, hard directional light and deep shadow, 2.35:1 Tohoscope, 35mm lens, static camera, severe, theatrical, ritualistic, dust or snow in the air.
+Cinematic film still, black-and-white 1960s Japan, a wide symmetrical interior of a samurai house, tatami geometry, shoji screens, figures placed on precise marks, deep focus, hard directional light and deep shadow, Tohoscope, 35mm lens, static camera, severe, theatrical, ritualistic, dust or snow in the air.
 
 ## 图像提示
 - 主体 / 场景：a ronin kneeling at the center of a bare reception room; elders seated behind a screen; a lone figure at a gate in falling snow.
@@ -14,7 +14,6 @@ Cinematic film still, black-and-white 1960s Japan, a wide symmetrical interior o
 - 光线：hard directional light through paper screens, deep shadow, silhouettes; no soft fill.
 - 色彩：black and white, high contrast, retained paper texture in the whites; no sepia.
 - 材质：tatami, wood grain, paper shoji, armor lacing, white sand, snow, blood.
-- 画幅：2.35:1.
 
 ## 视频提示
 - 镜头运动：static camera for the entire shot; no movement.
@@ -26,13 +25,13 @@ no handheld camera, no zoom, no crying close-up, no glamorous swordplay, no natu
 
 ## 一致性锚点
 - 色彩：black and white, high contrast, paper-white highlights, crushed blacks.
-- 镜头：35–50mm deep focus, 2.35:1.
+- 镜头：35–50mm deep focus.
 - 光线：hard directional light, shoji silhouette, deep shadow.
 - 构图：symmetrical, geometric marks, threshold in frame, figures small in the room.
 - 材质：tatami, wood, paper, armor lacing, snow, blood, film grain.
 - 禁止漂移：no color grade, no warm lantern light, no handheld drift, no modern architecture, no digital sharpness.
 
 ## 平台备注
-- Midjourney：`--ar 2.35:1 --style raw --stylize 200`；用黑白武士片静帧做 `--sref`，加 `monochrome` 防偏色。
+- Midjourney：`--style raw --stylize 200`；用黑白武士片静帧做 `--sref`，加 `monochrome`防偏色。
 - SDXL / ComfyUI：固定 prompt 块 + 黑白胶片 LoRA；用 ControlNet depth 锁房间纵深与人物站位，negative 明确排除色彩。
 - Runway / Kling / Sora / Veo：首帧图起手，全程静止，8–15 秒，24fps，不要给推轨或环绕。

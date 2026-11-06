@@ -5,7 +5,7 @@ style_file: ../cinematographers/freddie-young.md
 ---
 
 ## 风格锚点
-Epic 65mm desert film still, extreme wide shot, low horizon, a tiny figure on a vast dune, hard midday sun with clean blue shadow, natural light only, deep focus from foreground sand to distant ridge, 482mm compression on the horizon, sand gold and ochre, 2.20:1, large-format clarity, patient, monumental, unposed.
+Epic 65mm desert film still, extreme wide shot, low horizon, a tiny figure on a vast dune, hard midday sun with clean blue shadow, natural light only, deep focus from foreground sand to distant ridge, 482mm compression on the horizon, sand gold and ochre, large-format clarity, patient, monumental, unposed.
 
 ## 图像提示
 - 主体 / 场景：a small group of travellers crossing real desert, snowfield or coastline; the terrain dominates.
@@ -14,7 +14,6 @@ Epic 65mm desert film still, extreme wide shot, low horizon, a tiny figure on a 
 - 光线：one sun, hard and directional, giant reflectors bouncing light into tents and faces; no studio fill.
 - 色彩：sand gold, ochre, snow blue, sea grey, all taken from the landscape; no unifying warm filter.
 - 材质：sand, dust, snow, water vapour, coarse cloth, weathered stone and real locations.
-- 画幅：2.20:1 (65mm).
 
 ## 视频提示
 - 镜头运动（只选一种）：slow lateral tracking shot.
@@ -29,6 +28,6 @@ no medium close-up epic, no centred horizon, no shallow depth of field, no warm 
 - 禁止漂移：no teal-orange grade, no drone-only aerial, no compressed flat background, no modern vehicles, no artificial haze.
 
 ## 平台备注
-- Midjourney：`--ar 2.2:1 --style raw --stylize 100`；降低默认美化的饱和，保留沙与雪的灰。
+- Midjourney：`--style raw --stylize 100`；降低默认美化的饱和，保留沙与雪的灰。
 - SDXL / ComfyUI：ControlNet depth 锁低地平线与三层纵深；避免广角畸变；negative 排除 shallow DOF。
 - Runway / Kling / Sora / Veo：首帧给大远景，只写 slow lateral tracking，12–20 秒，24fps，不加推近。

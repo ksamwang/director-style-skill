@@ -5,7 +5,7 @@ style_file: ../directors/quentin-tarantino.md
 ---
 
 ## 风格锚点
-Cinematic film still, low camera angle looking slightly up at the subject, 35–50mm lens, static two-shot with figures pushed to the edges and open space for reaction, visible neon and tungsten sources, hard blacks, chapter-specific palette — desert sand yellow, blood red, faded 1970s amber — leather, wood, film grain, 2.39:1, talkative tension, fandom reverence.
+Cinematic film still, low camera angle looking slightly up at the subject, 35–50mm lens, static two-shot with figures pushed to the edges and open space for reaction, visible neon and tungsten sources, hard blacks, chapter-specific palette — desert sand yellow, blood red, faded 1970s amber — leather, wood, film grain, talkative tension, fandom reverence.
 
 ## 图像提示
 - 主体 / 场景：two figures across a diner booth or bar; a group around a table with drinks; feet, a shoe, a gun, a plate in extreme close-up; a car interior at night.
@@ -14,7 +14,6 @@ Cinematic film still, low camera angle looking slightly up at the subject, 35–
 - 光线：neon and tungsten with visible sources; blacks allowed to go very black; not naturalistic.
 - 色彩：palette by genre chapter — desert sand, blood red, faded 1970s amber; color as genre label, not mood.
 - 材质：35mm film grain, leather, wood, neon tubing, vinyl booths, cheap motel walls.
-- 画幅：2.39:1; 2.76:1 for 70mm passages.
 
 ## 视频提示
 - 镜头运动（只选一种）：locked static frame for the whole exchange; the camera does not move even when the violence starts.
@@ -27,13 +26,13 @@ no handheld realism, no shaky camera, no contemporary smartphones or social medi
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：以下五项为全片锁定值，逐镜不重设。
 - 色彩：sand yellow, blood red, faded amber; high contrast, genre-coded.
-- 镜头：35–50mm, inserts 75–100mm, 2.39:1 (2.76:1 for 70mm).
+- 镜头：35–50mm, inserts 75–100mm, ( for 70mm).
 - 光线：visible neon and tungsten, hard blacks.
 - 构图：low angle, figures off-center at the edges, reaction space open.
 - 材质：film grain, leather, wood, neon tubes, vinyl.
 - 禁止漂移：no modern digital cleanliness, no smartphone screens, no cool blue teal grade, no drone shots.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 200`；用 70 年代胶片静帧做 `--sref`，避免默认现代锐度。
+- Midjourney：`--style raw --stylize 200`；用 70 年代胶片静帧做 `--sref`，避免默认现代锐度。
 - SDXL / ComfyUI：固定 prompt 块 + 颗粒 LoRA；ControlNet depth 锁双人边缘构图。
 - Runway / Kling / Sora / Veo：首帧图 + 只写 static 或 single short push；6–10 秒、24fps，不写慢镜暴力。

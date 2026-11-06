@@ -12,7 +12,7 @@ EXPECTED = int(sys.argv[2]) if len(sys.argv) > 2 else 125
 DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", SUBDIR)
 
 SECTIONS = ["风格锚点", "图像提示", "视频提示", "负面提示", "一致性锚点", "平台备注"]
-IMAGE_FIELDS = ["主体 / 场景", "景别 / 构图", "镜头 / 焦段", "光线", "色彩", "材质", "画幅"]
+IMAGE_FIELDS = ["主体 / 场景", "景别 / 构图", "镜头 / 焦段", "光线", "色彩", "材质"]
 VIDEO_FIELDS = ["镜头运动", "主体运动", "时长 / 帧率 / 运动模糊"]
 
 
@@ -57,6 +57,10 @@ def main() -> None:
         neg = section(text, "负面提示")
         if english_words(neg) < 8:
             probs.append("负面提示过短")
+        if re.search(r"--ar\s", text):
+            probs.append("含--ar")
+        if re.search(r"\b\d+(?:\.\d+)?:\d+\b", text):
+            probs.append("含画幅比例")
         if "style_file:" not in text:
             probs.append("缺 style_file")
 

@@ -5,16 +5,15 @@ style_file: ../cinematographers/hoyte-van-hoytema.md
 ---
 
 ## 风格锚点
-Cinematic 65mm film still, large-format IMAX texture, soft overcast daylight, low-saturation steel blue and grey-green palette, warm skin against cold air, visible haze and dust in the beam, wide 40mm lens, small figure against a vast sky, natural window light with detail held in shadow, fine film grain, 2.20:1, quiet, monumental, unforced.
+Cinematic 65mm film still, large-format IMAX texture, soft overcast daylight, low-saturation steel blue and grey-green palette, warm skin against cold air, visible haze and dust in the beam, wide 40mm lens, small figure against a vast sky, natural window light with detail held in shadow, fine film grain, quiet, monumental, unforced.
 
 ## 图像提示
 - 主体 / 场景：a lone figure in a real landscape, aircraft cabin, or bare interior; sky, ceiling, or weather always occupies part of the frame.
 - 景别 / 构图：wide to medium; figure low in frame, large negative space above, slightly off-center, environment pressing at the edges.
 - 镜头 / 焦段：40–65mm large-format spherical; 28mm for the wide establishing shot.
-- 光线：overcast daylight or a single window; ratio 1:3–1:6; shadow detail retained, highlights just short of clipping.
+- 光线：overcast daylight or a single window; ratio –; shadow detail retained, highlights just short of clipping.
 - 色彩：steel blue, grey-green, concrete grey, warm skin and wood as the only warmth; low saturation, no unified teal-orange grade.
 - 材质：haze, dust, condensation, wool, brushed metal, real weather on glass.
-- 画幅：2.20:1 (65mm) or 1.43:1 (IMAX).
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly in.
@@ -25,10 +24,10 @@ Cinematic 65mm film still, large-format IMAX texture, soft overcast daylight, lo
 no clean digital sharpness, no HDR, no shallow depth of field, no creamy bokeh, no even fill light, no three-point lighting, no teal-orange grade, no pure white sky, no unmotivated handheld shake, no drone-only vista, no plastic skin, no glass skyscrapers.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：steel blue and grey-green with warm skin; 40–65mm large format; overcast window light at 1:3–1:6; figure low with sky above; haze, dust, fine grain.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：steel blue and grey-green with warm skin; 40–65mm large format; overcast window light at –; figure low with sky above; haze, dust, fine grain.
 - 禁止漂移：no HDR, no LED white balance, no modern glass architecture, no crisp digital skin, no orange-teal LUT.
 
 ## 平台备注
-- Midjourney：`--ar 2.2:1 --style raw --stylize 150`；用一张 65mm 自然光静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 150`；用一张 65mm 自然光静帧做 `--sref`。
 - SDXL / ComfyUI：大画幅柔度可用 LoRA；ControlNet depth 锁天空与人物比例；negative 排除 HDR 与浅景深。
 - Runway / Kling / Sora / Veo：从首帧开始，只给一种缓慢推近，8–12 秒，24fps，不叠加其他运动。

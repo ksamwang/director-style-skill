@@ -5,7 +5,7 @@ style_file: ../directors/gillo-pontecorvo.md
 ---
 
 ## 风格锚点
-Cinematic film still, 1960s black-and-white newsreel, Algiers casbah street, a crowd pressed into a narrow staircase, handheld camera at chest height inside the crowd, hard North African sun and deep shadow, white burnous and khaki uniforms, plaster walls, dust, coarse 16mm grain, 1.66:1, urgent, tactical, unsentimental.
+Cinematic film still, 1960s black-and-white newsreel, Algiers casbah street, a crowd pressed into a narrow staircase, handheld camera at chest height inside the crowd, hard North African sun and deep shadow, white burnous and khaki uniforms, plaster walls, dust, coarse 16mm grain, urgent, tactical, unsentimental.
 
 ## 图像提示
 - 主体 / 场景：guerrillas moving through a casbah alley, women carrying baskets, paratroopers at a checkpoint, a cell meeting by bare bulb; a staircase, rooftop, narrow street, interrogation room.
@@ -14,7 +14,6 @@ Cinematic film still, 1960s black-and-white newsreel, Algiers casbah street, a c
 - 光线：available light — hard North African sun, bare bulbs, night flares; faces half in shadow; no studio fill.
 - 色彩：black-and-white newsreel grain, hard contrast; later colour uses earth, khaki, dark red; no glamour grade.
 - 材质：plaster, stone steps, uniforms, newspapers, megaphones, sweat, dust, coarse wool.
-- 画幅：1.66:1 or 1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow through the casbah crowd, matching the pace of the group, no cutaways.
@@ -26,13 +25,13 @@ no glamorous monochrome, no slow-motion violence, no lone-hero close-up, no cart
 
 ## 一致性锚点
 - 色彩：black-and-white newsreel, hard contrast, coarse grain; colour only earth, khaki, dark red.
-- 镜头：28–50mm crowd and alley, 100–200mm rooftop surveillance; 1.66:1.
+- 镜头：28–50mm crowd and alley, 100–200mm rooftop surveillance; .
 - 光线：available hard sun, bare bulb, flare; faces half-lit.
 - 构图：diagonal, layered, foreground crowd, exits and high ground readable.
 - 材质：plaster, stone, uniforms, newspapers, megaphones, dust.
 - 禁止漂移：no colour grade, no shallow focus, no clean digital skin, no modern weapons, no studio set, no hero framing.
 
 ## 平台备注
-- Midjourney：`--ar 1.66:1 --style raw --stylize 150`；用新闻片黑白静帧做 `--sref`；`--no color, glamour, shallow depth of field, drone`。
+- Midjourney：`--style raw --stylize 150`；用新闻片黑白静帧做 `--sref`；`--no color, glamour, shallow depth of field, drone`。
 - SDXL / ComfyUI：positive 里写 `handheld, crowded foreground, layered street, visible staircase`；用 ControlNet depth 锁巷道纵深和出口，不要让人物浮在干净背景上。
 - Runway / Kling / Sora / Veo：首帧给拥挤巷道，只写 `handheld follow`；不要叠加推近或环绕；让人群自己挡住镜头，保留遮挡与碰撞。

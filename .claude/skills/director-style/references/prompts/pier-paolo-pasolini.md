@@ -5,7 +5,7 @@ style_file: ../directors/pier-paolo-pasolini.md
 ---
 
 ## 风格锚点
-Cinematic film still, sacred icon composition, figures arranged in a frontal row facing the camera, altar-like symmetry, flat fixed frontal camera, hard natural side light splitting each face into light and shadow, ochre earth red and deep green like a damp fresco, coarse plaster wall, rough cloth, ruin, sea, heavy 16mm grain, 1.85:1, austere, accusatory, pre-modern.
+Cinematic film still, sacred icon composition, figures arranged in a frontal row facing the camera, altar-like symmetry, flat fixed frontal camera, hard natural side light splitting each face into light and shadow, ochre earth red and deep green like a damp fresco, coarse plaster wall, rough cloth, ruin, sea, heavy 16mm grain, austere, accusatory, pre-modern.
 
 ## 图像提示
 - 主体 / 场景：peasants, street boys, a Christ figure or a classical mythic body posed against a plaster wall, a ruin, a shoreline; arranged as a row, not caught mid-action.
@@ -14,7 +14,6 @@ Cinematic film still, sacred icon composition, figures arranged in a frontal row
 - 光线：hard natural side light, no fill; the face is cut into a lit half and a dark half; overcast only when the scene is documentary.
 - 色彩：early work coarse high-grain black and white; later earth red, ochre yellow, deep green like wet fresco pigment.
 - 材质：coarse plaster, rubble, rough wool and linen, damp fresco surface, sea spray, dust.
-- 画幅：1.85:1 (black-and-white period 1.37:1).
 
 ## 视频提示
 - 镜头运动（只选一种）：completely static frontal camera in sacred space; handheld follow is permitted only for entering the market or the slum.
@@ -29,6 +28,6 @@ no tasteful nude photography, no aestheticized bodies, no violence-as-thrill, no
 - 禁止漂移：no glossy skin, no fashion lighting, no shallow-focus bokeh portrait, no handheld shake in sacred scenes, no modern clothing, no warm color grade, no smile for the camera.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 100`；用湿壁画或新现实主义黑白剧照做 `--sref`，压低模型的唯美默认值。
-- SDXL / ComfyUI：positive 固定“frontal row / altar symmetry”块；用 ControlNet pose 或 canny 锁正面排站，negative 里写掉 `boudoir lighting` 与 `glossy skin`。
+- Midjourney：`--style raw --stylize 100`；用湿壁画或新现实主义黑白剧照做 `--sref`，压低模型的唯美默认值。
+- SDXL / ComfyUI：positive 固定“frontal row / altar symmetry”块；用 ControlNet pose 或 canny 锁正面排站，negative 里写掉 `boudoir lighting`与 `glossy skin`。
 - Runway / Kling / Sora / Veo：只给静止镜头与首帧；若必须运动，限定为“跟随人物走入市场”的手持段，且与神圣段分开生成。

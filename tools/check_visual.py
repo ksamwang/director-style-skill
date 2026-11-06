@@ -10,7 +10,7 @@ DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", "d
 
 VIS_DIMS = ["景别", "构图", "空间", "色彩", "光线", "材质"]
 CAM_DIMS = ["机位", "焦段", "运动", "静止", "靠近", "远离", "权力"]
-SPEC_FIELDS = ["画幅", "镜头/焦段", "机位与运动", "色彩", "光线", "材质/美术", "构图"]
+SPEC_FIELDS = ["参考画幅", "镜头/焦段", "机位与运动", "色彩", "光线", "材质/美术", "构图"]
 
 
 def section(text: str, name: str) -> str:

@@ -5,16 +5,15 @@ style_file: ../cinematographers/robert-richardson.md
 ---
 
 ## 风格锚点
-Hard-source 35mm film still, one blazing key from above-side, no fill, faces split by a blade of shadow, windows and sky blown to white, smoke making the beam visible, saturated amber blood-red and army green, low-angle off-center framing with the light source inside the frame, 2.39:1 anamorphic, heavy grain, clipped photochemical highlights, theatrical, scorched, unsoftened.
+Hard-source 35mm film still, one blazing key from above-side, no fill, faces split by a blade of shadow, windows and sky blown to white, smoke making the beam visible, saturated amber blood-red and army green, low-angle off-center framing with the light source inside the frame, anamorphic, heavy grain, clipped photochemical highlights, theatrical, scorched, unsoftened.
 
 ## 图像提示
 - 主体 / 场景：a soldier, a lawyer, a gangster or a singer caught in a hard shaft of light inside a real room, jungle or courtroom; smoke and dust in the air.
 - 景别 / 构图：medium close-up or wide anamorphic master, off-center, diagonal, frame-within-frame, the practical source visible in shot.
 - 镜头 / 焦段：21–35mm wide-angle for space, 85–135mm for isolated faces; slight distortion at the edges.
-- 光线：single hard key from above or side-top, 8:1 ratio or harder, no fill, windows and sky overexposed to white.
+- 光线：single hard key from above or side-top, ratio or harder, no fill, windows and sky overexposed to white.
 - 色彩：saturated amber, blood red, army green, tungsten orange; mixed color temperatures, no unified grade.
 - 材质：35mm grain, smoke, sweat, blood, rain, dust on glass.
-- 画幅：2.39:1 anamorphic, 2.76:1 for 65mm.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly push toward the subject, no cut, camera at low angle.
@@ -29,6 +28,6 @@ no softbox diffusion, no fill light, no visible detail in the shadows, no correc
 - 禁止漂移：no soft light, no teal-orange LUT, no clean digital sharpness, no drone establishing shot.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 100`；用硬光电影静帧做 `--sref`，避免默认柔光。
+- Midjourney：`--style raw --stylize 100`；用硬光电影静帧做 `--sref`，避免默认柔光。
 - SDXL / ComfyUI：negative 固定 no fill light / no softbox；ControlNet depth 锁低角度纵深；可加颗粒 LoRA。
 - Runway / Kling / Sora / Veo：首帧给硬光静帧，只写一种缓慢推轨，6–10 秒，24fps，不叠加手持与变焦。

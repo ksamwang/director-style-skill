@@ -5,7 +5,7 @@ style_file: ../directors/tsai-ming-liang.md
 ---
 
 ## 风格锚点
-Cinematic film still, bare Taipei apartment or flooded corridor, fixed extreme wide-angle full shot, low light from a single practical source, subject centered or pressed against the frame edge, damp stained walls, mattress, leaking water, cool cyan-grey, mould green and sodium yellow, 1.85:1, oppressive stillness, minimal, no camera movement.
+Cinematic film still, bare Taipei apartment or flooded corridor, fixed extreme wide-angle full shot, low light from a single practical source, subject centered or pressed against the frame edge, damp stained walls, mattress, leaking water, cool cyan-grey, mould green and sodium yellow, oppressive stillness, minimal, no camera movement.
 
 ## 图像提示
 - 主体 / 场景：a man sitting on a mattress in an empty room with water pooling on the floor; a woman alone in a corridor; a figure at the edge of a ruined space; the room is a resident, not a set.
@@ -14,7 +14,6 @@ Cinematic film still, bare Taipei apartment or flooded corridor, fixed extreme w
 - 光线：low illumination, practical sources only, no dramatic key, no fill.
 - 色彩：cyan-grey, mould green, sodium yellow — three hues maximum.
 - 材质：water, damp wall, mattress, tile, peeling paint, stains.
-- 画幅：1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：completely static; the camera never follows and holds after the subject leaves the frame.
@@ -26,13 +25,13 @@ no score, no shortened cut to fix pacing, no psychological flashback or voice-ov
 
 ## 一致性锚点
 - 色彩：cyan-grey, mould green, sodium yellow; three hues maximum, dirty and cold.
-- 镜头：wide-angle, deep focus, 1.85:1, fixed.
+- 镜头：wide-angle, deep focus, fixed.
 - 光线：low-level practical source, no fill, damp falloff.
 - 构图：full shot, subject centered or pressed to the edge, room given equal weight.
 - 材质：water, damp wall, mattress, tile, peeling paint.
 - 禁止漂移：no bright clean interior, no music, no camera movement, no glamorous ruin, no fast cut.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`；用潮湿空房间的实拍参考做 `--sref`，不要用"破败风"室内设计图。
+- Midjourney：`--style raw --stylize 50`；用潮湿空房间的实拍参考做 `--sref`，不要用"破败风"室内设计图。
 - SDXL / ComfyUI：固定广角全景 prompt 块；用 ControlNet depth 锁房间与人物位置；negative 排除 clean、bright、glamour。
 - Runway / Kling / Sora / Veo：首帧用固定全景，只给完全静止机位，40–60 秒，24fps；人物离画后继续拍空房间，不要剪短。

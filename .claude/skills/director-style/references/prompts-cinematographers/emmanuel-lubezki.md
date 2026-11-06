@@ -5,7 +5,7 @@ style_file: ../cinematographers/emmanuel-lubezki.md
 ---
 
 ## 风格锚点
-Cinematic film still, immersive wide-angle frame, 14–27mm lens, camera inside the action, natural available light, magic-hour sky, low contrast with retained highlights, dust and sweat in the air, earth-brown and grey-green palette, deep space, subject off-center, environment pressing at the edges, 1.85:1, 35mm grain, continuous, intimate, unposed.
+Cinematic film still, immersive wide-angle frame, 14–27mm lens, camera inside the action, natural available light, magic-hour sky, low contrast with retained highlights, dust and sweat in the air, earth-brown and grey-green palette, deep space, subject off-center, environment pressing at the edges, 35mm grain, continuous, intimate, unposed.
 
 ## 图像提示
 - 主体 / 场景：a person moving through a real landscape or crowded interior; the environment is always visible.
@@ -14,7 +14,6 @@ Cinematic film still, immersive wide-angle frame, 14–27mm lens, camera inside 
 - 光线：available light — window, sky, fire, car headlights; low ratio, retained highlights.
 - 色彩：earth brown, grey-green, sky blue; natural, no unified teal-orange grade.
 - 材质：dust, sweat, water, fire, leaves, real locations.
-- 画幅：1.85:1 or 2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld or Steadicam follow, camera inside the action, no cut.
@@ -29,6 +28,6 @@ no studio lighting, no shot-reverse-shot coverage, no locked-off master with zoo
 - 禁止漂移：no studio fill, no orange-teal LUT, no drone-only landscape, no clean digital sharpness.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 150`；用一张自然光电影静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 150`；用一张自然光电影静帧做 `--sref`。
 - SDXL / ComfyUI：广角 LoRA 可选；ControlNet depth 锁纵深；negative 排除 studio lighting。
 - Runway / Kling / Sora / Veo：从首帧开始，只给一种连续跟拍，10–30 秒，24fps，不切。

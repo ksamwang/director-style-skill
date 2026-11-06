@@ -5,7 +5,7 @@ style_file: ../directors/satyajit-ray.md
 ---
 
 ## 风格锚点
-Cinematic black-and-white film still, Indian humanist realism, 1.37:1 Academy ratio, 35–50mm at eye level, subject small in a doorway or under a tree, deep tonal range from available daylight, mud walls and worn cloth, long static observation, patient, unhurried, no melodrama.
+Cinematic black-and-white film still, Indian humanist realism, Academy ratio, 35–50mm at eye level, subject small in a doorway or under a tree, deep tonal range from available daylight, mud walls and worn cloth, long static observation, patient, unhurried, no melodrama.
 
 ## 图像提示
 - 主体 / 场景：a boy mending a broken instrument by a window; a young wife at a barred window holding a letter; a child running through a courtyard, adults watching from a doorway.
@@ -14,7 +14,6 @@ Cinematic black-and-white film still, Indian humanist realism, 1.37:1 Academy ra
 - 光线：natural and practical; window light indoors, un-supplemented; deep blacks and soft highlights held in one continuous range.
 - 色彩：black-and-white built on tonal separation, not filters; later color work stays low-saturation natural.
 - 材质：mud wall, old wood, cotton cloth, brass and pottery, rain, dust.
-- 画幅：1.37:1 Academy.
 
 ## 视频提示
 - 镜头运动（只选一种）：camera holds completely still; the only move is one unhurried pan after the subject leaves the frame.
@@ -25,10 +24,10 @@ Cinematic black-and-white film still, Indian humanist realism, 1.37:1 Academy ra
 no poverty as spectacle, no music cueing sadness before the character turns, no saintly characters, no fast cutting for drama, no high-angle pity shot, no sweeping landscape lyricism standing in for feeling, no ignored women's interiority, no growth-as-success-story, no sepia nostalgia filter, no handheld, no telephoto glamour.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：monochrome tonal range, 35–50mm, 1.37:1; available daylight with window key and no fill; frame-within-frame, subject in one corner, sightline out of frame; mud wall, old wood, cotton, brass, rain.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：monochrome tonal range, 35–50mm; available daylight with window key and no fill; frame-within-frame, subject in one corner, sightline out of frame; mud wall, old wood, cotton, brass, rain.
 - 禁止漂移：no modern crisp digital black-and-white, no bleeding highlights, no anamorphic flare, no aerial vista, no contemporary clothing or interiors, no forced shallow depth of field.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；黑白用 `black and white film still` 前置并加 `--no color`；`--sref` 用《大地之歌》静帧。
+- Midjourney：`--style raw --stylize 100`；黑白用 `black and white film still`前置并加 `--no color`；`--sref`用《大地之歌》静帧。
 - SDXL / ComfyUI：B&W 胶片 LoRA 轻量；ControlNet canny 或 depth 锁门框／窗框；negative 里压掉 `sepia, warm tint, HDR`。
 - Runway / Kling / Sora / Veo：首帧多为静止中景或远景，运动写 `static`；10–25 秒、24fps；动作具体到"修补琴弦""写字"；不要写 pan + zoom 组合。

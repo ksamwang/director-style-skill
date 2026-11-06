@@ -18,7 +18,7 @@
 | 色彩 | specific hues + saturation + contrast（例：saturated emerald green and deep red, low-key） |
 | 光线 | source（neon / tungsten / window / overcast）+ direction + hardness + ratio |
 | 材质 | film grain / smoke / rain / dust / silk / concrete / cheap wallpaper |
-| 画幅 | 1.37:1 / 1.66:1 / 1.85:1 / 2.39:1 / 4:3 / 16:9 |
+| 画幅（交付参数） | 由用户/平台设定；不写入 prompt。档案里的画幅只作参考。 |
 
 ## 从「镜头语法」提取
 
@@ -38,12 +38,18 @@
 - 不要干净数字感 → `no clean digital sharpness, no HDR, no modern glass architecture`
 - 不要暖色怀旧滤镜 → `no warm nostalgia filter, no sepia`
 
+## 画幅不写入提示
+
+画幅是交付参数，不是风格 token。用户/平台自己选 16:9、9:16、1:1 等；prompt 里只写**构图逻辑**（横向延展、纵向层次、人物在边缘），不写 “2.39:1”。
+
+档案里的「参考画幅」只用于理解导演习惯，不进入生成。导演的风格如果依赖宽银幕，用“横向延展 / 人物在边缘 / 地平线压低”来保留；用户选竖幅时，改成“前景/中景/背景的纵向层次”，不要硬塞宽银幕构图。
+
 ## 一致性锚点
 
 跨镜头生成时，锁住五件事：
 
 1. **色彩**：3–5 个色相 + 饱和度 + 对比度。
-2. **镜头**：一个主焦段 + 一个画幅。
+2. **镜头**：一个主焦段；画幅由用户/平台设定。
 3. **光线**：一个主光源 + 光比。
 4. **构图**：机位高度 + 前景习惯。
 5. **材质**：胶片/颗粒/烟雾/雨/织物。
@@ -54,7 +60,7 @@
 
 ### Midjourney
 
-- 用 `--ar` 锁画幅，`--style raw` 降低默认美化，`--stylize` 控制风格强度。
+- 画幅由平台控件/项目设置决定，不写 `--ar`；`--style raw` 降低默认美化，`--stylize` 控制风格强度。
 - 风格锚点放最前，主体放中间，技术参数放最后。
 - 需要跨图一致时，用 `--sref` 或参考图，不要只靠文字。
 

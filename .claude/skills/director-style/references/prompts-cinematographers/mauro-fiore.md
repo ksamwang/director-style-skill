@@ -5,16 +5,15 @@ style_file: ../cinematographers/mauro-fiore.md
 ---
 
 ## 风格锚点
-Saturated digital action film still, hard low-angle sunlight, strong rim light, deep clean blacks, orange amber and cyan and magenta color blocks, wide 24mm lens close to the body, kinetic framing, anamorphic flare, sweat and metal, high contrast, fine digital grain, 2.39:1, graphic, muscular, poster-like.
+Saturated digital action film still, hard low-angle sunlight, strong rim light, deep clean blacks, orange amber and cyan and magenta color blocks, wide 24mm lens close to the body, kinetic framing, anamorphic flare, sweat and metal, high contrast, fine digital grain, graphic, muscular, poster-like.
 
 ## 图像提示
 - 主体 / 场景：a body in motion on a street, rooftop, desert, or aircraft deck; environment readable as a stage for action.
 - 景别 / 构图：wide action master or tight medium; subject centered or on a third, background divided into color blocks, foreground occlusion.
 - 镜头 / 焦段：18–35mm wide-angle for action; 50–85mm for portraits; slight edge stretch allowed.
-- 光线：hard side or back sun, fire, neon, practical lamps; ratio 1:4–1:8; highlights may clip.
+- 光线：hard side or back sun, fire, neon, practical lamps; ratio –; highlights may clip.
 - 色彩：saturated orange, cyan, magenta, gold; clean blacks, strong separation, no grey wash.
 - 材质：metal, glass, sweat, smoke, dust, fine digital grain.
-- 画幅：2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：low-angle tracking shot following the body.
@@ -25,10 +24,10 @@ Saturated digital action film still, hard low-angle sunlight, strong rim light, 
 no desaturated grey, no muted palette, no telephoto compression, no soft fill light, no dirty shadows, no unmotivated orbit, no blue-orange LUT, no flat lighting, no clean digital skin, no empty frame, no static camera.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：saturated orange, cyan, magenta; 18–35mm wide; hard rim at 1:4–1:8; centered or third-placed body with color-blocked background; metal, sweat, grain.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：saturated orange, cyan, magenta; 18–35mm wide; hard rim at –; centered or third-placed body with color-blocked background; metal, sweat, grain.
 - 禁止漂移：no grey LUT, no soft beauty light, no long-lens distance, no HDR clean skin, no pastel palette.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 100`；用高饱和动作静帧做 `--sref`，避免灰调参考。
+- Midjourney：`--style raw --stylize 100`；用高饱和动作静帧做 `--sref`，避免灰调参考。
 - SDXL / ComfyUI：negative 强化 `desaturated`；ControlNet depth 锁前景遮挡；色彩可用 IP-Adapter 色板。
 - Runway / Kling / Sora / Veo：首帧给低机位全身，只写低角度跟拍，4–8 秒，24fps，运动模糊打开。

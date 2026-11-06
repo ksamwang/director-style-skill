@@ -14,7 +14,6 @@ Cinematic epic fantasy film still, a tiny figure at the lower edge of a vast New
 - 光线：golden hour, god rays through cloud, firelight, visible volumetric light; no flat interior lighting.
 - 色彩：region-specific — saturated green and gold for home, grey-blue and black for the dark land, warm gold for the refuge; no single global grade.
 - 材质：stone, moss, wool, leather, mud, metal, miniature-model texture; hands-on practical detail.
-- 画幅：2.39:1.
 
 ## 视频提示
 - 镜头运动：aerial crane descent, one continuous direction; no handheld, no whip pan.
@@ -26,13 +25,13 @@ no flat postcard symmetry, no single teal-orange grade, no pure CGI landscape, n
 
 ## 一致性锚点
 - 色彩：region-specific saturated green-gold / grey-blue / warm gold, no global filter.
-- 镜头：18–35mm wide, 50–85mm close, 2.39:1, aerial perspective.
+- 镜头：18–35mm wide, 50–85mm close, aerial perspective.
 - 光线：golden hour, god rays, firelight, volumetric.
 - 构图：deep diagonals and verticals, figure at the lower edge, landscape above.
 - 材质：stone, moss, wool, leather, mud, miniature texture, 35mm grain.
 - 禁止漂移：no modern glass towers, no neon, no digital skin, no single teal-orange grade.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 250`；用新西兰山景电影静帧做 `--sref`，锁绿金与体积光。
+- Midjourney：`--style raw --stylize 250`；用新西兰山景电影静帧做 `--sref`，锁绿金与体积光。
 - SDXL / ComfyUI：ControlNet depth 锁前景草丛、中景人物、远景山脉三层；negative 保留 no CGI landscape。
 - Runway / Kling / Sora / Veo：首帧图起手，只给 aerial crane descent，6–8 秒，24fps；不要叠加横移和推轨。

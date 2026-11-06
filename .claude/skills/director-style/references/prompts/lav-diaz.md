@@ -5,7 +5,7 @@ style_file: ../directors/lav-diaz.md
 ---
 
 ## 风格锚点
-Cinematic film still, black and white, deep-focus 35mm wide shot, tiny human figures lost in a vast rain-soaked landscape, sky and mud filling most of the frame, overcast natural light, no fill, single practical source at night, heavy grey tonal range, wet earth and corrugated iron, static camera at human height, figures walking a real distance, 1.33:1, documentary gravity, no grain nostalgia.
+Cinematic film still, black and white, deep-focus 35mm wide shot, tiny human figures lost in a vast rain-soaked landscape, sky and mud filling most of the frame, overcast natural light, no fill, single practical source at night, heavy grey tonal range, wet earth and corrugated iron, static camera at human height, figures walking a real distance, documentary gravity, no grain nostalgia.
 
 ## 图像提示
 - 主体 / 场景：a man walking a long road through rain; a mother waiting outside a government office; a boat crossing a wide river; a group standing in mud.
@@ -14,7 +14,6 @@ Cinematic film still, black and white, deep-focus 35mm wide shot, tiny human fig
 - 光线：overcast natural light; at night one practical source; blacks allowed to go solid, no rim light.
 - 色彩：black and white, hard grey range; color reserved only to separate the present from history, never nostalgia.
 - 材质：wet earth, rain, corrugated iron, plastic sheeting, old documents, coconut grove.
-- 画幅：1.33:1（《北方，历史的终结》宽幅待核验）.
 
 ## 视频提示
 - 镜头运动（只选一种）：static camera at human height or slightly low, no follow.
@@ -26,13 +25,13 @@ no nostalgic sepia, no decorative film-grain filter, no dramatic climax inside t
 
 ## 一致性锚点
 - 色彩：black and white, hard grey range; color only for the present.
-- 镜头：35mm wide-angle, deep focus, 1.33:1.
+- 镜头：35mm wide-angle, deep focus.
 - 光线：overcast natural light; single practical source at night; solid blacks.
 - 构图：wide or extreme wide, figures small and off-center, sky / earth / water dominant, eye level or slightly low.
 - 材质：rain, mud, corrugated iron, plastic sheeting, old documents.
 - 禁止漂移：no drone establishing shot, no golden-hour glow, no handheld shake, no modern glass towers, no HDR.
 
 ## 平台备注
-- Midjourney：`--ar 1.33:1 --style raw --stylize 100`；黑白静帧做 `--sref`，避免 “dramatic lighting”。
+- Midjourney：`--style raw --stylize 100`；黑白静帧做 `--sref`，避免 “dramatic lighting”。
 - SDXL / ComfyUI：positive/negative 分开；用 ControlNet depth 锁“人物小、天地大”的比例；不要加浅景深 LoRA。
 - Runway / Kling / Sora / Veo：首帧图起，static camera 单一运镜，30–60 秒或平台上限，24fps，不加变速与运动模糊。

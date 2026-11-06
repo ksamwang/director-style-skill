@@ -5,7 +5,7 @@ style_file: ../cinematographers/john-alcott.md
 ---
 
 ## 风格锚点
-Candlelit 35mm frame, a single practical flame as the only source, a warm pool of light falling into absolute black, symmetrical one-point perspective, wide 20mm lens, centered figure on the axis, muted amber and cold window blue, visible film grain, 1.66:1, patient, formal, eighteenth-century stillness.
+Candlelit 35mm frame, a single practical flame as the only source, a warm pool of light falling into absolute black, symmetrical one-point perspective, wide 20mm lens, centered figure on the axis, muted amber and cold window blue, visible film grain, patient, formal, eighteenth-century stillness.
 
 ## 图像提示
 - 主体 / 场景：a figure standing alone in a symmetrical corridor, ballroom or drawing room, lit only by candles, a window or a single hanging bulb.
@@ -14,7 +14,6 @@ Candlelit 35mm frame, a single practical flame as the only source, a warm pool o
 - 光线：single practical source — candle, window, bare bulb; low key, warm pool surrounded by true black.
 - 色彩：amber candlelight, cold window blue, muted earth tones, low saturation.
 - 材质：wax, wood, snow, plaster, period fabric, 35mm grain.
-- 画幅：1.66:1 or 1.37:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：extremely slow zoom in along the central axis.
@@ -29,6 +28,6 @@ no electric fill on candlelight, no soft diffusion on the flame, no saturated ne
 - 禁止漂移：no fill light, no handheld, no neon, no modern interior, no lifted blacks.
 
 ## 平台备注
-- Midjourney：`--ar 1.66:1 --style raw --stylize 80`；用烛光对称静帧做 `--sref`，加 `--no electric light`。
+- Midjourney：`--style raw --stylize 80`；用烛光对称静帧做 `--sref`，加 `--no electric light`。
 - SDXL / ComfyUI：ControlNet canny 锁对称轴线；negative 锁 no fill light / no lifted shadows；可用烛光 LoRA。
 - Runway / Kling / Sora / Veo：首帧给对称烛光全景，只写一种极慢变焦，10–20 秒，24fps。

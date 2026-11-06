@@ -5,7 +5,7 @@ style_file: ../cinematographers/rachel-morrison.md
 ---
 
 ## 风格锚点
-Cinematic film still, intimate eye-level medium close-up, soft window light falling across natural skin, low contrast with open shadows, warm brown and quiet grey-green palette, handheld but steady, shallow focus keeping the room present, real interiors with cotton and wood, practical lamps at night, 35–50mm lens, 1.85:1, fine film grain, present-tense, tender, unretouched.
+Cinematic film still, intimate eye-level medium close-up, soft window light falling across natural skin, low contrast with open shadows, warm brown and quiet grey-green palette, handheld but steady, shallow focus keeping the room present, real interiors with cotton and wood, practical lamps at night, 35–50mm lens, fine film grain, present-tense, tender, unretouched.
 
 ## 图像提示
 - 主体 / 场景：a person sitting by a window, in a car, or at a kitchen table; a face in honest light, with the room still readable around them.
@@ -14,7 +14,6 @@ Cinematic film still, intimate eye-level medium close-up, soft window light fall
 - 光线：window and doorway daylight as key, soft side light or backlight, low ratio, open shadows, practical lamps at night.
 - 色彩：warm brown, grey-green, window blue, tungsten orange; low-to-medium saturation, natural skin tones.
 - 材质：skin, hair, cotton, wood, rain, real domestic interiors.
-- 画幅：1.85:1 or 2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：gentle handheld follow, breathing with the subject.
@@ -29,6 +28,6 @@ no dramatic hard light explaining emotion, no high-angle shot of suffering, no s
 - 禁止漂移：no studio beauty light, no cold LED, no orange-teal LUT, no aerial or wide establishing default, no plastic skin.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`；用自然光人像摄影做 `--sref`，避免杂志美妆感。
+- Midjourney：`--style raw --stylize 50`；用自然光人像摄影做 `--sref`，避免杂志美妆感。
 - SDXL / ComfyUI：negative 强化 no skin smoothing；用 palette 参考锁肤色，不锁构图。
 - Runway / Kling / Sora / Veo：首帧给窗边中近景，只写一种轻微 handheld follow；8–15 秒，24fps，不晃成纪录片。

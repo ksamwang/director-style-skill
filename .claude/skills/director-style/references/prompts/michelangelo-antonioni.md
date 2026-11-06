@@ -5,7 +5,7 @@ style_file: ../directors/michelangelo-antonioni.md
 ---
 
 ## 风格锚点
-Cinematic film still, modernist alienation, wide 28mm deep focus, a lone figure pressed to the edge of the frame, two-thirds white wall glass and concrete, asymmetric negative space, back turned to camera, flat overcast light with no direction, desaturated grey-green and industrial red, fog, bare unfinished apartment, 35mm grain, 1.85:1, emptied, suspended, cold.
+Cinematic film still, modernist alienation, wide 28mm deep focus, a lone figure pressed to the edge of the frame, two-thirds white wall glass and concrete, asymmetric negative space, back turned to camera, flat overcast light with no direction, desaturated grey-green and industrial red, fog, bare unfinished apartment, 35mm grain, emptied, suspended, cold.
 
 ## 图像提示
 - 主体 / 场景：a bourgeois couple or a single woman in a bare modernist apartment, a port, a factory edge, a fogbound street; they stand apart and look in different directions.
@@ -14,7 +14,6 @@ Cinematic film still, modernist alienation, wide 28mm deep focus, a lone figure 
 - 光线：flat, diffuse, directionless overcast light; no dramatic contrast, no pools of shadow.
 - 色彩：desaturated grey-green, concrete grey, industrial red as an environmental stain; or coarse black and white where rock and sea read harder than skin.
 - 材质：white plaster, plate glass, raw concrete, unfinished surfaces, fog, dust on sills.
-- 画幅：1.85:1 (early work 1.37:1).
 
 ## 视频提示
 - 镜头运动（只选一种）：static camera; at most a very slow lateral drift that reveals more empty space, never a push-in.
@@ -29,6 +28,6 @@ no suspense plotting, no murder-mystery framing, no close-up emotional rescue, n
 - 禁止漂移：no warm wood interiors, no golden-hour romance, no centered hero framing, no shallow-focus portrait, no modern glass towers with clean LED light, no crowd spectacle.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 150`；`--sref` 用一张 1960 年代欧洲黑白或低饱和建筑静帧，避免默认电影感打光。
-- SDXL / ComfyUI：negative 里明确写掉 `shallow depth of field` 与 `dramatic lighting`；用 ControlNet depth 锁“建筑占三分之二、人物在边缘”的构图。
-- Runway / Kling / Sora / Veo：首帧给空景加边缘人物，运动只写 `static` 或 `very slow lateral drift`；不要让人物走动被镜头跟随。
+- Midjourney：`--style raw --stylize 150`；`--sref`用一张 1960 年代欧洲黑白或低饱和建筑静帧，避免默认电影感打光。
+- SDXL / ComfyUI：negative 里明确写掉 `shallow depth of field`与 `dramatic lighting`；用 ControlNet depth 锁“建筑占三分之二、人物在边缘”的构图。
+- Runway / Kling / Sora / Veo：首帧给空景加边缘人物，运动只写 `static`或 `very slow lateral drift`；不要让人物走动被镜头跟随。

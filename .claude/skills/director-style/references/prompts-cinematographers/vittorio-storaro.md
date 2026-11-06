@@ -5,7 +5,7 @@ style_file: ../cinematographers/vittorio-storaro.md
 ---
 
 ## 风格锚点
-Operatic anamorphic film still, 2.35:1, one dominant hue per scene, amber key against blue fill, coloured light rather than white light, deep shadow that keeps its colour, smoke giving volume to every beam, symmetrical architecture framing the figure, slow lateral drift, Technicolor density, 35mm grain, painted, deliberate, symbolic.
+Operatic anamorphic film still, one dominant hue per scene, amber key against blue fill, coloured light rather than white light, deep shadow that keeps its colour, smoke giving volume to every beam, symmetrical architecture framing the figure, slow lateral drift, Technicolor density, 35mm grain, painted, deliberate, symbolic.
 
 ## 图像提示
 - 主体 / 场景：a solitary figure inside a painted architectural interior or a smoke-filled exterior; the space is built from arches, columns and doorways.
@@ -14,7 +14,6 @@ Operatic anamorphic film still, 2.35:1, one dominant hue per scene, amber key ag
 - 光线：tungsten key with amber gel against HMI fill with blue gel; two colour temperatures, no neutral white.
 - 色彩：one dominant hue per image, amber / red / green / blue progression, saturated, blacks that still carry colour.
 - 材质：smoke, silk, velvet, marble, gel-coloured practical lamps, painted flats.
-- 画幅：2.35:1 anamorphic.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow crane rise.
@@ -29,6 +28,6 @@ no neutral white key light, no evenly lit scene, no handheld camera, no more tha
 - 禁止漂移：no white balance to neutral, no daylight-flat look, no modern glass architecture, no desaturated palette, no handheld coverage.
 
 ## 平台备注
-- Midjourney：`--ar 2.35:1 --style raw --stylize 250`；用一张有色光源的舞台静帧做 `--sref`，避免默认的橙青。
+- Midjourney：`--style raw --stylize 250`；用一张有色光源的舞台静帧做 `--sref`，避免默认的橙青。
 - SDXL / ComfyUI：用 IP-Adapter 锁色板（单主色 + 一个补色）；ControlNet lineart 锁对称建筑；negative 排除 white key light。
 - Runway / Kling / Sora / Veo：先给首帧，只写一种 slow crane rise，8–12 秒，24fps；不要叠加横移或推近。

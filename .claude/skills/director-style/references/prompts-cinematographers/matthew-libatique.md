@@ -5,16 +5,15 @@ style_file: ../cinematographers/matthew-libatique.md
 ---
 
 ## 风格锚点
-Raw handheld film still, 18–35mm wide-angle pressed close to the face, hard side light, crushed blacks and blown highlights, heavy 16mm grain, halation and lens flare, off-balance framing, skin with sweat, desaturated grey or saturated red-black palette, 1.85:1, nervous, subjective, physical, unpolished.
+Raw handheld film still, 18–35mm wide-angle pressed close to the face, hard side light, crushed blacks and blown highlights, heavy 16mm grain, halation and lens flare, off-balance framing, skin with sweat, desaturated grey or saturated red-black palette, nervous, subjective, physical, unpolished.
 
 ## 图像提示
 - 主体 / 场景：a performer, dancer, or addict in a narrow room, corridor, or backstage space; the body fills the frame.
 - 景别 / 构图：medium close-up to close-up; off-balance, cropped at the edge, foreground obstruction, no safe center.
 - 镜头 / 焦段：18–35mm wide-angle close to the face; 50–85mm for a held portrait.
-- 光线：hard side or top light, window or practical; ratio 1:6 or more; highlights may blow, shadows may crush.
+- 光线：hard side or top light, window or practical; ratio or more; highlights may blow, shadows may crush.
 - 色彩：saturated red and black, or fully desaturated grey; one film, one palette, no neutral middle.
 - 材质：16mm grain, sweat, blood, feathers, glass, skin texture, halation.
-- 画幅：1.85:1 or 1.33:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow.
@@ -25,10 +24,10 @@ Raw handheld film still, 18–35mm wide-angle pressed close to the face, hard si
 no gimbal smoothness, no soft beauty light, no unified LUT, no clean digital skin, no fake grain overlay, no symmetrical composition, no telephoto distance, no even fill, no stable tripod, no polished commercial look.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red-black or desaturated grey; 18–35mm wide; hard side light at 1:6+; off-balance close framing; 16mm grain, sweat, halation.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red-black or desaturated grey; 18–35mm wide; hard side light at +; off-balance close framing; 16mm grain, sweat, halation.
 - 禁止漂移：no smooth gimbal, no soft key, no clean skin, no HDR, no neutral grey LUT, no wide establishing distance.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 50`；用高颗粒手持静帧做 `--sref`，关掉默认美化。
+- Midjourney：`--style raw --stylize 50`；用高颗粒手持静帧做 `--sref`，关掉默认美化。
 - SDXL / ComfyUI：negative 排除 `smooth`、`beauty lighting`；ControlNet pose 锁身体；颗粒可在后期叠加而不是靠 prompt。
 - Runway / Kling / Sora / Veo：首帧给贴脸广角，只写手持跟随，5–10 秒，24fps，不开稳定器。

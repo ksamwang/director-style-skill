@@ -5,7 +5,7 @@ style_file: ../directors/coen-brothers.md
 ---
 
 ## 风格锚点
-Cinematic film still, locked static wide shot, figure small in one corner of a large empty space, flat eye-level camera, 35–50mm wide angle with deep focus, source-motivated practical light, no fill in the darks, regional genre texture — snow, cracked wood, highway, cheap wallpaper — muted earth tones, film grain, 1.85:1, deadpan, vast indifference.
+Cinematic film still, locked static wide shot, figure small in one corner of a large empty space, flat eye-level camera, 35–50mm wide angle with deep focus, source-motivated practical light, no fill in the darks, regional genre texture — snow, cracked wood, highway, cheap wallpaper — muted earth tones, film grain, deadpan, vast indifference.
 
 ## 图像提示
 - 主体 / 场景：a man in a snowbound parking lot beside a car; a clerk behind a counter and a stranger in front of it; an empty motel room after something happened; a face explaining itself to no one.
@@ -14,7 +14,6 @@ Cinematic film still, locked static wide shot, figure small in one corner of a l
 - 光线：motivated practical light, underexposed darks left alone, night not filled in; no showing off.
 - 色彩：genre-specific texture rather than one grade — high-contrast noir, western wide sky, saturated musical color; muted earth otherwise.
 - 材质：snow, wood, asphalt, cheap wallpaper, motel carpet, bloodstains only after the fact.
-- 画幅：1.85:1 or 2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：locked static frame; the camera does not console or chase.
@@ -27,13 +26,13 @@ no handheld tension, no slick music-video coverage, no warm filter making absurd
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：以下五项为全片锁定值，逐镜不重设。
 - 色彩：muted earth, high-contrast noir, wide-sky western; never one decorative grade.
-- 镜头：35–50mm wide, extreme close-up, 1.85:1 or 2.39:1.
+- 镜头：35–50mm wide, extreme close-up, or .
 - 光线：source-motivated, no fill, unglamorous.
 - 构图：flat eye level, figure small in a corner, large blank space.
 - 材质：snow, wood, asphalt, wallpaper, carpet, film grain.
 - 禁止漂移：no drone aerials, no teal-orange blockbuster grade, no modern urban glass, no handsome hero lighting.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 150`；用空旷雪地或公路静帧做 `--sref` 锁空间比例。
+- Midjourney：`--style raw --stylize 150`；用空旷雪地或公路静帧做 `--sref`锁空间比例。
 - SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁“人物在角落、大面积空白”的构图。
 - Runway / Kling / Sora / Veo：首帧图 + 只写 static；5–8 秒、24fps，暴力只拍事后房间。

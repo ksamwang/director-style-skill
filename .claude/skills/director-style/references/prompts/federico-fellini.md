@@ -5,7 +5,7 @@ style_file: ../directors/federico-fellini.md
 ---
 
 ## 风格锚点
-Cinematic film still, 1960s Italian carnival dreamscape, centered radial composition around a circular piazza, crowd filling all four corners, one face pushing out of the mass, saturated red white and gold against cheap painted posters, frontal hard light turning faces into exhibits, night scenes dissolved in fog and backlight, plaster masks, wigs, paper-mâché, wet cloth, 35mm film grain, 1.85:1, theatrical, grotesque, tender.
+Cinematic film still, 1960s Italian carnival dreamscape, centered radial composition around a circular piazza, crowd filling all four corners, one face pushing out of the mass, saturated red white and gold against cheap painted posters, frontal hard light turning faces into exhibits, night scenes dissolved in fog and backlight, plaster masks, wigs, paper-mâché, wet cloth, 35mm film grain, theatrical, grotesque, tender.
 
 ## 图像提示
 - 主体 / 场景：a crowd arranged as a ceremony — a piazza, a circus ring, a family dinner, a casting session; a single sweating face squeezed out of the group, not a clean two-shot.
@@ -14,7 +14,6 @@ Cinematic film still, 1960s Italian carnival dreamscape, centered radial composi
 - 光线：frontal hard light that makes the face an exhibit; night scenes in large fog and strong backlight that turn the street into a set.
 - 色彩：saturated red, white, gold against cheap poster color; fog blue in night scenes; no naturalistic soft midtones.
 - 材质：plaster masks, false hair, paper-mâché, painted canvas flats, wet cloth, condensation, film grain.
-- 画幅：1.85:1 (early work 1.37:1).
 
 ## 视频提示
 - 镜头运动（只选一种）：slow circular tracking that orbits the crowd, then stops dead on one face and holds.
@@ -29,6 +28,6 @@ no soft focus, no warm nostalgia filter, no sepia, no even fill light, no natura
 - 禁止漂移：no even studio lighting, no soft beauty light, no clean modern interiors, no digital skin, no tasteful muted palette, no empty frame without a crowd.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 300`；用一张 1960 年代意大利黑白或彩色静帧做 `--sref`，锁住颗粒与硬光。
+- Midjourney：`--style raw --stylize 300`；用一张 1960 年代意大利黑白或彩色静帧做 `--sref`，锁住颗粒与硬光。
 - SDXL / ComfyUI：固定风格锚点块 + 粗颗粒 LoRA；用 ControlNet depth 锁圆形/放射构图，避免模型默认给对称单人肖像。
 - Runway / Kling / Sora / Veo：先给一张人群环绕的首帧图，只写一种环绕运镜，5–8 秒，24fps；不要同时要求推近与环绕。

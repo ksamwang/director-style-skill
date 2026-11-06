@@ -14,7 +14,6 @@ Cinematic film still, handheld medium close-up, camera pressed close behind a sh
 - 光线：practical sources — window, tungsten lamp, neon, headlights; mixed color temperatures left uncorrected, medium-high ratio.
 - 色彩：tungsten amber, daylight cyan, ochre, earth yellow, mist green; regional palette, medium saturation, dirt retained.
 - 材质：film grain, sweat, dust, worn fabric, peeling paint, real street surfaces.
-- 画幅：1.85:1 or 2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：handheld follow, camera breathing behind the subject.
@@ -29,6 +28,6 @@ no unified teal-orange LUT, no even beauty lighting, no gimbal-smooth replacemen
 - 禁止漂移：no unified grade, no studio fill, no gimbal glide, no fashion lighting, no modern glass skyline.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 100`；用纪实街头摄影做 `--sref`，避免“异国情调”美化。
+- Midjourney：`--style raw --stylize 100`；用纪实街头摄影做 `--sref`，避免“异国情调”美化。
 - SDXL / ComfyUI：palette 参考锁冷暖分离；negative 排除 beauty lighting 与 teal-orange。
 - Runway / Kling / Sora / Veo：首帧给手持中近景，只写一种 handheld follow；8–20 秒，24fps，不叠加推进或摇镜。

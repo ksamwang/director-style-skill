@@ -5,7 +5,7 @@ style_file: ../cinematographers/allen-daviau.md
 ---
 
 ## 风格锚点
-Cinematic film still, soft natural window light diffused through sheer curtains, warm amber and honey tones, gentle backlight rimming hair and shoulders, low contrast with glowing highlights, suburban American interior, framed by a doorway or window, dust motes floating in a light beam, practical tungsten lamps, 35–85mm lens, stable camera, 1.85:1, 35mm grain and halation, nostalgic, tender, lived-in.
+Cinematic film still, soft natural window light diffused through sheer curtains, warm amber and honey tones, gentle backlight rimming hair and shoulders, low contrast with glowing highlights, suburban American interior, framed by a doorway or window, dust motes floating in a light beam, practical tungsten lamps, 35–85mm lens, stable camera, 35mm grain and halation, nostalgic, tender, lived-in.
 
 ## 图像提示
 - 主体 / 场景：a family or a lone child in an ordinary American room; a figure standing at a bright doorway; the room feels lived-in and slightly worn.
@@ -14,7 +14,6 @@ Cinematic film still, soft natural window light diffused through sheer curtains,
 - 光线：window as key through sheer curtains, warm backlight and rim, low contrast, soft highlight bloom, practical lamps in frame.
 - 色彩：amber, cream, old wood, night blue; medium saturation, warm but not sepia.
 - 材质：sheer fabric, wood grain, wallpaper, dust, haze, suburban practicals.
-- 画幅：1.85:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：very slow dolly in, almost imperceptible.
@@ -29,6 +28,6 @@ no hard direct light on the face, no high-contrast film-noir lighting, no handhe
 - 禁止漂移：no hard studio key, no cold daylight, no handheld, no clean digital skin, no contemporary minimalist interior.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 150`；用 1980 年代柯达胶片静帧做 `--sref`，避免塑料感。
+- Midjourney：`--style raw --stylize 150`；用 1980 年代柯达胶片静帧做 `--sref`，避免塑料感。
 - SDXL / ComfyUI：用 soft-light 参考图与暖色 palette；negative 排除 hard light 与 LED white。
 - Runway / Kling / Sora / Veo：首帧给室内窗光，只写一种极慢 dolly in；8–15 秒，24fps，不晃镜。

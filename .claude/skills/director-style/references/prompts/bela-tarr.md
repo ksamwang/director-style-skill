@@ -5,7 +5,7 @@ style_file: ../directors/bela-tarr.md
 ---
 
 ## 风格锚点
-Cinematic film still, black and white, low horizon with heavy overcast sky filling the upper frame, a small figure seen from behind at half to two metres, 35mm lens, wide but restrained, wet mud, rotting plaster, corrugated iron, sustained grain, no close-up, waiting without event, 1.66:1.
+Cinematic film still, black and white, low horizon with heavy overcast sky filling the upper frame, a small figure seen from behind at half to two metres, 35mm lens, wide but restrained, wet mud, rotting plaster, corrugated iron, sustained grain, no close-up, waiting without event.
 
 ## 图像提示
 - 主体 / 场景：a farmer or night watchman seen from behind, walking a muddy village road; a tavern yard in rain; a bare plain with a low hut. Weather occupies two thirds of the frame.
@@ -14,7 +14,6 @@ Cinematic film still, black and white, low horizon with heavy overcast sky filli
 - 光线：overcast daylight, window light, practical lamp; high lights never clip, texture kept in the shadows, no dramatic contrast ratio.
 - 色彩：black and white grayscale; natural-colour passages desaturated to a narrow range.
 - 材质：wet plaster, mud, unpainted wood, corrugated iron, animal hide, rain on stone; no smooth metal or glass.
-- 画幅：1.66:1, black and white.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow follow from behind, at walking pace; when the figure stops the camera only drifts a few centimetres, like breathing.
@@ -29,6 +28,6 @@ no close-up, no cutaway reaction shot, no psychological flashback, no explanator
 - 禁止漂移：no colour grade, no drone landscape, no handheld intimacy, no close-up face, no clean modern surfaces, no beautiful-emptiness framing.
 
 ## 平台备注
-- Midjourney：`--ar 5:3 --style raw --stylize 150 --no close-up, color`；用一张《撒旦探戈》静帧做 `--sref`，权重压到中低，让灰阶从曝光里来。
+- Midjourney：`--style raw --stylize 150 --no close-up, color`；用一张《撒旦探戈》静帧做 `--sref`，权重压到中低，让灰阶从曝光里来。
 - SDXL / ComfyUI：positive 固定块 + 黑白胶片 LoRA（低强度）；negative 单列；用 ControlNet depth 锁低地平线与人物位置，不要用 canny（会强化轮廓，破坏湿泥的软边）。
 - Runway / Kling / Sora / Veo：从背影首帧开始，只给 “slow follow at walking pace” 一种运镜；时长拉到 30 秒以上；镜头停止跟随的瞬间不要改成推近。

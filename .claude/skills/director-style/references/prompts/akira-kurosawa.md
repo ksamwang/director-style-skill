@@ -14,7 +14,6 @@ Cinematic film still, epic historical action, three planes of depth held in one 
 - 光线：hard direct outdoor sun; rain, snow, dust and smoke cut the light into layers; no soft studio light.
 - 色彩：high-contrast monochrome, deep blacks and blown highlights; in color, large flat blocks per faction, no delicate midtones.
 - 材质：mud, dented armor, cracked wood, fire, rain, dirty cloth.
-- 画幅：1.37:1 monochrome; 2.35:1 Tohoscope after 1958; 1.85:1 for late color.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow lateral track following the direction of force — running men, horses, slanting rain; no handheld, no zoom.
@@ -26,14 +25,14 @@ no handheld camera, no zoom lens, no duel in clear weather, no shot-reverse-shot
 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：跨镜头锁定以下五项。
-  - 色彩：high-contrast black and white; in color, flat faction blocks, no subtle grading.
-  - 镜头：50–200mm, low and high angle paired, 1.37:1 (2.35:1 after 1958, 1.85:1 late color).
-  - 光线：hard sun, weather used as light layers.
-  - 构图：three planes, opposing figures at the frame edges, empty center.
-  - 材质：mud, armor, wood, fire, rain.
+ - 色彩：high-contrast black and white; in color, flat faction blocks, no subtle grading.
+ - 镜头：50–200mm, low and high angle paired, ( after 1958, late color).
+ - 光线：hard sun, weather used as light layers.
+ - 构图：three planes, opposing figures at the frame edges, empty center.
+ - 材质：mud, armor, wood, fire, rain.
 - 禁止漂移：no clean digital mud, no wire-fu floating, no teal-and-orange, no modern armor, no drone shot, no shallow-focus hero portrait, no glossy rain.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 200`；把 `black and white` 放在前段，否则默认彩色；用一张雨战静帧做 `--sref`；避免 `epic fantasy`。
+- Midjourney：`--style raw --stylize 200`；把 `black and white`放在前段，否则默认彩色；用一张雨战静帧做 `--sref`；避免 `epic fantasy`。
 - SDXL / ComfyUI：黑白胶片颗粒 LoRA + ControlNet depth 搭三层空间；negative 单独写手持、变焦、柔光、浅景深。
 - Runway / Kling / Sora / Veo：先给宽画幅战场首帧，只给一次横移，3–5 秒、24fps；多机位动作靠剪辑完成，不要在一次生成里叠运动。

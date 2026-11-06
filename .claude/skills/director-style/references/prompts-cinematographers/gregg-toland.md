@@ -5,7 +5,7 @@ style_file: ../cinematographers/gregg-toland.md
 ---
 
 ## 风格锚点
-Black-and-white deep-focus frame, 24mm wide-angle, low camera with the ceiling in shot, everything sharp from foreground hand to far doorway, hard window light and practical lamps, high chiaroscuro contrast, staged figures on multiple planes, 1.37:1, silver-gelatin grain, theatrical depth, 1940s, monumental, democratic.
+Black-and-white deep-focus frame, 24mm wide-angle, low camera with the ceiling in shot, everything sharp from foreground hand to far doorway, hard window light and practical lamps, high chiaroscuro contrast, staged figures on multiple planes, silver-gelatin grain, theatrical depth, 1940s, monumental, democratic.
 
 ## 图像提示
 - 主体 / 场景：two or three figures arranged in depth in a large room, a desk or a dinner table in the foreground, a doorway far behind.
@@ -14,7 +14,6 @@ Black-and-white deep-focus frame, 24mm wide-angle, low camera with the ceiling i
 - 光线：hard window light, practical table lamps and fire, high contrast, faces half lit.
 - 色彩：black and white, silver highlights, deep blacks, no color.
 - 材质：wood, dust, smoke, plaster, fabric, silver-gelatin grain.
-- 画幅：1.37:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly in along the axis of the room.
@@ -29,6 +28,6 @@ no shallow depth of field, no telephoto compression, no flat eye-level compositi
 - 禁止漂移：no color, no shallow focus, no soft light, no modern lens flare, no digital clean image.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 60`；用 1940s 黑白深焦静帧做 `--sref`，加 `--no color`。
+- Midjourney：`--style raw --stylize 60`；用 1940s 黑白深焦静帧做 `--sref`，加 `--no color`。
 - SDXL / ComfyUI：ControlNet depth 锁多平面纵深；negative 锁 no shallow depth of field / no color；可用黑白胶片 LoRA。
 - Runway / Kling / Sora / Veo：首帧给深焦低角度全景，只写一种缓慢推轨，10–20 秒，24fps。

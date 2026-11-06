@@ -5,7 +5,7 @@ style_file: ../directors/billy-wilder.md
 ---
 
 ## 风格锚点
-Cinematic film still, black and white, 35–50mm at medium and medium-wide, camera level with the desk facing the speaker, symmetrical straight lines, office gridding of glass partitions, slats and venetian blinds, telephone and typewriter, moderate contrast with clear faces, shadows not mysterious, 1.37:1, dry, sardonic, transactional.
+Cinematic film still, black and white, 35–50mm at medium and medium-wide, camera level with the desk facing the speaker, symmetrical straight lines, office gridding of glass partitions, slats and venetian blinds, telephone and typewriter, moderate contrast with clear faces, shadows not mysterious, dry, sardonic, transactional.
 
 ## 图像提示
 - 主体 / 场景：an insurance man across a desk from a client; a screenwriter in a rented apartment with a typewriter; three men in a newsroom arguing over a contract. The room is a grid of partitions and corridors.
@@ -14,7 +14,6 @@ Cinematic film still, black and white, 35–50mm at medium and medium-wide, came
 - 光线：moderate contrast, faces clearly lit, venetian-blind slats on the wall, shadows legible rather than gothic; no single hard source.
 - 色彩：black and white; colour work in soft pink, beige and grey only.
 - 材质：glass partition, metal desk, telephone, typewriter, venetian blind, cheap carpet; no ornate fabric.
-- 画幅：1.37:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：static camera at desk level — it stays put and lets the cutting carry the information.
@@ -29,6 +28,6 @@ no gothic horror shadow, no expressionist distortion, no low-angle looking down 
 - 禁止漂移：no film-noir pools of black, no neon, no colour grade, no handheld, no widescreen, no modern open-plan office, no glamour close-up.
 
 ## 平台备注
-- Midjourney：`--ar 4:3 --style raw --stylize 150 --no noir, color, bokeh`；`--sref` 用《公寓》或《双重赔偿》静帧；把 “desk level” 和 “symmetrical” 写进提示词。
+- Midjourney：`--style raw --stylize 150 --no noir, color, bokeh`；`--sref`用《公寓》或《双重赔偿》静帧；把 “desk level” 和 “symmetrical” 写进提示词。
 - SDXL / ComfyUI：ControlNet canny 锁桌线与门框直线；不要用 depth，容易把隔间虚化掉。negative 里加 `low angle, dramatic shadow`。
 - Runway / Kling / Sora / Veo：首帧是人物隔着桌子的正面机位；只写 “static camera”；动作只做坐下、递东西、点烟；不要写任何推拉。

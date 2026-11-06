@@ -5,7 +5,7 @@ style_file: ../directors/ingmar-bergman.md
 ---
 
 ## 风格锚点
-Cinematic film still, chamber drama, two faces close together across a bare table, background stripped of decoration, single window light from the left, half of each face falling into darkness, high-contrast black and white, linen, worn wood floor, a glass of water, 50mm framing held, 85mm close-up, deep grain, 1.37:1, intimate, severe, unconsoled.
+Cinematic film still, chamber drama, two faces close together across a bare table, background stripped of decoration, single window light from the left, half of each face falling into darkness, high-contrast black and white, linen, worn wood floor, a glass of water, 50mm framing held, 85mm close-up, deep grain, intimate, severe, unconsoled.
 
 ## 图像提示
 - 主体 / 场景：a pastor, an actress who has stopped speaking, two spouses in a summer house; a bare room with one table, one window, a bed, a glass; a church, a theatre backstage, a windswept island.
@@ -14,7 +14,6 @@ Cinematic film still, chamber drama, two faces close together across a bare tabl
 - 光线：one window as the only source, soft but directional; half the face remains in shadow; no even fill.
 - 色彩：black and white with high contrast in the early period; red, white and black in the color period, red like an interior.
 - 材质：worn wood floor, linen, faded wallpaper, a glass tumbler, a wall clock, wrinkled sheets.
-- 画幅：1.37:1 early, 1.66:1 later.
 
 ## 视频提示
 - 镜头运动（只选一种）：very slow dolly in toward the face, then stop and hold longer than is comfortable.
@@ -29,6 +28,6 @@ no sobbing melodrama, no swelling score, no psychological exposition, no scenic 
 - 禁止漂移：no warm color grade, no handheld, no wide landscape, no crowd, no modern apartment, no soft beauty light, no smiling resolution.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；用 1960 年代黑白室内剧剧照做 `--sref`，锁反差与窗光。
+- Midjourney：`--style raw --stylize 100`；用 1960 年代黑白室内剧剧照做 `--sref`，锁反差与窗光。
 - SDXL / ComfyUI：positive 固定 “single window light, half face in shadow, bare background”；negative 写掉 `softbox lighting`、`shallow bokeh`、`wide shot`。
 - Runway / Kling / Sora / Veo：首帧给双人对坐；运动只写 `very slow dolly in, then hold`，8–12 秒，24fps；不要环绕或手持。

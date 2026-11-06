@@ -5,7 +5,7 @@ style_file: ../directors/elia-suleiman.md
 ---
 
 ## 风格锚点
-Cinematic film still, fixed frontal wide shot, symmetrical deep-focus 35mm, a small deadpan man standing at the edge of the frame while the center stays empty, concrete bollards and a doorway framing him, flat even daylight, no dramatic side light, muted concrete grey, olive green and white wall, dust and a plastic chair, 1.85:1, static, dry, absurd, no music.
+Cinematic film still, fixed frontal wide shot, symmetrical deep-focus 35mm, a small deadpan man standing at the edge of the frame while the center stays empty, concrete bollards and a doorway framing him, flat even daylight, no dramatic side light, muted concrete grey, olive green and white wall, dust and a plastic chair, static, dry, absurd, no music.
 
 ## 图像提示
 - 主体 / 场景：a silent man in a suit at a checkpoint; a family on a rooftop; a man waiting at a red light that never changes; a figure at the edge of a wide street.
@@ -14,7 +14,6 @@ Cinematic film still, fixed frontal wide shot, symmetrical deep-focus 35mm, a sm
 - 光线：even daylight or practical fluorescent; no dramatic side light; when violence is offscreen the image stays bright and flat.
 - 色彩：concrete grey, olive green, white wall; natural low saturation; no political-poster contrast colors.
 - 材质：concrete, dust, plastic chair, wire mesh, old sedan.
-- 画幅：1.85:1（《必是天堂》宽幅，待核验）.
 
 ## 视频提示
 - 镜头运动（只选一种）：completely static — no push, pan, zoom or handheld.
@@ -26,13 +25,13 @@ no handheld, no zoom, no dolly, no reaction shot after the gag, no direct on-scr
 
 ## 一致性锚点
 - 色彩：concrete grey / olive green / white, low saturation.
-- 镜头：35mm wide, deep focus, 1.85:1.
+- 镜头：35mm wide, deep focus.
 - 光线：flat even daylight or fluorescent, no side light.
 - 构图：frontal symmetrical wide, subject at the edge, center empty, frame-within-frame.
 - 材质：concrete, dust, plastic chair, wire mesh.
 - 禁止漂移：no drone, no stylized color grade, no handheld documentary shake, no anamorphic flare, no emotional close-up.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 100`；用对称宽景静帧做 `--sref`；避免 “dramatic”。
+- Midjourney：`--style raw --stylize 100`；用对称宽景静帧做 `--sref`；避免 “dramatic”。
 - SDXL / ComfyUI：ControlNet depth 锁正面平视与空中央；固定 prompt 块，negative 单列。
 - Runway / Kling / Sora / Veo：首帧图起，static 单一运镜，10–20 秒，24fps；gag 之后不要切反应镜头。

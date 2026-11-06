@@ -5,7 +5,7 @@ style_file: ../directors/jia-zhangke.md
 ---
 
 ## 风格锚点
-Cinematic film still, Chinese county town, mid-long shot from across the street, figure standing at the edge of the frame or with their back to camera, loose composition with a power line, billboard or plastic stool intruding in the foreground, grey-yellow and grey-green low saturation, natural light from existing fixtures with dirty shadows, roller shutter, wall tile, plastic sheeting, rebar, a construction site rather than nostalgia, 35–50mm, 1.85:1, plain, unstaged.
+Cinematic film still, Chinese county town, mid-long shot from across the street, figure standing at the edge of the frame or with their back to camera, loose composition with a power line, billboard or plastic stool intruding in the foreground, grey-yellow and grey-green low saturation, natural light from existing fixtures with dirty shadows, roller shutter, wall tile, plastic sheeting, rebar, a construction site rather than nostalgia, 35–50mm, plain, unstaged.
 
 ## 图像提示
 - 主体 / 场景：a young man waiting outside a shuttered shop; workers eating at a plastic table beside a demolition site; a woman on a ferry; a family in a tiled living room with the TV on.
@@ -14,7 +14,6 @@ Cinematic film still, Chinese county town, mid-long shot from across the street,
 - 光线：natural and existing light only; interior lamps as they are; darks allowed to be dirty, never lifted.
 - 色彩：grey-yellow, grey-green, low saturation; no nostalgia filter.
 - 材质：roller shutters, wall tiles, plastic sheeting, old sofa, rebar, billboard.
-- 画幅：1.85:1（早期接近 1.37:1，后期 2.39:1 — 画幅变化本身是年代标记）。
 
 ## 视频提示
 - 镜头运动（只选一种）：static camera at passerby eye height with a slow pan to sweep the era's traces; after the subject exits frame, hold without following.
@@ -25,10 +24,10 @@ Cinematic film still, Chinese county town, mid-long shot from across the street,
 no nostalgia filter, no county town as spectacle, no sad strings for the poor, no camera hunting for beauty, no explanatory voice-over, no character stating the theme, no star faces, no every-shot-static long take, no handheld, no HDR, no drone aerial.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：grey-yellow and grey-green, low saturation; 35–50mm, 1.85:1; natural existing light with dirty darks; fixed passerby height, edge framing, foreground clutter; roller shutter, tile, plastic, rebar.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：grey-yellow and grey-green, low saturation; 35–50mm; natural existing light with dirty darks; fixed passerby height, edge framing, foreground clutter; roller shutter, tile, plastic, rebar.
 - 禁止漂移：no warm filter, no LED clean white, no drone, no modern glass towers, no digital skin.
 
 ## 平台备注
-- Midjourney：`--ar 1.85:1 --style raw --stylize 25`；用一张县城街景静帧做 `--sref`，压低默认美化。
+- Midjourney：`--style raw --stylize 25`；用一张县城街景静帧做 `--sref`，压低默认美化。
 - SDXL / ComfyUI：negative 强化“cinematic beauty, golden hour”；ControlNet（depth）锁前景杂物；固定“existing light”块。
 - Runway / Kling / Sora / Veo：固定机位，10–20 秒，24fps；人物出画后镜头停住，不要追。

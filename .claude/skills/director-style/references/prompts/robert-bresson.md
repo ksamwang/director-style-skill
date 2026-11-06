@@ -5,7 +5,7 @@ style_file: ../directors/robert-bresson.md
 ---
 
 ## 风格锚点
-Cinematic film still, black and white, hard directional light, few grey tones, tight close shot of a hand on a wooden door handle, the rest of the body cut off by the frame edge, 50mm lens close to the action, fixed eye-level camera, closed stone room, coarse cloth and iron bars, deep blacks with no detail, no fill, 1.37:1, austere, exact, nothing decorative.
+Cinematic film still, black and white, hard directional light, few grey tones, tight close shot of a hand on a wooden door handle, the rest of the body cut off by the frame edge, 50mm lens close to the action, fixed eye-level camera, closed stone room, coarse cloth and iron bars, deep blacks with no detail, no fill, austere, exact, nothing decorative.
 
 ## 图像提示
 - 主体 / 场景：a prisoner's hand on a door latch; a pickpocket's fingers near a coat pocket; a girl's bare feet on a stone floor; a coin on a table.
@@ -14,7 +14,6 @@ Cinematic film still, black and white, hard directional light, few grey tones, t
 - 光线：hard light, few greys, blacks blocked without detail; available light indoors, no dramatic side fill.
 - 色彩：black and white only.
 - 材质：wooden door, iron bars, coarse cloth, stone wall, skin.
-- 画幅：1.37:1（《穆谢特》1.66:1，待核验）.
 
 ## 视频提示
 - 镜头运动（只选一种）：fixed; the camera moves laterally only when a door opens or a body turns — no dolly, no zoom, no tilt.
@@ -26,13 +25,13 @@ no professional actor emoting, no emotional close-up of a face, no psychological
 
 ## 一致性锚点
 - 色彩：black and white, hard contrast, few greys.
-- 镜头：50mm, 1.37:1.
+- 镜头：50mm.
 - 光线：hard directional light, blocked blacks, no fill.
 - 构图：detail close-up, action-only framing, half the face or environment cut off.
 - 材质：wood, iron, coarse cloth, stone, skin.
 - 禁止漂移：no shallow-focus bokeh, no modern glass, no warm grade, no handheld, no drone.
 
 ## 平台备注
-- Midjourney：`--ar 1.37:1 --style raw --stylize 100`；用黑白局部特写静帧做 `--sref`；不要写 “beautiful”。
+- Midjourney：`--style raw --stylize 100`；用黑白局部特写静帧做 `--sref`；不要写 “beautiful”。
 - SDXL / ComfyUI：固定 prompt 块 + 硬光负面；ControlNet canny 锁手与门把的局部构图；不要加浅景深 LoRA。
 - Runway / Kling / Sora / Veo：首帧图起，fixed camera 单一运镜，3–6 秒，24fps，动作完成即停。

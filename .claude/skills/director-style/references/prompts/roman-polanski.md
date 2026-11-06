@@ -5,7 +5,7 @@ style_file: ../directors/roman-polanski.md
 ---
 
 ## 风格锚点
-Claustrophobic film still, 28–35mm wide lens pressed close to the shoulder, walls leaning inward and the face slightly distorted, doorframes and corridor filling the frame, figure pushed to the edge or bottom, practical light with half the face in shadow, grey, brown and sickly green or an overexposed threatening white, old wallpaper, carpet, glass, rain, 1.85:1, polite, airless, no visible exit.
+Claustrophobic film still, 28–35mm wide lens pressed close to the shoulder, walls leaning inward and the face slightly distorted, doorframes and corridor filling the frame, figure pushed to the edge or bottom, practical light with half the face in shadow, grey, brown and sickly green or an overexposed threatening white, old wallpaper, carpet, glass, rain, polite, airless, no visible exit.
 
 ## 图像提示
 - 主体 / 场景：an outsider, lodger, wife or survivor wanting a place to stay, a normal life, an undisclosed identity; neighbours, husband or landlord sharing rules that exclude the protagonist; an apartment that already belongs to someone else.
@@ -14,7 +14,6 @@ Claustrophobic film still, 28–35mm wide lens pressed close to the shoulder, wa
 - 光线：practical sources, shadow covering half the face, no fill — fill would make the character look safe.
 - 色彩：grey, brown, sickly green; overexposed white as a threat rather than as relief.
 - 材质：old wallpaper, carpet, glass, rain; the more respectable the surface, the more it hides.
-- 画幅：1.85:1；宽银幕用 2.35:1 加强压迫。
 
 ## 视频提示
 - 镜头运动（只选一种）：follow behind the subject through a door, up stairs, around a corner; the camera turns when the head turns — no pull-back, no rise.
@@ -26,13 +25,13 @@ no full monster reveal, no jump-scare stinger, no safe outdoor space, no rationa
 
 ## 一致性锚点
 - 色彩：grey / brown / sickly green, overexposed white as threat.
-- 镜头：28–35mm wide close to the face, 1.85:1.
+- 镜头：28–35mm wide close to the face.
 - 光线：practical light, half-face shadow, no fill.
 - 构图：doorframes and corridors filling the frame, figure at the edge, no exit space.
 - 材质：old wallpaper, carpet, glass, rain.
 - 禁止漂移：no wide establishing exterior, no bright clean interior, no symmetrical framing, no digital sharpness, no modern glass architecture, no consoling pull-back.
 
 ## 平台备注
-- Midjourney：`--ar 185:100 --style raw --stylize 100`（压迫段落改 `--ar 235:100`）；用一张走廊或门框挤压人物的静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 100`（压迫段落改 ``--sref`。
 - SDXL / ComfyUI：28–35mm 广角 prompt 块 + ControlNet depth 锁走廊透视和人物贴边；negative 写 `wide establishing shot, symmetrical, bright, clean, modern`；同一公寓固定 seed。
 - Runway / Kling / Sora / Veo：首帧给人物背影与门框，运镜只写 `follow from behind`，6–10 秒，24fps；禁止拉远、升高或切到室外。

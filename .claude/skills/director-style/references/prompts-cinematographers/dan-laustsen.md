@@ -5,16 +5,15 @@ style_file: ../cinematographers/dan-laustsen.md
 ---
 
 ## 风格锚点
-Gothic theatrical film still, visible light beams through smoke and rain, deep teal and cyan against amber and blood red, symmetrical centered composition framed by a doorway, hard backlight rim, wet surfaces, practical neon and tungsten, deep focus, anamorphic, 2.39:1, 35mm grain, cold and warm in the same room, operatic.
+Gothic theatrical film still, visible light beams through smoke and rain, deep teal and cyan against amber and blood red, symmetrical centered composition framed by a doorway, hard backlight rim, wet surfaces, practical neon and tungsten, deep focus, anamorphic, 35mm grain, cold and warm in the same room, operatic.
 
 ## 图像提示
 - 主体 / 场景：a figure standing in a corridor, doorway, flooded room, or rain-soaked street; architecture frames the body.
 - 景别 / 构图：medium to wide; symmetrical, centered, frame-within-frame, foreground smoke or rain.
 - 镜头 / 焦段：25–50mm anamorphic; wide enough to include the doorway and the room beyond.
-- 光线：hard side-backlight through smoke, window light, neon and tungsten practicals; ratio 1:6–1:12; visible beams.
+- 光线：hard side-backlight through smoke, window light, neon and tungsten practicals; ratio –; visible beams.
 - 色彩：teal, cyan, amber, blood red; medium-high saturation, shadow retains color, two dominant hues per scene.
 - 材质：rain, snow, blood, wet glass, velvet, polished metal, smoke.
-- 画幅：2.39:1.
 
 ## 视频提示
 - 镜头运动（只选一种）：slow dolly forward through the doorway.
@@ -25,10 +24,10 @@ Gothic theatrical film still, visible light beams through smoke and rain, deep t
 no flat teal-orange LUT, no even fill light, no smoke obscuring the subject, no handheld cutting, no green night-vision filter, no modern glass architecture, no flat frontal symmetry, no clean digital skin, no grey palette, no daylight flatness.
 
 ## 一致性锚点
-- 色彩 / 镜头 / 光线 / 构图 / 材质：teal and cyan against amber and blood red; 25–50mm anamorphic; smoke-visible backlight at 1:6–1:12; symmetrical doorway framing; rain, velvet, polished metal.
+- 色彩 / 镜头 / 光线 / 构图 / 材质：teal and cyan against amber and blood red; 25–50mm anamorphic; smoke-visible backlight at –; symmetrical doorway framing; rain, velvet, polished metal.
 - 禁止漂移：no orange-teal LUT, no LED white, no handheld shakiness, no clean modern interiors, no desaturated grey.
 
 ## 平台备注
-- Midjourney：`--ar 2.39:1 --style raw --stylize 200`；用带烟光的哥特静帧做 `--sref`。
+- Midjourney：`--style raw --stylize 200`；用带烟光的哥特静帧做 `--sref`。
 - SDXL / ComfyUI：negative 排除 `flat lighting`；ControlNet depth 锁对称门框；可用青橙分离的 palette 参考。
 - Runway / Kling / Sora / Veo：首帧给对称走廊，只写缓慢穿过门洞的推近，8–12 秒，24fps。
