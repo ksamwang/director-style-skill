@@ -74,6 +74,9 @@ film_grab: https://film-grab.com/?s=Gillo+Pontecorvo
 - 材质/美术：灰泥、石阶、军装、报纸、扩音器、尘土
 - 构图：对角线、分层，前景群众，出口可读
 
-## 视觉参考（film-grab）
-- 导演页：film-grab 未收录（https://film-grab.com/category/directors/gillo-pontecorvo/ 返回 404，搜索页 https://film-grab.com/?s=Gillo+Pontecorvo 无结果），待核验。
-- 锚点片静帧：film-grab 未收录，待核验。
+## 视觉参考（film-grab 与其他来源）
+- 导演页：film-grab 未收录（导演页 404，搜索无结果）。
+- 《阿尔及尔之战》：https://mubi.com/en/films/the-battle-of-algiers（MUBI）；https://www.criterionchannel.com/the-battle-of-algiers（Criterion Channel）
+- 《燃！》：https://mubi.com/en/films/burn（MUBI）
+- 《奥格罗》：https://mubi.com/en/films/ogro（MUBI）
+- 《蓝色大道》：https://mubi.com/en/films/the-wide-blue-road（MUBI）

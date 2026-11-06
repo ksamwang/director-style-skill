@@ -109,7 +109,7 @@ tools/                      索引生成、结构/视觉/重复度检查、规�
 ## 数据来源与边界
 
 - 档案依据公开影片与常见影史论述撰写，不收录生平、奖项、票房。
-- 视觉参考链接指向 [film-grab.com](https://film-grab.com/) 的静帧页面；只链接，不下载、不嵌入图片。
+- 视觉参考以 [film-grab.com](https://film-grab.com/) 为主；该站未收录时，用 MUBI / Criterion Channel 等可核验页面补充。只链接，不下载、不嵌入图片。
 - 不确定的影片年份或链接标“待核验”。
 
 ## License

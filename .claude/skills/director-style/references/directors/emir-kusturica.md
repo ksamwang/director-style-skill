@@ -75,7 +75,9 @@ film_grab: https://film-grab.com/category/directors/emir-kusturica/
 - 材质/美术：泥、羽毛、铜管、廉价蕾丝、兽毛、灰尘
 - 构图：斜线、分层，前景动物或乐器，人群填满四角
 
-## 视觉参考（film-grab）
+## 视觉参考（film-grab 与其他来源）
 - 导演页：https://film-grab.com/category/directors/emir-kusturica/
 - 《地下》：https://film-grab.com/2019/01/31/underground/
-- 其余锚点片：film-grab 未收录单页，待核验。
+- 《茨冈人的时代》：https://mubi.com/en/films/time-of-the-gypsies（MUBI 影片页，含剧照）
+- 《黑猫白猫》：https://mubi.com/en/films/black-cat-white-cat（MUBI 影片页，含剧照）
+- 《爸爸出差时》：https://mubi.com/en/films/when-father-was-away-on-business（MUBI 影片页）

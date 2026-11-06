@@ -74,7 +74,9 @@ film_grab: https://film-grab.com/category/directors/giuseppe-tornatore/
 - 材质/美术：胶片、灰尘、旧海报、天鹅绒座椅、灰泥墙、海盐
 - 构图：对称、画中画，装置在前景，人物像观众
 
-## 视觉参考（film-grab）
+## 视觉参考（film-grab 与其他来源）
 - 导演页：https://film-grab.com/category/directors/giuseppe-tornatore/
 - 《天堂电影院》：https://film-grab.com/2014/06/10/cinema-paradiso/
-- 其余锚点片：film-grab 未收录单页，待核验。
+- 《西西里的美丽传说》：https://mubi.com/en/films/malena（MUBI）
+- 《海上钢琴师》：https://mubi.com/en/films/the-legend-of-1900（MUBI）
+- 《巴阿里亚》：https://mubi.com/en/films/baaria（MUBI）
