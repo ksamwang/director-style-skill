@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "directors"
+DP_DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "cinematographers"
 OUT = ROOT / ".claude" / "skills" / "director-style" / "references" / "index.md"
 
 REGION_ORDER = [
@@ -127,9 +128,28 @@ def main() -> None:
     rows.sort(key=lambda r: (GROUP_ORDER.index(r["group"]) if r["group"] in GROUP_ORDER else 99,
                              region_rank(r["region"]), r["region"], r["title"]))
 
+    dp_rows = []
+    for path in sorted(DP_DIR.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        fm = parse_frontmatter(text)
+        if not fm.get("title"):
+            print(f"SKIP DP (no frontmatter): {path.name}")
+            continue
+        dp_rows.append({
+            "slug": path.stem,
+            "title": fm.get("title", path.stem),
+            "region": fm.get("region", ""),
+            "era": fm.get("era", ""),
+            "family": fm.get("family", ""),
+            "layers": "、".join(fm.get("signature_layers", []) or []),
+            "collaborators": "、".join(fm.get("collaborators", []) or []),
+            "signature": one_line_signature(text),
+        })
+    dp_rows.sort(key=lambda r: r["title"])
+
     out = []
-    out.append("# 导演总表\n")
-    out.append(f"> 共 {len(rows)} 位。按地域分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。\n")
+    out.append("# 总表\n")
+    out.append(f"> 共 {len(rows)} 位导演 + {len(dp_rows)} 位摄影指导。按地域/角色分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。\n")
 
     for group in GROUP_ORDER:
         group_rows = [r for r in rows if r["group"] == group]
@@ -144,14 +164,26 @@ def main() -> None:
             )
         out.append("")
 
+    if dp_rows:
+        out.append(f"## 摄影指导（{len(dp_rows)}）\n")
+        out.append("| 摄影指导 | 地域 | 年代 | 风格族 | 签名层 | 合作导演 | 一句话签名 | AI 提示 |")
+        out.append("|---|---|---|---|---|---|---|---|")
+        for r in dp_rows:
+            out.append(
+                f"| [{r['title']}](cinematographers/{r['slug']}.md) | {r['region']} | {r['era']} | {r['family']} | {r['layers']} | {r['collaborators']} | {r['signature']} | [提示](prompts-cinematographers/{r['slug']}.md) |"
+            )
+        out.append("")
+
     OUT.write_text("\n".join(out), encoding="utf-8")
-    print(f"Wrote {OUT} with {len(rows)} entries.")
+    print(f"Wrote {OUT} with {len(rows)} directors + {len(dp_rows)} cinematographers.")
 
     missing = [r for r in rows if not r["signature"]]
     if missing:
         print("MISSING SIGNATURE:", ", ".join(r["slug"] for r in missing))
     if len(rows) != 125:
-        print(f"WARNING: expected 125, got {len(rows)}")
+        print(f"WARNING: expected 125 directors, got {len(rows)}")
+    if len(dp_rows) != 29:
+        print(f"WARNING: expected 29 cinematographers, got {len(dp_rows)}")
 
 
 if __name__ == "__main__":

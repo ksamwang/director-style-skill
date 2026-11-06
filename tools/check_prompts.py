@@ -4,9 +4,12 @@
 import glob
 import os
 import re
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", "prompts")
+SUBDIR = sys.argv[1] if len(sys.argv) > 1 else "prompts"
+EXPECTED = int(sys.argv[2]) if len(sys.argv) > 2 else 125
+DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", SUBDIR)
 
 SECTIONS = ["风格锚点", "图像提示", "视频提示", "负面提示", "一致性锚点", "平台备注"]
 IMAGE_FIELDS = ["主体 / 场景", "景别 / 构图", "镜头 / 焦段", "光线", "色彩", "材质", "画幅"]
@@ -64,8 +67,8 @@ def main() -> None:
             print(f"[ok] {name}: anchor {words} words")
 
     print(f"\nChecked {len(files)} files, {issues} with issues.")
-    if len(files) != 125:
-        print(f"WARNING: expected 125 prompt files, got {len(files)}")
+    if len(files) != EXPECTED:
+        print(f"WARNING: expected {EXPECTED} prompt files, got {len(files)}")
 
 
 if __name__ == "__main__":

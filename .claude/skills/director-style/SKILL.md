@@ -11,6 +11,8 @@ description: 用导演风格生成 AI 图像与视频提示词。当用户要求
 - **视觉配方**：画幅、镜头/焦段、机位与运动、色彩、光线、材质、构图
 - **AI 提示文件**：图像提示、视频提示、负面提示、一致性锚点、平台适配
 
+另有 **29 位摄影指导（DP）**，每人一份视觉档案 + 一份 AI 提示。DP 负责光、镜头、色彩、运动、格式，不负责叙事与表演。
+
 **主用途：AI 图像 / 视频生成。** 次用途：剧本、分镜、现场调度。
 
 ## AI 生成工作流
@@ -35,6 +37,11 @@ description: 用导演风格生成 AI 图像与视频提示词。当用户要求
 
 - `references/directors/<slug>.md` — 风格约束
 - `references/prompts/<slug>.md` — 可直接用的提示基元
+
+如果要叠加摄影指导，再读：
+
+- `references/cinematographers/<dp-slug>.md`
+- `references/prompts-cinematographers/<dp-slug>.md`
 
 优先看：`视觉规则`、`镜头语法`、`视觉配方`、`反向约束`、`误读警告`。
 film-grab 链接只是证据，不替代提示写作。
@@ -103,6 +110,13 @@ film-grab 链接只是证据，不替代提示写作。
 - 不要把两位导演的名字直接堆在一起；用视觉基元，模型更稳。
 - 完整规则见 `references/mixing.md`。
 
+## 导演 × 摄影（新轴）
+
+1. 先定导演（命题、表演、时间），再选 DP（光、镜头、色彩、运动）。
+2. DP 不改变导演的核心命题；冲突时导演的命题优先。
+3. 组合示例：卡隆 × 卢贝兹基；库布里克 × 奥尔科特；莱昂内 × 德利科利；科恩兄弟 × 迪金斯。
+4. 输出时：导演的场面/表演写进主体与运动，DP 的光线/色彩/镜头写进图像提示与一致性锚点。
+
 ## 剧本 / 分镜用法（次要）
 
 1. 明确任务：整片基调 / 单场戏 / 分镜。
@@ -118,12 +132,14 @@ film-grab 链接只是证据，不替代提示写作。
 
 ## 文件导航
 
-- `references/index.md` — 125 人总表：地域、风格族、签名层、一句签名、AI 提示入口
-- `references/prompts/<slug>.md` — 单人 AI 提示基元
+- `references/index.md` — 总表：125 位导演 + 29 位摄影指导
+- `references/prompts/<slug>.md` — 导演 AI 提示基元
+- `references/cinematographers/<slug>.md` — 摄影指导档案
+- `references/prompts-cinematographers/<slug>.md` — 摄影指导 AI 提示基元
 - `references/taxonomy.md` — 风格族谱与近亲替代
-- `references/mixing.md` — 混搭协议
+- `references/mixing.md` — 混搭协议（含导演 × 摄影）
 - `references/prompting.md` — 从档案到 prompt 的转换规则与平台适配
-- `references/directors/<slug>.md` — 单人风格档案
+- `references/directors/<slug>.md` — 单人导演风格档案
 - `templates/ai-prompt.md` — AI 生成提示卡
 - `templates/style-brief.md` — 剧本/分镜执行卡
 - `../../../DESIGN.md` — 设计说明与写作标准

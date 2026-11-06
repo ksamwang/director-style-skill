@@ -1,0 +1,34 @@
+---
+name: michael-ballhaus
+title: 迈克尔·鲍尔豪斯 Michael Ballhaus
+style_file: ../cinematographers/michael-ballhaus.md
+---
+
+## 风格锚点
+Cinematic film still, 35mm, 1.85:1, eye-level camera one and a half meters from the body, 32mm lens, a slow 360-degree dolly orbit around two people in a furnished interior, tungsten practical lamps visible in frame, warm amber and faded green, 4:1 to 8:1 contrast, mirrors and doorways doubling the room, dark wood and velvet, fine grain, theatrical, enclosed, unbroken.
+
+## 图像提示
+- 主体 / 场景：two or three people talking in a lived-in room — a nightclub back office, a postwar apartment, a restaurant banquette; furniture and mirrors are part of the drama.
+- 景别 / 构图：medium and knee-up medium-wide; figures off-center, framed by a doorway or reflected in a mirror; walls crop the edges of the frame.
+- 镜头 / 焦段：25–40mm prime, eye level, slight wide-angle, deep enough to read the room.
+- 光线：visible practical lamps — table lamp, wall sconce, stage footlight; warm 3200K key from three-quarter side, 4:1–8:1, background one to two stops down.
+- 色彩：tungsten amber, dark red, faded green, muted brown; no saturated primaries.
+- 材质：dark wood, velvet, old wallpaper, glass, cigarette smoke, worn upholstery.
+- 画幅：1.66:1 or 1.85:1.
+
+## 视频提示
+- 镜头运动（只选一种）：slow 360-degree dolly orbit on a circular track, returning to the starting point.
+- 主体运动：two people turn, sit, lean across a table; the camera keeps its distance and circles them.
+- 时长 / 帧率 / 运动模糊：20–40 seconds, 24fps, natural motion blur, no slow motion, no cut inside the orbit.
+
+## 负面提示
+no handheld shake, no drone orbit, no telephoto isolation of a face, no high angle looking down, no even fill lighting, no cool blue night, no symmetrical centered portrait, no modern glass architecture, no zoom, no cut inside the circle.
+
+## 一致性锚点
+- 色彩 / 镜头 / 光线 / 构图 / 材质：tungsten amber and faded green; 25–40mm; visible practicals at 4:1–8:1; doorway and mirror framing; wood, velvet, smoke.
+- 禁止漂移：no LED white, no teal-orange grade, no drone move, no clean digital interior, no handheld.
+
+## 平台备注
+- Midjourney：`--ar 1.85:1 --style raw --stylize 120`；用一张七十年代室内剧静帧做 `--sref`，避免模型加现代家具。
+- SDXL / ComfyUI：ControlNet depth 锁门框与镜面层次；negative 里加重 `drone, handheld, zoom`。
+- Runway / Kling / Sora / Veo：首帧给一个完整房间，只写一种环绕运动，20–40 秒，24fps，不要中途切镜。

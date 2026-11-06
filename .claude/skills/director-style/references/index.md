@@ -1,6 +1,6 @@
-# 导演总表
+# 总表
 
-> 共 125 位。按地域分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。
+> 共 125 位导演 + 29 位摄影指导。按地域/角色分组；风格族见 `taxonomy.md`，混搭规则见 `mixing.md`。
 
 ## 华语（21）
 
@@ -171,3 +171,37 @@
 | [塔伊加·维迪提 Taika Waititi](directors/taika-waititi.md) | 新西兰 | 2007– | 冷面喜剧 / 反殖民 | 表演与对白、声音规则 | 先把权力变成笑话，再让笑话里的人被抱住。 | [提示](prompts/taika-waititi.md) |
 | [彼得·杰克逊 Peter Jackson](directors/peter-jackson.md) | 新西兰 | 1987– | 奇幻史诗 / 景观与尺度 | 景观尺度、航拍运动 | 小人物背着世界的重量往前走，勇气是继续走，不是赢。 | [提示](prompts/peter-jackson.md) |
 | [简·坎皮恩 Jane Campion](directors/jane-campion.md) | 新西兰 / 澳大利亚 | 1989– | 身体欲望 / 殖民风景 | 视觉规则、声音规则 | 欲望先发生在皮肤上，后发生在语言里。 | [提示](prompts/jane-campion.md) |
+
+## 摄影指导（29）
+
+| 摄影指导 | 地域 | 年代 | 风格族 | 签名层 | 合作导演 | 一句话签名 | AI 提示 |
+|---|---|---|---|---|---|---|---|
+| [丹·劳斯特森 Dan Laustsen](cinematographers/dan-laustsen.md) | 丹麦 | 1990– | 冷 / 暖哥特 / 数字 | 光线与色彩、视觉规则 | 吉尔莫·德尔·托罗、查德·斯塔赫斯基、克里斯托夫·甘斯、布莱兹·巴扎乌勒 | 先让光变成雾，再让人走进雾里。 | [提示](prompts-cinematographers/dan-laustsen.md) |
+| [安德鲁·莱斯涅 Andrew Lesnie](cinematographers/andrew-lesnie.md) | 澳大利亚 | 1990s–2015 | 自然光 / 景观尺度 / 奇幻史诗 | 视觉规则、镜头语法 | 彼得·杰克逊、鲁伯特·瓦耶特 | 尺度不是把东西拍大，是让人相信山真的在那里。 | [提示](prompts-cinematographers/andrew-lesnie.md) |
+| [康拉德·L·霍尔 Conrad L. Hall](cinematographers/conrad-l-hall.md) | 美国 | 1958–2002 | 明暗对照 / 剪影 / 柔光 | 光线与色彩、构图 | 理查德·布鲁克斯、乔治·罗伊·希尔、萨姆·门德斯 | 先把房间熄掉，再让一张脸从黑里浮上来。 | [提示](prompts-cinematographers/conrad-l-hall.md) |
+| [弗雷迪·扬 Freddie Young](cinematographers/freddie-young.md) | 英国 | 1940–1982 | 70mm 史诗 / 自然光 / 深景深 | 制作条件、镜头语法 | 大卫·里恩、文森特·明尼利、特伦斯·扬 | 他让摄影机退后，退到人能看见自己有多小。 | [提示](prompts-cinematographers/freddie-young.md) |
+| [戈登·威利斯 Gordon Willis](cinematographers/gordon-willis.md) | 美国 | 1970s–1990s | 低照度 / 阴影 / 古典 | 光线与色彩、构图 | 弗朗西斯·福特·科波拉、伍迪·艾伦、艾伦·J·帕库拉 | 让脸沉进黑暗，观众才会自己去找他。 | [提示](prompts-cinematographers/gordon-willis.md) |
+| [托尼诺·德利科利 Tonino Delli Colli](cinematographers/tonino-delli-colli.md) | 意大利 | 1948–1997 | 意大利色彩 / 长焦凝视 / 宽银幕 | 镜头语法、光线与色彩 | 塞尔吉奥·莱昂内、皮埃尔·保罗·帕索里尼、费德里科·费里尼、罗伯托·贝尼尼 | 颜色不是画上去的，是从脸和土里渗出来的。 | [提示](prompts-cinematographers/tonino-delli-colli.md) |
+| [扬努什·卡明斯基 Janusz Kamiński](cinematographers/janusz-kaminski.md) | 波兰 / 美国 | 1990s– | 逆光 / 烟雾 / 高反差 | 光线与色彩、时间与运动 | 史蒂文·斯皮尔伯格、朱利安·施纳贝尔 | 让光从背后爆开，人脸留在暗处。 | [提示](prompts-cinematographers/janusz-kaminski.md) |
+| [拉瑞·方 Larry Fong](cinematographers/larry-fong.md) | 美国 | 2006– | 图形硬光 / 类型片 / 复古 | 光线与色彩、构图 | 扎克·施奈德、J·J·艾布拉姆斯、乔丹·沃格-罗伯茨 | 一束硬光把画面劈开，人站在明暗的边界上。 | [提示](prompts-cinematographers/larry-fong.md) |
+| [杰弗里·昂斯沃斯 Geoffrey Unsworth](cinematographers/geoffrey-unsworth.md) | 英国 | 1946–1978 | 柔光 / 浪漫 / 70mm | 光线与色彩、镜头语法 | 斯坦利·库布里克、鲍勃·福斯、理查德·唐纳、罗曼·波兰斯基 | 他先把光揉软，世界才肯露出人的样子。 | [提示](prompts-cinematographers/geoffrey-unsworth.md) |
+| [格雷格·托兰 Gregg Toland](cinematographers/gregg-toland.md) | 美国 | 1930s–1940s | 深焦 / 广角 / 古典好莱坞 | 镜头语法、构图 | 奥逊·威尔斯、约翰·福特、威廉·惠勒 | 从最近的前景到最远的墙，都要一样清楚。 | [提示](prompts-cinematographers/gregg-toland.md) |
+| [毛罗·菲奥雷 Mauro Fiore](cinematographers/mauro-fiore.md) | 意大利 / 美国 | 1995– | 数字 / 高饱和 / 动作 | 光线与色彩、镜头语法 | 安东尼·福奎阿、詹姆斯·卡梅隆、迈克尔·贝、乔·沃茨、吴宇森 | 颜色不是气氛，是推力。 | [提示](prompts-cinematographers/mauro-fiore.md) |
+| [沃利·菲斯特 Wally Pfister](cinematographers/wally-pfister.md) | 美国 | 1998– | 黑色电影 / IMAX / 冷硬 | 光线与色彩、镜头语法 | 克里斯托弗·诺兰、贝内特·米勒 | 黑暗不是没有光，是被光切出来的实体。 | [提示](prompts-cinematographers/wally-pfister.md) |
+| [约瑟夫·鲁滕贝格 Joseph Ruttenberg](cinematographers/joseph-ruttenberg.md) | 美国（生于俄国） | 1910s–1968 | 片厂 glamour / 高调光 / 黑白 | 光线与色彩、制作条件 | 乔治·库克、威廉·惠勒、文森特·明奈利 | 明星的脸，永远是画面里最亮、最完整的那一块。 | [提示](prompts-cinematographers/joseph-ruttenberg.md) |
+| [约翰·托尔 John Toll](cinematographers/john-toll.md) | 美国 | 1980s– | 自然光 / 史诗远景 / 长焦景观 | 视觉规则、光线与色彩 | 泰伦斯·马力克、爱德华·兹威克、梅尔·吉布森、沃卓斯基姐妹 | 风景先于人物；人只是光里一个正在移动的黑点。 | [提示](prompts-cinematographers/john-toll.md) |
+| [约翰·阿尔科特 John Alcott](cinematographers/john-alcott.md) | 英国 | 1960s–1980s | 烛光 / 自然光 / 古典 | 光线与色彩、构图 | 斯坦利·库布里克 | 一支蜡烛，如果摄影机真的相信它，就够了。 | [提示](prompts-cinematographers/john-alcott.md) |
+| [维托里奥·斯托拉罗 Vittorio Storaro](cinematographers/vittorio-storaro.md) | 意大利 | 1968– | 色彩编码 / 变形宽银幕 / 歌剧性运动 | 光线与色彩、镜头语法 | 贝纳尔多·贝托鲁奇、弗朗西斯·福特·科波拉、沃伦·比蒂 | 他不是在用摄影机记录颜色，他是在用颜色写一种语言。 | [提示](prompts-cinematographers/vittorio-storaro.md) |
+| [罗伯特·理查森 Robert Richardson](cinematographers/robert-richardson.md) | 美国 | 1980s– | 硬光 / 高反差 / 战争 | 光线与色彩、镜头语法 | 奥利弗·斯通、马丁·斯科塞斯、昆汀·塔伦蒂诺 | 光不是用来照明的，是用来灼伤人的。 | [提示](prompts-cinematographers/robert-richardson.md) |
+| [罗伯特·瑟蒂斯 Robert Surtees](cinematographers/robert-surtees.md) | 美国 | 1944–1985 | 宽银幕自然主义 / 深焦 / 特艺彩 | 镜头语法、光线与色彩 | 威廉·惠勒、迈克·尼科尔斯、彼得·博格丹诺维奇、乔治·库克 | 宽银幕不是让人看见更多，是让人同时看见彼此。 | [提示](prompts-cinematographers/robert-surtees.md) |
+| [罗伯特·艾尔斯维特 Robert Elswit](cinematographers/robert-elswit.md) | 美国 | 1985– | 自然主义 / 洛杉矶黑色 / 数字 | 光线与色彩、镜头语法 | 保罗·托马斯·安德森、托尼·吉尔罗伊、丹·吉尔罗伊 | 光本来就在那里，摄影机只负责站到不打扰它的地方。 | [提示](prompts-cinematographers/robert-elswit.md) |
+| [罗德里戈·普列托 Rodrigo Prieto](cinematographers/rodrigo-prieto.md) | 墨西哥 | 1990s– | 冷暖对照 / 手持 / 文化质感 | 光线与色彩、镜头语法 | 亚利桑德罗·冈萨雷斯·伊纳里图、李安、马丁·斯科塞斯、佩德罗·阿莫多瓦 | 每一种文化都有自己的色温；镜头贴着人，才闻得到它。 | [提示](prompts-cinematographers/rodrigo-prieto.md) |
+| [罗杰·迪金斯 Roger Deakins](cinematographers/roger-deakins.md) | 英国 | 1980s– | 精确 / 剪影 / 自然光 / 数字 | 光线与色彩、构图 | 科恩兄弟、萨姆·门德斯、丹尼斯·维伦纽瓦 | 每一束光都要有出处，每一道剪影都要有边界。 | [提示](prompts-cinematographers/roger-deakins.md) |
+| [艾伦·达维奥 Allen Daviau](cinematographers/allen-daviau.md) | 美国 | 1970s–2020 | 柔光 / 美国风情 / 逆光雾气 | 光线与色彩、镜头语法 | 史蒂文·斯皮尔伯格、巴瑞·莱文森、阿尔伯特·布鲁克斯 | 光先要温柔，人才敢相信奇迹。 | [提示](prompts-cinematographers/allen-daviau.md) |
+| [艾曼努尔·卢贝兹基 Emmanuel Lubezki](cinematographers/emmanuel-lubezki.md) | 墨西哥 | 1991– | 自然光 / 长镜 / 广角 | 光线与色彩、镜头语法 | 阿方索·卡隆、泰伦斯·马力克、亚利桑德罗·冈萨雷斯·伊纳里图 | 摄影机不是在看世界，是被世界包住。 | [提示](prompts-cinematographers/emmanuel-lubezki.md) |
+| [莱昂·沙姆罗伊 Leon Shamroy](cinematographers/leon-shamroy.md) | 美国 | 1938–1974 | 特艺彩 / 高饱和 / 宽银幕 | 光线与色彩、构图 | 亨利·金、约瑟夫·L·曼凯维奇、约翰·M·斯塔尔、富兰克林·沙夫纳 | 他不用白光拍彩色片，他用颜色点亮颜色。 | [提示](prompts-cinematographers/leon-shamroy.md) |
+| [蕾切尔·莫里森 Rachel Morrison](cinematographers/rachel-morrison.md) | 美国 | 2010s– | 自然光 / 亲密 / 当代写实 | 光线与色彩、镜头语法 | 瑞恩·库格勒、迪·里斯、里克·法穆伊瓦 | 把摄影机放得足够近，光就不需要解释。 | [提示](prompts-cinematographers/rachel-morrison.md) |
+| [迈克尔·鲍尔豪斯 Michael Ballhaus](cinematographers/michael-ballhaus.md) | 德国 | 1971–2010 | 环绕 / 反射 / 作者合作 | 镜头语法、空间 | 赖纳·维尔纳·法斯宾德、马丁·斯科塞斯、弗朗西斯·福特·科波拉 | 摄影机绕着人转一圈，把房间变成一座没有出口的舞台。 | [提示](prompts-cinematographers/michael-ballhaus.md) |
+| [迪恩·坎迪 Dean Cundey](cinematographers/dean-cundey.md) | 美国 | 1978– | 变形宽银幕 / 阴影 / 郊区 | 视觉规则、光线与色彩 | 约翰·卡朋特、罗伯特·泽米吉斯、史蒂文·斯皮尔伯格、朗·霍华德 | 先把空间点亮成舞台，再让人物走进去。 | [提示](prompts-cinematographers/dean-cundey.md) |
+| [霍伊特·范霍伊特玛 Hoyte van Hoytema](cinematographers/hoyte-van-hoytema.md) | 荷兰 / 瑞典 | 2001– | 大画幅 / 自然光 / 柔 | 制作条件、光线与色彩 | 克里斯托弗·诺兰、托马斯·阿尔弗雷德森、斯派克·琼斯、萨姆·门德斯、乔丹·皮尔 | 让脸和天空待在同一张底片上，谁也不用为谁让路。 | [提示](prompts-cinematographers/hoyte-van-hoytema.md) |
+| [马修·利巴蒂克 Matthew Libatique](cinematographers/matthew-libatique.md) | 美国 | 1998– | 手持 / 颗粒 / 高反差 | 镜头语法、时间与运动 | 达伦·阿罗诺夫斯基、斯派克·李、乔恩·费儒、布莱德利·库珀、奥利维亚·王尔德 | 画面应该有心跳，而不是有分辨率。 | [提示](prompts-cinematographers/matthew-libatique.md) |

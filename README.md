@@ -1,6 +1,6 @@
 # 导演风格技能包
 
-125 位导演的可执行风格约束，主用途是 **AI 图像 / 视频生成**。它不是影评库，而是把“某位导演的画面”拆成模型能执行的 prompt、镜头运动和负面约束。
+125 位导演 + 29 位摄影指导的可执行风格约束，主用途是 **AI 图像 / 视频生成**。它不是影评库，而是把“某位导演的画面”拆成模型能执行的 prompt、镜头运动和负面约束。
 
 ## 快速开始
 
@@ -41,6 +41,15 @@
 - 一致性锚点（色彩、镜头、光线、构图、材质 + 禁止漂移）
 - 平台备注（Midjourney / SDXL / ComfyUI / Runway / Kling / Sora / Veo）
 
+## 摄影指导层（29 位）
+
+摄影指导是另一条轴：不负责叙事与表演，负责**光、镜头、色彩、运动、格式**。每位 DP 有两份文件：
+
+- `references/cinematographers/<slug>.md`：视觉观、与导演的关系、视觉规则、镜头语法、光线与色彩、时间与运动、制作条件、反向约束、视觉配方。
+- `references/prompts-cinematographers/<slug>.md`：AI 提示基元。
+
+用法：先选导演，再选 DP，组合成「导演 × 摄影」的提示卡。例如「卡隆 × 卢贝兹基」「库布里克 × 奥尔科特」「莱昂内 × 德利科利」。
+
 ## 目录结构
 
 ```
@@ -53,15 +62,18 @@
     prompting.md            从档案到 prompt 的转换规则与平台适配
     directors/<slug>.md     125 份风格档案
     prompts/<slug>.md       125 份 AI 提示基元
+    cinematographers/<slug>.md          29 份摄影指导档案
+    prompts-cinematographers/<slug>.md  29 份摄影提示
   templates/
     ai-prompt.md            AI 生成提示卡
     style-brief.md          剧本/分镜执行卡
     director-entry.md       新增导演的空白模板
 DESIGN.md                   设计说明与写作标准
 AGENT_BRIEF.md              批量写作简报
+DP_BRIEF.md                 摄影指导层简报
 VISUAL_BRIEF.md             视觉扩写简报
 REVIEW_BRIEF.md             审校清单
-tools/                      索引生成、结构/视觉/重复度检查、规范化
+tools/                      索引生成、结构/视觉/提示/重复度检查、规范化
 ```
 
 ## AI 生成工作流
