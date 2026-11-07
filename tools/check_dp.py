@@ -6,7 +6,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", "cinematographers")
+DIR = os.path.join(ROOT, ".claude", "skills", "film-creation", "references", "cinematographers")
 
 REQUIRED_FM = ["name", "title", "region", "era", "family", "signature_layers",
                "collaborators", "anchors", "keywords", "film_grab"]

@@ -7,7 +7,7 @@ from itertools import combinations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "directors"
+DIR = ROOT / ".claude" / "skills" / "film-creation" / "references" / "directors"
 
 CJK = re.compile(r"[一-鿿]")
 SENT_SPLIT = re.compile(r"[。！？；\n]+")

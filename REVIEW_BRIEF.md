@@ -4,12 +4,12 @@
 
 ## 审校对象
 
-`E:\AIDEV\director_style\.claude\skills\director-style\references\directors\` 下指定的 20 个文件。
+`E:\AIDEV\director_style\.claude\skills\film-creation\references\directors\` 下指定的 20 个文件。
 
 ## 必读
 
 1. `E:\AIDEV\director_style\AGENT_BRIEF.md`（写作标准）
-2. `E:\AIDEV\director_style\.claude\skills\director-style\references\directors\wong-kar-wai.md`（金标准）
+2. `E:\AIDEV\director_style\.claude\skills\film-creation\references\directors\wong-kar-wai.md`（金标准）
 
 ## 检查项（按严重度）
 

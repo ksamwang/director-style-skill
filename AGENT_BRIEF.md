@@ -6,14 +6,14 @@
 
 为指定导演各写一份风格档案，文件放在：
 
-`E:\AIDEV\director_style\.claude\skills\director-style\references\directors\<slug>.md`
+`E:\AIDEV\director_style\.claude\skills\film-creation\references\directors\<slug>.md`
 
 每份 **1200–1500 个中文字**（不含 frontmatter 和链接）。目标读者是正在写剧本、做分镜、现场调度的人。他们需要的是“下一场戏怎么拍”，不是导演介绍。
 
 ## 2. 必读
 
 - `E:\AIDEV\director_style\DESIGN.md` 第 1、4、5、6 节
-- `E:\AIDEV\director_style\.claude\skills\director-style\references\directors\wong-kar-wai.md`
+- `E:\AIDEV\director_style\.claude\skills\film-creation\references\directors\wong-kar-wai.md`
   这是金标准。学它的密度、句式和“选择规则”，不要复制它的内容。
 
 ## 3. 文件结构（严格照抄字段名与顺序）

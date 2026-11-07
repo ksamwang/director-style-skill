@@ -6,7 +6,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIR = os.path.join(ROOT, ".claude", "skills", "director-style", "references", "directors")
+DIR = os.path.join(ROOT, ".claude", "skills", "film-creation", "references", "directors")
 
 VIS_DIMS = ["景别", "构图", "空间", "色彩", "光线", "材质"]
 CAM_DIMS = ["机位", "焦段", "运动", "静止", "靠近", "远离", "权力"]

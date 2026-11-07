@@ -1,7 +1,7 @@
-# 导演风格技能包 · 设计草案
+# 电影创作技能 film-creation · 设计说明
 
-> 目标：把 125 位导演 + 29 位摄影指导的风格，变成可在 AI 图像/视频生成、写剧本、做分镜时直接调用的**约束系统**。
-> 主用途是 AI 图像/视频生成；剧本与分镜是次要用例。不是影史百科，不是影评合集。
+> 目标：把 18 本电影书的方法，与 125 位导演 + 29 位摄影指导的风格，合成一个从故事到成片/AI 生成的**创作工作台**。
+> 三层：craft（方法）→ style（风格）→ output（交付物）。不是影史百科，不是提示词模板库。
 
 ---
 
@@ -24,14 +24,29 @@
 
 ---
 
+## 1.5 创作方法层
+
+6 个模块：`story` / `visual` / `staging` / `performance` / `sound` / `production`。
+
+每篇 2000–3000 字，结构固定：核心方法、8–12 条可执行规则、场景检查清单、常见错误、练习、与风格层的接口。
+
+来源是 `docs/` 下的 18 本电影书；模块为原创提炼，不复制原文。`docs/` 不进入公开仓库。
+
+工作流：诊断 → 故事 spine → 视觉系统 → 调度与表演 → 声音 → 风格层 → 输出 → 自检。
+
+核心原则：**先有戏，再有风格**。导演风格是约束，不是内容。
+
+---
+
 ## 2. 已定决策
 
 | 项目 | 决定 |
 |---|---|
-| 用途 | 创作套用：剧本、分镜、单场调度、整片基调 |
-| 深度 | 每条 1200–1700 字（含视觉配方） |
-| 名单 | 全球均衡，作者电影为主 |
-| 混搭 | 支持，带冲突规则 |
+| 用途 | 完整创作流程：故事、视觉、调度、表演、声音、制作、风格、AI 生成 |
+| 深度 | 导演档案 1200–1800 字；craft 模块 2000–3000 字 |
+| 名单 | 125 位导演 + 29 位摄影指导 + 6 个 craft 模块 |
+| 混搭 | 支持，含导演 × 摄影 |
+| 输出 | treatment / scene card / shot list / AI prompt |
 | 语言 | 中文条目，导演名保留原文/通用译名 |
 
 ---
@@ -282,12 +297,19 @@ keywords: [错位, 延迟, 霓虹, 独白, 重复]
 ## 7. 技能包结构
 
 ```
-.claude/skills/director-style/
-  SKILL.md                 # 触发条件、AI-first 工作流、输出格式
+.claude/skills/film-creation/
+  SKILL.md                 # 触发条件、创作工作流、输出格式
   references/
-    index.md               # 125 人总表：地域/年代/风格族/签名层/一句签名/提示入口
+    craft/                 # 6 个创作方法模块
+      story.md
+      visual.md
+      staging.md
+      performance.md
+      sound.md
+      production.md
+    index.md               # 125 导演 + 29 摄影总表：地域/风格族/签名层/提示入口
     taxonomy.md            # 风格族谱与近亲替代关系
-    mixing.md              # 混搭协议
+    mixing.md              # 混搭协议 + 导演 × 摄影
     prompting.md           # 从档案到 prompt 的转换规则与平台适配
     directors/
       wong-kar-wai.md
@@ -296,7 +318,16 @@ keywords: [错位, 延迟, 霓虹, 独白, 重复]
     prompts/
       wong-kar-wai.md      # AI 提示基元：图像 / 视频 / 负面 / 一致性 / 平台
       ...
+    cinematographers/
+      emmanuel-lubezki.md
+      ...
+    prompts-cinematographers/
+      emmanuel-lubezki.md
+      ...
   templates/
+    treatment.md           # 一页纸
+    scene-card.md          # 单场戏
+    shot-list.md           # 分镜表
     ai-prompt.md           # AI 生成提示卡
     style-brief.md         # 剧本/分镜执行卡
     director-entry.md      # 新增导演的空白模板

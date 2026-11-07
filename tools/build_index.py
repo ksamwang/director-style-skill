@@ -5,9 +5,9 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "directors"
-DP_DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "cinematographers"
-OUT = ROOT / ".claude" / "skills" / "director-style" / "references" / "index.md"
+DIR = ROOT / ".claude" / "skills" / "film-creation" / "references" / "directors"
+DP_DIR = ROOT / ".claude" / "skills" / "film-creation" / "references" / "cinematographers"
+OUT = ROOT / ".claude" / "skills" / "film-creation" / "references" / "index.md"
 
 REGION_ORDER = [
     "华语", "中国大陆", "香港", "台湾",

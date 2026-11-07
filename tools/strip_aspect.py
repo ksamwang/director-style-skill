@@ -6,7 +6,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REF = os.path.join(ROOT, ".claude", "skills", "director-style", "references")
+REF = os.path.join(ROOT, ".claude", "skills", "film-creation", "references")
 
 PROMPT_DIRS = [os.path.join(REF, "prompts"), os.path.join(REF, "prompts-cinematographers")]
 PROFILE_DIRS = [os.path.join(REF, "directors"), os.path.join(REF, "cinematographers")]

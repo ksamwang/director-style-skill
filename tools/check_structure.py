@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "directors"
+DIR = ROOT / ".claude" / "skills" / "film-creation" / "references" / "directors"
 
 REQUIRED_FM = ["name", "title", "region", "era", "family", "signature_layers", "anchors", "keywords", "film_grab"]
 REQUIRED_SECTIONS = [

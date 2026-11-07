@@ -1,128 +1,116 @@
-# 导演风格技能包
+# 电影创作技能 film-creation
 
-125 位导演 + 29 位摄影指导的可执行风格约束，主用途是 **AI 图像 / 视频生成**。它不是影评库，而是把“某位导演的画面”拆成模型能执行的 prompt、镜头运动和负面约束。
+从想法到可拍/可生成的电影创作技能。它不是导演百科，也不是提示词模板库，而是一个工作台：先把戏写对、拍对，再用某位导演/摄影的眼睛约束它。
 
 ## 快速开始
 
 在 Claude Code 里直接说：
 
-- 「用王家卫的风格生成一张雨夜便利店的中景」
-- 「布列松 × 塔可夫斯基，写一段 5 秒视频提示：一个人走过走廊」
-- 「这段画面太像通用赛博朋克，用杜琪峰的站位和冷蓝改一版」
-- 「给我三个适合这段材料的导演，说明画面差异」
+- 「我想拍一个 5 分钟短片，只有一个房间和两个人，帮我发展故事」
+- 「帮我写这个故事的 treatment，检查结构」
+- 「这场餐厅对峙怎么调度，给我走位和分镜」
+- 「这场戏演员应该做什么，给我可执行的指令」
+- 「用王家卫 × 卢贝兹基，写雨夜便利店的中景和 5 秒视频提示」
 
-技能入口：`.claude/skills/director-style/SKILL.md`
+技能入口：`.claude/skills/film-creation/SKILL.md`
 
-## 每位导演的三层内容
+## 三层
 
-### 1. 八节风格约束
+1. **方法层（craft）**：故事、视觉、调度、表演、声音、制作
+2. **风格层（style）**：125 位导演 + 29 位摄影指导
+3. **输出层（output）**：treatment、scene card、shot list、AI prompt
 
-1. 核心命题：他反复拍什么矛盾？不是题材，是他对人的基本看法。
-2. 人物关系：主角是谁、想要什么、与家庭/社会/权力是什么关系。
-3. 视觉规则：景别、构图、空间、色彩、光线、材质怎么选。
-4. 镜头语法：摄影机何时静止、移动、靠近、保持距离；谁被跟、谁被留在画外。
-5. 表演与对白：外放还是克制；对白自然、文学化还是碎片化。
-6. 时间与剪辑：长镜头还是快切；跳时、重复、分章；哪里停顿。
-7. 声音规则：音乐、环境声、沉默、旁白各承担什么。
-8. 反向约束：哪些做法会破坏这个风格；哪些刻板印象必须避免。
+核心原则：**先有戏，再有风格**。导演风格是约束，不是内容。
 
-### 2. 视觉配方
+## 工作流
 
-参考画幅、镜头/焦段、机位与运动、色彩、光线、材质/美术、构图。每项都是具体参数或选择，不是形容词。
+```
+诊断 → 故事 spine → 视觉系统 → 调度与表演 → 声音 → 风格层 → 输出 → 自检
+```
 
-### 3. AI 提示文件
+1. **诊断**：形式、时长、预算、场景、演员、平台、交付物
+2. **故事 spine**：logline、theme、character、structure、scene goal/turn
+3. **视觉系统**：景别、构图、焦段、光线、色彩、材质
+4. **调度与表演**：走位、机位、运动、覆盖、演员 action
+5. **声音**：环境声、音乐、沉默、旁白
+6. **风格层**：选 1 位导演 + 0–1 位摄影，应用约束
+7. **输出**：treatment / scene card / shot list / AI prompt
+8. **自检**：craft checklist + 导演反向约束 + 提示词检查
 
-`references/prompts/<slug>.md`：
+## 六个方法模块
 
-- 风格锚点（英文，40–80 词）
-- 图像提示基元（主体、景别、构图、镜头、光线、色彩、材质）
-- 视频提示基元（镜头运动、主体运动、时长、帧率、运动模糊）
-- 负面提示（从「反向约束」逐条转成英文）
-- 一致性锚点（色彩、镜头、光线、构图、材质 + 禁止漂移）
-- 平台备注（Midjourney / SDXL / ComfyUI / Runway / Kling / Sora / Veo）
+| 模块 | 解决什么 |
+|---|---|
+| `story` | 写什么、怎么结构、场景怎么转 |
+| `visual` | 怎么看见：景别、构图、焦段、光、色、材质 |
+| `staging` | 怎么走位、怎么覆盖、摄影机怎么动 |
+| `performance` | 演员做什么、怎么排练、怎么给指令 |
+| `sound` | 听见什么：透视、画外、沉默、音乐 |
+| `production` | 能不能拍、怎么排期、怎么省钱 |
 
-## 摄影指导层（29 位）
+模块在 `references/craft/`，每篇 2000–3000 字，含核心方法、8–12 条规则、检查清单、常见错误、练习，以及与风格层的接口。
 
-摄影指导是另一条轴：不负责叙事与表演，负责**光、镜头、色彩、运动、格式**。每位 DP 有两份文件：
+## 风格层
 
-- `references/cinematographers/<slug>.md`：视觉观、与导演的关系、视觉规则、镜头语法、光线与色彩、时间与运动、制作条件、反向约束、视觉配方。
-- `references/prompts-cinematographers/<slug>.md`：AI 提示基元。
+- **125 位导演**：八节风格约束 + 视觉配方 + AI 提示
+- **29 位摄影指导**：视觉观、光线与色彩、时间与运动、制作条件 + AI 提示
 
-用法：先选导演，再选 DP，组合成「导演 × 摄影」的提示卡。例如「卡隆 × 卢贝兹基」「库布里克 × 奥尔科特」「莱昂内 × 德利科利」。
+用法：
+
+- 按核心命题选导演，不按题材选
+- 导演决定内容与时间，摄影决定光与镜头
+- 冲突时导演优先
+- 混搭规则见 `references/mixing.md`
+
+## 输出模板
+
+- `templates/treatment.md` — 一页纸
+- `templates/scene-card.md` — 单场戏
+- `templates/shot-list.md` — 分镜表
+- `templates/ai-prompt.md` — AI 提示卡
+- `templates/style-brief.md` — 剧本/现场执行卡
 
 ## 目录结构
 
 ```
-.claude/skills/director-style/
-  SKILL.md                  触发条件 + AI-first 工作流 + 自检
+.claude/skills/film-creation/
+  SKILL.md
   references/
-    index.md                125 人总表（地域/风格族/签名层/一句签名/提示入口）
-    taxonomy.md             12 个风格族 + 近亲替代规则
-    mixing.md               混搭协议
-    prompting.md            从档案到 prompt 的转换规则与平台适配
-    directors/<slug>.md     125 份风格档案
-    prompts/<slug>.md       125 份 AI 提示基元
-    cinematographers/<slug>.md          29 份摄影指导档案
-    prompts-cinematographers/<slug>.md  29 份摄影提示
+    craft/                  6 个创作方法模块
+    index.md                125 导演 + 29 摄影总表
+    taxonomy.md             风格族谱
+    mixing.md               混搭 + 导演 × 摄影
+    prompting.md            档案 → prompt 的转换规则
+    directors/<slug>.md     125 份导演档案
+    prompts/<slug>.md       125 份导演提示
+    cinematographers/<slug>.md       29 份摄影档案
+    prompts-cinematographers/<slug>.md 29 份摄影提示
   templates/
-    ai-prompt.md            AI 生成提示卡
-    style-brief.md          剧本/分镜执行卡
-    director-entry.md       新增导演的空白模板
-DESIGN.md                   设计说明与写作标准
-AGENT_BRIEF.md              批量写作简报
+    treatment.md
+    scene-card.md
+    shot-list.md
+    ai-prompt.md
+    style-brief.md
+DESIGN.md                   设计说明
+CRAFT_BRIEF.md              方法模块简报
 DP_BRIEF.md                 摄影指导层简报
-VISUAL_BRIEF.md             视觉扩写简报
-REVIEW_BRIEF.md             审校清单
-tools/                      索引生成、结构/视觉/提示/重复度检查、规范化
+tools/                      索引、结构/视觉/提示/重复度检查
 ```
-
-## AI 生成工作流
-
-1. **明确镜头**：主体、场景、动作、景别、时长、平台、是否需要跨镜头一致性；画幅由用户/平台设定。
-2. **选主风格**：按核心命题 + 视觉族选，不按题材选。
-3. **读两份文件**：`directors/<slug>.md` 与 `prompts/<slug>.md`。
-4. **写提示卡**：风格锚点 → 图像提示 → 视频提示 → 负面提示 → 一致性锚点 → 平台备注。
-5. **自检**：是否只写了导演名字？是否有只属于该导演的约束？图像与视频是否分开？负面提示是否来自反向约束？跨镜头是否锁住色彩/镜头/光线/构图/材质？
-
-完整转换规则见 `references/prompting.md`，输出模板见 `templates/ai-prompt.md`。
-
-## 剧本 / 分镜用法
-
-1. 按核心命题选主风格，读对应档案。
-2. 按 `templates/style-brief.md` 填：机位、运动、剪辑点、声音、表演调度。
-3. 自检：命题是否落地；反向约束是否逐条通过。
-
-## 混搭
-
-1. **命题唯一**：主风格的世界观不让；副风格只提供形式策略。
-2. **签名层不让**：每条档案标注 1–2 个签名层，副风格只能改非签名层。
-3. **最多借两层**：并写明为什么这两层不打架。
-
-完整规则见 `references/mixing.md`；在 prompt 里，冲突会表现为矛盾的光线、色彩或运动，按主风格签名层优先。
-
-## 质量原则
-
-- 先命题，后视觉。没有命题的视觉只是滤镜。
-- 一个签名，不是一套符号。
-- 反向约束优先：negative prompt 比 positive 更能保住风格。
-- 同族之间必须写出“他和最近亲的那位差在哪”。
 
 ## 扩展
 
-新增一位导演：
+- 新增导演：复制 `templates/director-entry.md`，按八节填写，再生成对应提示文件
+- 新增摄影：按 `DP_BRIEF.md` 的 14 节结构
+- 调整方法模块：读 `CRAFT_BRIEF.md`，每篇 2000–3000 字
 
-1. 复制 `templates/director-entry.md` 到 `references/directors/<slug>.md`，按八节填写。
-2. 从档案生成 `references/prompts/<slug>.md`，按 `templates/ai-prompt.md` 的结构。
-3. 跑 `python tools/check_structure.py`、`python tools/check_visual.py`、`python tools/check_duplicates.py`。
-4. 跑 `python tools/build_index.py` 重新生成总表。
-
-全局复用：把 `.claude/skills/director-style/` 整个复制到 `~/.claude/skills/director-style/`。
+全局复用：把 `.claude/skills/film-creation/` 整个复制到 `~/.claude/skills/film-creation/`。
 
 ## 数据来源与边界
 
-- 档案依据公开影片与常见影史论述撰写，不收录生平、奖项、票房。
-- 视觉参考以 [film-grab.com](https://film-grab.com/) 为主；该站未收录时，用 MUBI / Criterion Channel 等可核验页面补充。只链接，不下载、不嵌入图片。
-- 不确定的影片年份或链接标“待核验”。
+- 创作方法来自 `docs/` 下的 18 本电影书，经原创提炼；`docs/` 不进入公开仓库。
+- 导演/摄影档案依据公开影片与常见影史论述撰写，不收录生平、奖项、票房。
+- 视觉参考以 [film-grab.com](https://film-grab.com/) 为主；未收录时用 MUBI / Criterion Channel 等可核验页面补充。只链接，不下载、不嵌入图片。
+- 提示词不写画幅；画幅由用户/平台设定。
 
 ## License
 

@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DIR = ROOT / ".claude" / "skills" / "director-style" / "references" / "directors"
+DIR = ROOT / ".claude" / "skills" / "film-creation" / "references" / "directors"
 
 CANON = ["核心命题", "人物关系", "视觉规则", "镜头语法", "表演与对白", "时间与剪辑", "声音规则", "反向约束"]
 
