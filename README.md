@@ -8,8 +8,8 @@ LLM 读到它之后，能判断用户要什么、该读哪一块、给到什么�
 
 - **6 个 craft 方法模块**：故事、视觉、调度、表演、声音、制作
 - **125 位导演 + 29 位摄影指导**：风格参考档案
-- **AIGC token 规则**：注意力友好的提示写法、文本资产 token
-- **模板**：treatment、scene card、shot list、asset tokens、AI prompt
+- **AIGC token 规则**：注意力友好的提示写法、文本资产 token、固定三面板角色表
+- **模板**：treatment、scene card、shot list、character sheet、asset tokens、AI prompt
 
 ## LLM 怎么用
 
@@ -60,8 +60,9 @@ LLM 读到它之后，能判断用户要什么、该读哪一块、给到什么�
 4. 词序即权重：主体 → 环境 → 镜头 → 光色 → 风格。
 5. 控制预算：核心 30–60 词，风格 8–15 个概念。
 6. 一致性靠文本 token 锁：同一角色/场景逐字复用同一串 token；不用参考图。
-7. 不写画幅；不做平台参数；不绑定模型。
-8. 图像与运动分离：视频提示只写运动/镜头/时长。
+7. 人物资产使用固定三面板角色表：`templates/character-sheet.md`（左无头正面、中背面、右 3/4 特写，全表一张脸）。
+8. 不写画幅；不做平台参数；不绑定模型。
+9. 图像与运动分离：视频提示只写运动/镜头/时长。
 
 ## 输出粒度
 
@@ -90,6 +91,7 @@ LLM 读到它之后，能判断用户要什么、该读哪一块、给到什么�
     treatment.md
     scene-card.md
     shot-list.md
+    character-sheet.md
     asset-tokens.md
     ai-prompt.md
     style-brief.md

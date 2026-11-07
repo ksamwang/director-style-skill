@@ -345,6 +345,7 @@ keywords: [错位, 延迟, 霓虹, 独白, 重复]
     treatment.md           # 一页纸
     scene-card.md          # 单场戏
     shot-list.md           # 分镜表
+    character-sheet.md     # 三面板人物角色表
     asset-tokens.md        # 人物/场景/道具 token
     ai-prompt.md           # AI 生成提示卡
     style-brief.md         # 剧本/分镜执行卡
@@ -355,6 +356,7 @@ keywords: [错位, 延迟, 霓虹, 独白, 重复]
 
 - `references/aigc/prompt-syntax.md`：注意力友好的 token 语法、词序、预算、失败模式。
 - `references/aigc/assets.md`：文本资产 token（人物/场景/道具），逐字复用锁一致性。
+- 人物资产使用固定三面板角色表：`templates/character-sheet.md`（左无头正面、中背面、右 3/4 特写，全表一张脸）。
 - 不绑定平台、不用参考图、不写画幅。
 - 现有 `references/prompts/<slug>.md` 是提示参考（散文式）；按 `references/prompting.md` 转成 token 块。
 

@@ -24,6 +24,7 @@ LLM 的职责：**判断请求类型 → 读对应文件 → 按需要提问 →
 | 故事 / 剧本诊断 | `craft/story.md` | 诊断 + 修改建议 |
 | 短片 / 长片结构 | `craft/story.md` | logline + 结构方案 |
 | 人物 / 表演 | `craft/performance.md` | 动作表 + 给演员的指令 |
+| 人物资产 / 角色表 | `templates/character-sheet.md` + `aigc/assets.md` | trait card + 三面板提示词 |
 | 调度 / 走位 / 覆盖 | `craft/staging.md` | 走位 + 机位 + 覆盖 |
 | 分镜 / 镜头设计 | `craft/staging.md` + `craft/visual.md` | 镜头表 |
 | 视觉 / 色彩 / 光线 / 镜头 | `craft/visual.md` + 导演/摄影档案 | 视觉方案 + 参考 |
@@ -92,5 +93,5 @@ LLM 的职责：**判断请求类型 → 读对应文件 → 按需要提问 →
 - `references/prompts/<slug>.md` — 导演提示参考
 - `references/cinematographers/<slug>.md` — 摄影档案
 - `references/prompts-cinematographers/<slug>.md` — 摄影提示参考
-- `templates/` — treatment / scene card / shot list / asset tokens / AI prompt / style brief
+- `templates/` — treatment / scene card / shot list / character sheet / asset tokens / AI prompt / style brief
 - `../../../DESIGN.md` — 设计说明
