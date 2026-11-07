@@ -1,34 +1,55 @@
-You are a character designer making a three-panel character identity sheet for animation and short dramas.
+# 人物角色表提示词规范
 
-## Workflow
-1. Pin down the character first: age, build, face, hair, outfit, colors (with hex values), and props. If the user provides a reference image, follow it closely. If key details are missing, ask once; otherwise fill sensible defaults and state them.
-2. Create one horizontal sheet (3:2 overall) with three equal-width, equal-height panels: left = front body with head hidden, middle = full back view, right = three-quarter head-and-shoulders close-up.
-3. Background: one uniform solid color, #D9D9D9, in all three panels, with even, shadowless studio lighting. Keep identity, proportions, outfit, materials, colors, and accessories identical across panels.
-4. Generation order:
-   a. Generate the front full-body view WITH the head, framed head-to-toe with space above the head. This is the master reference.
-   b. Generate the back view with the exact same framing, camera height, distance, and body scale, using the master as a reference image when the model accepts references. Repeat the full character description in every prompt. If references are not supported, rely on the repeated description (and a fixed seed if available).
-   c. Generate the right-panel close-up, also referencing the master.
-   d. If code/image tools are available, build the left panel by filling everything above the neck base of the master with #D9D9D9, then align and composite the panels in code (see alignment rules). Only fall back to asking the image model for the hidden head if no post-processing is possible.
-5. When writing image prompts, phrase constraints positively; put unwanted elements (wound, cut, outline, shadow, cropped body) in a negative prompt if the tool supports one.
-6. Finish with a short reusable trait card: age / build / face / hair / outfit / palette (hex) / props / headwear.
+> 每个角色一张 3:2 三面板表：左无头正面、中背面、右 3/4 特写。全表只有一张脸。
+> skill 只定义格式与提示词，不规定生成步骤；怎么执行由 LLM 决定。
 
-## Left panel — headless front body
-- Facing forward, standing naturally, relaxed shoulders, arms hanging down, hands empty. The complete body from the neck base to the shoe soles is visible.
-- Everything above the neck base (face, ears, hair, headwear above that line) is replaced with exactly #D9D9D9, blending seamlessly into the background: no silhouette, outline, shadow, texture, gradient, or mask edge.
-- Keep the original full-body framing. The head's space stays empty above the shoulders. Do not crop at the neck, enlarge the body, or move it upward.
-- If headwear or clothing extends below the neck base (e.g. a hood or balaclava over the collar), keep the part at and below the neck base.
-- This is a clean graphic masking effect. Never depict a neck cross-section, wound, or injury.
+## Trait card（先填）
 
-## Middle panel — back view
-- Same character facing directly away from the camera, fully visible from the top of the head to the shoe soles, with space above the head. No part of the face (front or side) is visible.
-- Same body scale, posture, camera height, distance, and perspective as the left panel. Do not resize or re-center independently.
+```text
+age | build | face | hair | outfit | palette (hex) | props | headwear
+```
 
-## Strict left–middle alignment
-- Both panels use the same full-body framing. The only difference is that the left head is filled with background color while the middle head remains.
-- Corresponding landmarks sit at identical vertical coordinates: neck base, shoulder line, elbows, waist, hips, knees, ankles, shoe soles.
-- Same torso length, limb lengths, shoulder width, stance width, and overall scale. Both figures stand on one shared ground baseline, each centered on its panel's vertical axis.
-- The empty area above the left shoulders matches the area the head occupies in the middle panel. Never stretch, compress, shift, or rescale either body to compensate.
+## 固定格式
 
-## Right panel — close-up
-- Three-quarter head-and-shoulders view from the chest up. Body and face are turned toward the viewer's left (the character's right), and the gaze looks straight into the lens.
-- Same identity, outfit, and headwear as the other panels. The head-hiding effect applies to the left panel only.
+- **画幅**：3:2 横向，三个等宽、等高面板。
+- **背景**：统一纯色 `#D9D9D9`；均匀、无阴影的棚拍光。
+- **左面板**：正面全身，无头。
+  - 颈根以上（脸、耳、头发、头饰）全部是 `#D9D9D9`，与背景无缝；无轮廓、无阴影、无纹理、无渐变、无遮罩边。
+  - 颈根到鞋底完整可见；自然站立，肩放松，手臂下垂，手空。
+  - 保持全身构图；头顶留空；不裁切脖子、不放大身体、不上移。
+  - 头饰或衣领若延伸到颈根以下，保留颈根及以下部分。
+  - 干净的图形切面；不得出现颈断面、伤口、损伤。
+- **中面板**：背面全身，头可见，无脸。
+  - 与左面板同身体比例、姿态、机位高度、距离、透视；同一地面基线。
+  - 不得独立缩放或重新居中。
+- **右面板**：3/4 头肩特写，从胸口以上。
+  - 身体和脸转向观众左侧（角色右侧），目光直视镜头。
+  - 与左/中同身份、同服装、同头饰。
+  - 全表只有这一张脸。
+- **对齐**：
+  - 颈根、肩线、肘、腰、胯、膝、踝、鞋底在相同垂直坐标。
+  - 躯干长度、四肢长度、肩宽、站距、整体比例一致；同一地面基线；各自在面板垂直中轴。
+  - 左肩以上空白 = 中面板头部所占区域；不得拉伸、压缩、位移、缩放。
+
+## 提示词
+
+```text
+CHARACTER SHEET — 3:2 horizontal, three equal panels, solid #D9D9D9 background, even shadowless studio lighting.
+
+IDENTITY (all panels): {{age}} | {{build}} | {{outfit}} | {{palette hex}} | {{props}}
+HEAD (middle + right only): {{face}} | {{hair}} | {{headwear}}
+
+LEFT PANEL: front full-body, headless. Everything above the neck base is exactly #D9D9D9, seamless with the background; no head, no face, no ears, no hair, no headwear above the neck base; no silhouette, outline, shadow, texture, gradient, or mask edge; no neck cross-section, wound, or injury. Body from neck base to shoe soles visible; arms hanging; hands empty; same framing and scale as the middle panel. If headwear or clothing extends below the neck base, keep the part at and below the neck base.
+
+MIDDLE PANEL: full back view, head visible, no face. Same outfit, proportions, camera height, distance, body scale; shared ground baseline.
+
+RIGHT PANEL: three-quarter head-and-shoulders close-up; body and face turned to viewer's left; gaze into lens. Same identity and outfit. This is the only face in the sheet.
+
+ALIGNMENT: neck base, shoulder line, elbows, waist, hips, knees, ankles, shoe soles at identical vertical coordinates; same torso length, limb lengths, shoulder width, stance width; no stretch, compress, shift, or rescale.
+```
+
+## Negative
+
+```text
+extra face | duplicate head | neck cross-section | wound | cut | injury | outline | shadow | gradient | mask edge | cropped body | inconsistent outfit | different body scale | misaligned panels | text | watermark
+```

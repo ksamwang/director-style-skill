@@ -28,9 +28,13 @@ C1: 30s East Asian woman | slim | sharp jaw | narrow eyes | shoulder-length blac
 
 ## 人物角色表
 
-人物资产使用固定的三面板角色表格式，完整规范见 `templates/character-sheet.md`（原样收录，不要改写）。
+人物资产使用固定的三面板角色表格式，完整规范见 `templates/character-sheet.md`。
 
-关键：**左面板不是让模型直接画无头**，而是先生成有头正面 master，再把颈根以上填 `#D9D9D9` 后拼合；只有无法后处理时，才让模型直接画无头。
+- 每个角色一张 3:2 三面板表，不先做单独的正面全身定妆图。
+- 左：正面全身，无头；颈根以上 = `#D9D9D9`。
+- 中：背面全身，头可见，无脸。
+- 右：3/4 头肩特写；全表只有这一张脸。
+- 目标格式固定；怎么生成由 LLM 决定，skill 不规定执行步骤。
 
 ## 场景 token
 
