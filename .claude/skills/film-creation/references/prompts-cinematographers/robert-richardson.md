@@ -26,8 +26,3 @@ no softbox diffusion, no fill light, no visible detail in the shadows, no correc
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber-red-green, 21–35mm, single hard top-side key, off-center with source in frame, 35mm grain and smoke.
 - 禁止漂移：no soft light, no teal-orange LUT, no clean digital sharpness, no drone establishing shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用硬光电影静帧做 `--sref`，避免默认柔光。
-- SDXL / ComfyUI：negative 固定 no fill light / no softbox；ControlNet depth 锁低角度纵深；可加颗粒 LoRA。
-- Runway / Kling / Sora / Veo：首帧给硬光静帧，只写一种缓慢推轨，6–10 秒，24fps，不叠加手持与变焦。

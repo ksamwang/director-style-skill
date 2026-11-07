@@ -30,8 +30,3 @@ no handheld camera, no fast cutting, no modern jump cut, no warm sepia, no paste
 - 构图：deep staging, doorframes and mirrors, figures ranked front to back.
 - 材质：silk, velvet, marble, crystal, silver, uniforms.
 - 禁止漂移：no handheld, no modern interior, no daylight sitcom, no pastel, no digital skin, no empty ballroom without servants.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用《豹》的舞会静帧做 `--sref`，锁住金褐、酒红与深焦；`--no handheld, pastel, modern interior`。
-- SDXL / ComfyUI：用 ControlNet depth 锁“前景仆人—中景贵族—后景门框”的三层纵深；positive 里写清人物等级站位，不要交给模型自动分布。
-- Runway / Kling / Sora / Veo：首帧用舞会全景，只写 `slow lateral dolly`；不要让模型环绕或推近，运动必须像穿过房间，不是飞过房间。

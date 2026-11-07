@@ -31,8 +31,3 @@ no handheld camera, no zoom lens, no duel in clear weather, no shot-reverse-shot
  - 构图：three planes, opposing figures at the frame edges, empty center.
  - 材质：mud, armor, wood, fire, rain.
 - 禁止漂移：no clean digital mud, no wire-fu floating, no teal-and-orange, no modern armor, no drone shot, no shallow-focus hero portrait, no glossy rain.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；把 `black and white`放在前段，否则默认彩色；用一张雨战静帧做 `--sref`；避免 `epic fantasy`。
-- SDXL / ComfyUI：黑白胶片颗粒 LoRA + ControlNet depth 搭三层空间；negative 单独写手持、变焦、柔光、浅景深。
-- Runway / Kling / Sora / Veo：先给宽画幅战场首帧，只给一次横移，3–5 秒、24fps；多机位动作靠剪辑完成，不要在一次生成里叠运动。

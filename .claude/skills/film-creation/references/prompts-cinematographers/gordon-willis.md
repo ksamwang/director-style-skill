@@ -26,8 +26,3 @@ no frontal fill light, no lifted shadows, no visible detail in the dark, no even
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber-black or B&W, 35–40mm, hard top light, symmetrical interior, grain and smoke.
 - 禁止漂移：no fill, no lifted blacks, no warm teal-orange LUT, no handheld, no modern LED flat light.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；用 70 年代低照度静帧做 `--sref`，必要时 `--no fill light`。
-- SDXL / ComfyUI：negative 锁 no fill light / no lifted shadows；ControlNet depth 锁对称室内；可以压低 exposure 的 LoRA。
-- Runway / Kling / Sora / Veo：首帧给顶光半脸，只写 static camera，8–15 秒，24fps。

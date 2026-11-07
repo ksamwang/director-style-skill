@@ -31,8 +31,3 @@ no handheld tension, no slick music-video coverage, no warm filter making absurd
 - 构图：flat eye level, figure small in a corner, large blank space.
 - 材质：snow, wood, asphalt, wallpaper, carpet, film grain.
 - 禁止漂移：no drone aerials, no teal-orange blockbuster grade, no modern urban glass, no handsome hero lighting.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用空旷雪地或公路静帧做 `--sref`锁空间比例。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁“人物在角落、大面积空白”的构图。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 static；5–8 秒、24fps，暴力只拍事后房间。

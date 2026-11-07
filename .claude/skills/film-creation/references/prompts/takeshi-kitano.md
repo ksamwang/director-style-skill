@@ -31,8 +31,3 @@ no on-screen violence process, no long-lens compression, no dialogue explaining 
  - 构图：person / void / horizon, large empty space, subject at center or edge.
  - 材质：sea, sky, asphalt, concrete.
 - 禁止漂移：no drone, no handheld, no neon, no shallow bokeh, no warm grade, no busy set dressing, no lens flare.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；强调 `large empty sky, small figure, flat light`；避免 `dramatic`、`moody`。
-- SDXL / ComfyUI：ControlNet depth 锁地平线；negative 写 `telephoto compression, bokeh, handheld, warm`；同一场景固定 seed。
-- Runway / Kling / Sora / Veo：固定机位，5–8 秒、24fps；暴力在画外，先拍旁观者的脸和事后的空镜；配乐在剪辑后期加，不要交给生成模型。

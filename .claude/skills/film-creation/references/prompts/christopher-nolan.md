@@ -30,8 +30,3 @@ no handheld camera shake, no dutch angle, no warm nostalgia filter, no teal-and-
 - 构图：centered symmetry, figure on axis, negative space above.
 - 材质：concrete, glass, water, wool, fine 65mm grain.
 - 禁止漂移：no modern LED white, no clean glass towers, no digital skin, no drone-shot gloss.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用真实 IMAX 静帧做 `--sref`，避免模型自动加暖色。
-- SDXL / ComfyUI：固定 prompt 块；用 ControlNet depth 锁中轴对称与人物轴线；negative 里保留 no fill light。
-- Runway / Kling / Sora / Veo：从首帧图开始，只给 slow dolly in，4–6 秒，24fps；不要同时写推轨和手持。

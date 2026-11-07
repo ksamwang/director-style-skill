@@ -26,8 +26,3 @@ no neutral white key light, no evenly lit scene, no handheld camera, no more tha
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：one hue per shot; 35mm anamorphic; two colour temperatures; symmetrical axis; smoke and silk.
 - 禁止漂移：no white balance to neutral, no daylight-flat look, no modern glass architecture, no desaturated palette, no handheld coverage.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用一张有色光源的舞台静帧做 `--sref`，避免默认的橙青。
-- SDXL / ComfyUI：用 IP-Adapter 锁色板（单主色 + 一个补色）；ControlNet lineart 锁对称建筑；negative 排除 white key light。
-- Runway / Kling / Sora / Veo：先给首帧，只写一种 slow crane rise，8–12 秒，24fps；不要叠加横移或推近。

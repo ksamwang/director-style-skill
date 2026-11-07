@@ -26,8 +26,3 @@ no hard direct light on the face, no high-contrast film-noir lighting, no handhe
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber and cream palette with night blue; 50mm; soft window backlight; doorway framing; sheer curtains and dust.
 - 禁止漂移：no hard studio key, no cold daylight, no handheld, no clean digital skin, no contemporary minimalist interior.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用 1980 年代柯达胶片静帧做 `--sref`，避免塑料感。
-- SDXL / ComfyUI：用 soft-light 参考图与暖色 palette；negative 排除 hard light 与 LED white。
-- Runway / Kling / Sora / Veo：首帧给室内窗光，只写一种极慢 dolly in；8–15 秒，24fps，不晃镜。

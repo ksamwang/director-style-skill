@@ -30,8 +30,3 @@ no close-up on the gag, no cartoon sound effects, no unnatural foley, no dialogu
 - 构图：full shot, three depth planes, gag at the edge or background, focus dispersed.
 - 材质：glass, aluminium, plastic, polished floor, old brick.
 - 禁止漂移：no drone, no handheld, no shallow bokeh, no teal-orange grade, no neon, no anamorphic flare.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用深层宽景静帧做 `--sref`；不要写 “cinematic close-up”。
-- SDXL / ComfyUI：ControlNet depth 锁三层纵深；固定 prompt 块，避免高对比与浅景深 LoRA。
-- Runway / Kling / Sora / Veo：首帧图起，fixed camera，10–20 秒，24fps；笑点留在画框边缘，不要让模型推近。

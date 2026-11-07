@@ -26,8 +26,3 @@ no shallow depth of field, no telephoto compression, no flat eye-level compositi
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black and white, 24–35mm deep focus, hard practical light, low angle with ceiling, silver grain.
 - 禁止漂移：no color, no shallow focus, no soft light, no modern lens flare, no digital clean image.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 60`；用 1940s 黑白深焦静帧做 `--sref`，加 `--no color`。
-- SDXL / ComfyUI：ControlNet depth 锁多平面纵深；negative 锁 no shallow depth of field / no color；可用黑白胶片 LoRA。
-- Runway / Kling / Sora / Veo：首帧给深焦低角度全景，只写一种缓慢推轨，10–20 秒，24fps。

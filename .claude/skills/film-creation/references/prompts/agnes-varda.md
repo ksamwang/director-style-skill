@@ -30,8 +30,3 @@ no unified color grade, no hidden camera or invisible crew, no interviewee treat
 - 构图：asymmetric, clutter retained, camera's own shadow or hand in frame, subject at eye height.
 - 材质：old clothes, sand, peeling plaster, mirror, handwriting.
 - 禁止漂移：no drone, no stabilized gimbal, no HDR, no vintage filter, no clean minimalist set.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；手写纸与旧墙静帧做 `--sref`；不要写 “perfect composition”。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet 保留杂物与不对称；negative 里禁 “clean background”。
-- Runway / Kling / Sora / Veo：首帧图起，handheld follow 单一运镜，5–10 秒，24fps，不加稳定器与变速。

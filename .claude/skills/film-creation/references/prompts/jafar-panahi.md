@@ -26,8 +26,3 @@ no pretty composition of a confined space, no protest-slogan ending, no invisibl
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey, beige, asphalt black with a single red accent; 24–35mm wide; flat on-location fluorescent and daylight; barrier cutting the frame, figure behind or beside camera; tile, iron, plastic, wet glass.
 - 禁止漂移：no drone shots, no anamorphic flare, no warm cinematic grade, no clean modern architecture, no staged symmetrical framing, no invisible omniscient camera move.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；写 `handheld documentary still`但静帧只能体现构图，运动交给视频模型；`--sref`用《出租车》车内或检查站静帧。
-- SDXL / ComfyUI：广角 + 障碍物构图写进 positive；ControlNet depth 锁栏杆与门框；negative 压掉 `cinematic lighting, bokeh, drone view`。
-- Runway / Kling / Sora / Veo：首帧后写 `handheld follow, camera behind subject`；10–20 秒、24fps；被拦下时明确写 `camera stops`；不要写推轨或升降。

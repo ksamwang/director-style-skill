@@ -26,8 +26,3 @@ no tasteful nude photography, no aestheticized bodies, no violence-as-thrill, no
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：ochre, earth red, deep green or coarse black and white; 35–50mm frontal, 85mm icon close-up; hard side light with split face; altar symmetry and frontal row; plaster, rough cloth, fresco.
 - 禁止漂移：no glossy skin, no fashion lighting, no shallow-focus bokeh portrait, no handheld shake in sacred scenes, no modern clothing, no warm color grade, no smile for the camera.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用湿壁画或新现实主义黑白剧照做 `--sref`，压低模型的唯美默认值。
-- SDXL / ComfyUI：positive 固定“frontal row / altar symmetry”块；用 ControlNet pose 或 canny 锁正面排站，negative 里写掉 `boudoir lighting`与 `glossy skin`。
-- Runway / Kling / Sora / Veo：只给静止镜头与首帧；若必须运动，限定为“跟随人物走入市场”的手持段，且与神圣段分开生成。

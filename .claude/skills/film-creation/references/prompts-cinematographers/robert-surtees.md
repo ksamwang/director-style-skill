@@ -26,8 +26,3 @@ no shallow depth of field, no coloured dramatic side light, no colour as subject
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：low-saturation natural palette; 28–40mm deep focus; single sun plus bounce; lateral staging; real dust and wood.
 - 禁止漂移：no teal-orange LUT, no shallow bokeh, no studio fill, no modern glass architecture, no saturated primaries.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；提示 deep focus 与 lateral composition，避免默认浅景深。
-- SDXL / ComfyUI：ControlNet depth 锁前后景同时清晰；negative 排除 bokeh 与 coloured side light。
-- Runway / Kling / Sora / Veo：首帧给深焦宽画幅，只写 slow tracking，10–18 秒，24fps，不加变焦。

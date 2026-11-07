@@ -26,8 +26,3 @@ no exotic sepia or folkloric score, no unnamed generic Africa, no charming colon
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：earth, white, indigo / 35–50mm, / hard natural sun, no fill / frontal medium, symmetrical, door inside/outside / rough cloth, mud wall, iron, enamel.
 - 禁止漂移：no sepia, no drone, no modern city glass, no handheld shake, no shallow-focus beauty portrait, no clean digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；用公共集会或市场纪实照片做 `--sref`，负面里压 `sepia, exotic, film poster`。
-- SDXL / ComfyUI：ControlNet pose 锁正面站姿与旁观者站位；固定标准镜头 prompt 块；避免人像美颜 LoRA。
-- Runway / Kling / Sora / Veo：首帧为正面中景群像，只给 static camera；8–12 秒，24fps；人物直视镜头说话，不要让模型切到反打。

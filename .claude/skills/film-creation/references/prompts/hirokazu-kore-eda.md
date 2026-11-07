@@ -31,8 +31,3 @@ no score telling the audience when to cry, no big close-up of weeping, no flashb
  - 构图：door frame or corridor splits the space, family held in one frame, camera outside the room at the peak.
  - 材质：old wood, bowls, drying pole, worn wall.
 - 禁止漂移：no score-driven emotion, no drone, no modern glass apartment, no LED white, no teal-and-orange, no close-up tears, no tatami-height drift.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；写 `natural window light, domestic clutter, figures partly blocked by a door frame`；避免 `dramatic`、`emotional`。
-- SDXL / ComfyUI：ControlNet depth 锁门框与走廊切分；低饱和暖调 LoRA；negative 写 `tears close-up, studio light, shallow bokeh, handheld`。
-- Runway / Kling / Sora / Veo：固定人体高度机位，6–10 秒、24fps；人物出画后的空房间单独生成一条 hold；不做推近，不加入任何镜头运动。

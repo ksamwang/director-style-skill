@@ -26,8 +26,3 @@ no steadicam smoothness, no symmetrical clean framing, no orchestral score cuein
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red blue green night with 35mm grain, 24–35mm handheld at , neon and practical sources with retained darks, crowded off-balance framing with foreground obstruction, smoke and wet glass.
 - 禁止漂移：no anamorphic clean look, no teal-orange blockbuster grade, no tripod symmetry, no drone, no digital sharpness, no period costume-drama polish.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250 --no symmetrical, tripod, clean`；`--sref`用《好家伙》夜店段落静帧；提示词保留 `handheld`、`crowded`、`neon`。
-- SDXL / ComfyUI：用 depth 或 pose 锁人群遮挡关系；加低强度胶片颗粒 LoRA；不要把 negative 写得过满，`handheld`容易被误伤。
-- Runway / Kling / Sora / Veo：首帧是人群中的中近景；只写 `handheld follow`；让它略微晃动，不要写 `smooth`；歌曲属于声音层，不要写进画面提示。

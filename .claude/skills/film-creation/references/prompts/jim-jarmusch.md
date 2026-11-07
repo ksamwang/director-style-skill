@@ -31,8 +31,3 @@ no handheld energy, no fast cutting, no dramatic lighting, no saturated color, n
 - 构图：human eye level, figure low-center, large empty space.
 - 材质：old car, worn fabric, graffiti, smoke, film grain.
 - 禁止漂移：no drone shots, no neon glamour, no clean digital sharpness, no modern luxury interiors, no music-video slow motion.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用低饱和公路或旅馆静帧做 `--sref`。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁“人物偏下、上方留空”的固定全景。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 static；6–10 秒、24fps，人物走出画外后继续停留。

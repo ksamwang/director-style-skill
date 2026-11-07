@@ -26,8 +26,3 @@ no studio lighting, no shot-reverse-shot coverage, no locked-off master with zoo
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：natural earth palette; 14–27mm; available light; off-center deep space; dust and sweat.
 - 禁止漂移：no studio fill, no orange-teal LUT, no drone-only landscape, no clean digital sharpness.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张自然光电影静帧做 `--sref`。
-- SDXL / ComfyUI：广角 LoRA 可选；ControlNet depth 锁纵深；negative 排除 studio lighting。
-- Runway / Kling / Sora / Veo：从首帧开始，只给一种连续跟拍，10–30 秒，24fps，不切。

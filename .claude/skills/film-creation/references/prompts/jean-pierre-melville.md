@@ -30,8 +30,3 @@ no handheld camera, no zoom, no warm color grade, no romantic soft focus, no bac
 - 构图：symmetrical, eye-level, isolated figure, door or window as border.
 - 材质：trench coat, fedora, gloves, wet asphalt, chrome, smoke, film grain.
 - 禁止漂移：no daylight postcard Paris, no neon rainbow, no digital sharpness, no modern cars, no handheld drift.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；参考 1960 年代黑白/冷色犯罪片静帧做 `--sref`。
-- SDXL / ComfyUI：固定 prompt 块 + 细颗粒 LoRA；用 ControlNet 锁对称构图与门窗边框，色彩用冷蓝灰色板。
-- Runway / Kling / Sora / Veo：首帧图起手，只给缓慢横移一种运镜，6–10 秒，24fps；不要同时写推近与跟拍。

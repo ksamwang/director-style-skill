@@ -26,8 +26,3 @@ no suspense plotting, no murder-mystery framing, no close-up emotional rescue, n
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-green and concrete with industrial red; 28–35mm deep focus; flat overcast; asymmetry with building at two-thirds; plaster, glass, fog.
 - 禁止漂移：no warm wood interiors, no golden-hour romance, no centered hero framing, no shallow-focus portrait, no modern glass towers with clean LED light, no crowd spectacle.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；`--sref`用一张 1960 年代欧洲黑白或低饱和建筑静帧，避免默认电影感打光。
-- SDXL / ComfyUI：negative 里明确写掉 `shallow depth of field`与 `dramatic lighting`；用 ControlNet depth 锁“建筑占三分之二、人物在边缘”的构图。
-- Runway / Kling / Sora / Veo：首帧给空景加边缘人物，运动只写 `static`或 `very slow lateral drift`；不要让人物走动被镜头跟随。

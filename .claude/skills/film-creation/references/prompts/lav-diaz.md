@@ -30,8 +30,3 @@ no nostalgic sepia, no decorative film-grain filter, no dramatic climax inside t
 - 构图：wide or extreme wide, figures small and off-center, sky / earth / water dominant, eye level or slightly low.
 - 材质：rain, mud, corrugated iron, plastic sheeting, old documents.
 - 禁止漂移：no drone establishing shot, no golden-hour glow, no handheld shake, no modern glass towers, no HDR.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；黑白静帧做 `--sref`，避免 “dramatic lighting”。
-- SDXL / ComfyUI：positive/negative 分开；用 ControlNet depth 锁“人物小、天地大”的比例；不要加浅景深 LoRA。
-- Runway / Kling / Sora / Veo：首帧图起，static camera 单一运镜，30–60 秒或平台上限，24fps，不加变速与运动模糊。

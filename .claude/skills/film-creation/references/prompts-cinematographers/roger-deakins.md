@@ -26,8 +26,3 @@ no handheld shake, no unmotivated camera movement, no multiple key lights, no te
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-blue earth palette, 35–40mm, single source with negative fill, horizon and negative space, fog and dust.
 - 禁止漂移：no handheld, no zoom, no neon, no drone-only aerial, no orange-teal LUT.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；参考图选迪金斯的远景静帧，避免模型自动加暖色。
-- SDXL / ComfyUI：negative 锁 no handheld / no multiple lights；ControlNet depth 或 canny 锁水平线与建筑透视。
-- Runway / Kling / Sora / Veo：首帧给剪影远景，只写一种缓慢推轨，8–20 秒，24fps。

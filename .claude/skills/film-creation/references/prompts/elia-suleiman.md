@@ -30,8 +30,3 @@ no handheld, no zoom, no dolly, no reaction shot after the gag, no direct on-scr
 - 构图：frontal symmetrical wide, subject at the edge, center empty, frame-within-frame.
 - 材质：concrete, dust, plastic chair, wire mesh.
 - 禁止漂移：no drone, no stylized color grade, no handheld documentary shake, no anamorphic flare, no emotional close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用对称宽景静帧做 `--sref`；避免 “dramatic”。
-- SDXL / ComfyUI：ControlNet depth 锁正面平视与空中央；固定 prompt 块，negative 单列。
-- Runway / Kling / Sora / Veo：首帧图起，static 单一运镜，10–20 秒，24fps；gag 之后不要切反应镜头。

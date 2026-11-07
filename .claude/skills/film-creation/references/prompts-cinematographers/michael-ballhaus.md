@@ -26,8 +26,3 @@ no handheld shake, no drone orbit, no telephoto isolation of a face, no high ang
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：tungsten amber and faded green; 25–40mm; visible practicals at –; doorway and mirror framing; wood, velvet, smoke.
 - 禁止漂移：no LED white, no teal-orange grade, no drone move, no clean digital interior, no handheld.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用一张七十年代室内剧静帧做 `--sref`，避免模型加现代家具。
-- SDXL / ComfyUI：ControlNet depth 锁门框与镜面层次；negative 里加重 `drone, handheld, zoom`。
-- Runway / Kling / Sora / Veo：首帧给一个完整房间，只写一种环绕运动，20–40 秒，24fps，不要中途切镜。

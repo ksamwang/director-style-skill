@@ -30,8 +30,3 @@ no handheld shake, no warm nostalgia filter, no postcard city skyline, no score 
 - 构图：symmetrical, glass and frame divisions, lines crossing the face, person and space equal.
 - 材质：glass, curtain wall, corridor tile, neon.
 - 禁止漂移：no handheld, no shallow depth, no warm grade, no glass-tower glamour, no emotional close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用玻璃隔断办公室的实拍参考做 `--sref`，不要用城市夜景明信片。
-- SDXL / ComfyUI：用 ControlNet depth/canny 锁玻璃隔断与建筑线条；negative 排除 handheld、warm filter、shallow focus。
-- Runway / Kling / Sora / Veo：首帧用固定广角群像，只给固定机位或一次缓慢横移，8–15 秒，24fps；不要推近。

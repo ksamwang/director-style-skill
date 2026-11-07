@@ -31,8 +31,3 @@ no 3D-rendered smoothness replacing hand-drawn lines, no uniform gradient skies,
  - 构图：deep space, wide establishing first, a single wind direction across all elements.
  - 材质：watercolor paper, hand-drawn line, wood, iron, steam.
 - 禁止漂移：no 3D or CGI sheen, no uniform gradient, no vector-clean edges, no photoreal texture, no modern city, no flat anime filter.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；写 `hand-painted watercolor background, cel animation, visible paper grain`；避免 `3D render, octane, unreal engine`；角色与背景分别用 `--sref`。
-- SDXL / ComfyUI：背景与角色分开生成再合成，或用经授权的风格 LoRA；ControlNet depth 锁纵深布局；negative 写 `3d, photoreal, gradient sky, lens flare`。
-- Runway / Kling / Sora / Veo：先给完成度高的首帧插画，只给一次横移或贴地滑行，4–8 秒；只让风与人物动，不要要求模型中途重绘建筑。

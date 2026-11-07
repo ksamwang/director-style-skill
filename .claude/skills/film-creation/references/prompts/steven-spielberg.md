@@ -26,8 +26,3 @@ no cynical voice-over, no spectacle without a reaction shot, no incoherent actio
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：warm amber blue and white, 24–35mm low angle at , backlight rim and practical night source, foreground back with spectacle behind, suburban wood and dust.
 - 禁止漂移：no teal-orange grade, no drone flyover, no grey desaturation, no handheld, no glossy sci-fi chrome, no centered hero portrait.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；提示词必须成对出现 `over the shoulder`与 `reaction`；`--no cold, handheld, grey`。
-- SDXL / ComfyUI：ControlNet depth 锁前景背影与后景奇观的距离；不要用 canny（会让逆光轮廓过锐）；negative 里加 `flat lighting`。
-- Runway / Kling / Sora / Veo：先出首帧（背影 + 远景），再让模型只做 `low-angle push-in over the shoulder`；切回脸部要另起一镜，不要在同一条 prompt 里写两个运动。

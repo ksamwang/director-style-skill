@@ -26,8 +26,3 @@ no electric fill on candlelight, no soft diffusion on the flame, no saturated ne
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber and cold blue, 18–25mm, single candle or window, symmetrical axis, wax and grain.
 - 禁止漂移：no fill light, no handheld, no neon, no modern interior, no lifted blacks.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；用烛光对称静帧做 `--sref`，加 `--no electric light`。
-- SDXL / ComfyUI：ControlNet canny 锁对称轴线；negative 锁 no fill light / no lifted shadows；可用烛光 LoRA。
-- Runway / Kling / Sora / Veo：首帧给对称烛光全景，只写一种极慢变焦，10–20 秒，24fps。

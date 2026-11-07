@@ -30,8 +30,3 @@ no handheld camera, no fast cutting, no neon, no multicolor palette, no clear tr
 - 构图：centered, low horizon, tiny figure at the lower edge.
 - 材质：concrete, sand, stone, fog, wet cloth, fine grain.
 - 禁止漂移：no neon cyberpunk, no saturated multi-color grade, no clean glass architecture, no drone tourism shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用雾景电影静帧做 `--sref`，避免模型加霓虹。
-- SDXL / ComfyUI：ControlNet depth 锁低地平线与巨物比例；用 palette 参考锁单色系；negative 保留 no neon。
-- Runway / Kling / Sora / Veo：首帧图起手，只给 very slow dolly in，6–8 秒，24fps；运动幅度写小。

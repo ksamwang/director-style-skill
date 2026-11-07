@@ -26,8 +26,3 @@ no score announcing passion, no flawless nude spectacle, no modern-language self
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-blue and mud brown, or dry yellow and black / 50–85mm close, body / natural window, candle, sea reflection / eye-level close, figure in corner, foreground occlusion / mud, rain, wool, lace, leather.
 - 禁止漂移：no drone landscape, no HDR sea, no clean modern clothing, no digital beauty skin, no warm golden filter.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用湿润森林或羊毛织物特写做 `--sref`；负面压 `pin-up, glamour, soft porn, postcard`。
-- SDXL / ComfyUI：ControlNet depth 锁前景遮挡与身体局部；macro 细节可用局部重绘；避免美颜与婚纱类 LoRA。
-- Runway / Kling / Sora / Veo：首帧为手部或后颈特写，只给 slow push-in；5–8 秒，24fps；亲密时刻不要自动拉成全景。

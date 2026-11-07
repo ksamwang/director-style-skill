@@ -26,8 +26,3 @@ no hard unfiltered key light, no sharp shadow edges, no handheld shake, no cold 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber-cream skin, cool background; 40–50mm; large diffused source; eye-level medium close-up; gauze and smoke.
 - 禁止漂移：no neutral digital white, no hard sun through windows, no teal-orange grade, no wedding-soft cliché, no modern LED.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张 70 年代柔光人像做 `--sref`，避免过度磨皮。
-- SDXL / ComfyUI：柔光 LoRA 可选；用 ControlNet depth 保持中近景层次；negative 排除 hard light 与 cold skin。
-- Runway / Kling / Sora / Veo：首帧定柔光人像，只写 slow dolly in，6–10 秒，24fps，不叠加手持。

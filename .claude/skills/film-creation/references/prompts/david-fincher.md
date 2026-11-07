@@ -31,8 +31,3 @@ no handheld shake, no warm nostalgia grade, no jump scare, no sudden loud sting,
 - 构图：slightly high, off-center, subject boxed by architecture or monitor.
 - 材质：glass, brushed metal, rain, screen pixels, paper files.
 - 禁止漂移：no modern phone UI parody, no HDR bloom, no clean showroom lighting, no warm domestic glow.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；冷调靠参考图与 prompt 双锁，避免默认暖光。
-- SDXL / ComfyUI：positive/negative 分离，固定冷调 prompt 块；ControlNet canny 锁门框与走廊线条。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 precise dolly-in 或 static；4–6 秒、24fps，运动模糊写 none。

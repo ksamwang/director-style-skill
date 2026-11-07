@@ -31,8 +31,3 @@ no sweeping drone aerials, no postcard landscape, no savior framing, no voice-ov
 - 构图：eye level, background legible, side-on road framing.
 - 材质：asphalt, dust, rust, worn fabric, film grain.
 - 禁止漂移：no drone shots, no teal-orange grade, no clean digital skin, no luxury vehicles, no travel-agency glow.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用实景公路静帧做 `--sref`，避免明信片化。
-- SDXL / ComfyUI：固定 prompt 块 + 轻颗粒 LoRA；ControlNet depth 锁同高视角与背景可见。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 side-tracking；6–10 秒、24fps，不要把风景和运动写在同一句里。

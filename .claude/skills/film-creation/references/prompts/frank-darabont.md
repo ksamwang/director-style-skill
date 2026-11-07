@@ -30,8 +30,3 @@ no handheld camera, no Dutch angle, no high-angle judgment of the prisoner, no c
 - 构图：eye-level, stable horizontals, bars or doorframe in foreground.
 - 材质：stone, iron, rain, paper, wool, wood.
 - 禁止漂移：no modern glass architecture, no LED white, no handheld shake, no digital skin, no teal-orange blockbuster grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用暖光监狱静帧做 `--sref`，避免出现“cinematic lighting”这种默认美化词。
-- SDXL / ComfyUI：positive 里锁“eye-level two-shot”和“single window source”；用 ControlNet depth 锁铁栏前景；负面提示保留 no handheld / no Dutch angle。
-- Runway / Kling / Sora / Veo：首帧给双人中景，只写一种“slow dolly in”，8–10 秒，24fps；人物动作写成“look up, hold, speak”，不要写情绪形容词。

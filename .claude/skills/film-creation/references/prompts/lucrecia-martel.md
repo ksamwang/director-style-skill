@@ -26,8 +26,3 @@ no establishing wide shot of the location, no high-angle or overhead view, no cl
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：moss green, mildew yellow, faded pink, hospital white / 100mm, / diffused through blinds, gauze, water / chest-shoulder height, cropped heads, figures at edges / sweat, water, mud, tile, plastic.
 - 禁止漂移：no drone or aerial, no clean modern interiors, no saturated emerald filter, no sharp digital texture, no heroic close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用潮湿的室内照片做 `--sref`，避免模型默认的柔光人像。
-- SDXL / ComfyUI：negative 里强化 `no establishing shot, no high angle`；ControlNet depth 或 canny 锁切头、切半身的边缘构图。
-- Runway / Kling / Sora / Veo：首帧为拥挤的桌边近景，只给 slow lateral drift；6–8 秒，24fps；人物对话留在画外，不要生成清晰对口型。

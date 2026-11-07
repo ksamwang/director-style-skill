@@ -30,8 +30,3 @@ no jump-scare sound stinger, no shock cut, no explained psychological villain, n
 - 构图：doorframe-within-doorframe, figure cut into sections, eye level broken only by one planned high or low angle.
 - 材质：wood staircase, glass, telephone, curtains.
 - 禁止漂移：no shaky camera, no modern surveillance aesthetic, no clean digital glass, no neon, no realistic handheld chase, no naturalistic flat lighting.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`（宽银幕段落改 ``--sref`，不要用惊悚片海报做参考。
-- SDXL / ComfyUI：用 ControlNet depth/canny 锁死门框、楼梯级数与走廊透视线；negative 必写 `shaky camera, dutch angle, gore, jump scare`；同一场景固定 seed。
-- Runway / Kling / Sora / Veo：先给首帧建立完整空间，运镜只写 `slow dolly in toward the object`，5–8 秒，24fps；暴力切在画外，不要生成动作过程。

@@ -26,8 +26,3 @@ no fast cutting, no shaky handheld, no psychological monologue staging, no postc
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：ochre and grey-blue muted, 35–50mm at eye level, hard natural light, doorway and low horizon with a small figure, weathered wood and dust.
 - 禁止漂移：no anamorphic western pastiche, no drone landscape, no teal-orange grade, no handheld, no centered hero portrait, no modern costumes.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200 --no close-up, sepia, handheld`；`--sref`用《搜索者》静帧；提示词保留 “doorway” 与 “low horizon” 两个词。
-- SDXL / ComfyUI：用 ControlNet canny 锁门框与地平线的直线；不要用 depth 单独控制，广袤天空容易被压平。negative 单列，避免 `cinematic`这种会引入现代调色的词。
-- Runway / Kling / Sora / Veo：首帧是门框内景；只写 “static camera”；让马队或人群横穿画面；结尾明确 “camera holds on the interior, the rider does not enter”。

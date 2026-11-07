@@ -30,8 +30,3 @@ no laugh-track timing, no caricature villain, no sentimental score, no glossy pe
 - 构图：eye-level inside the group, off-center, crowded, foreground bodies.
 - 材质：cheap suits, uniforms, beer glasses, formica, linoleum, film grain.
 - 禁止漂移：no glossy retro color, no modern LED white, no drone shots, no digital skin, no symmetrical staging.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；参考 1960 年代东欧纪实照片做 `--sref`，避免电影海报质感。
-- SDXL / ComfyUI：固定 prompt 块 + 细颗粒 LoRA；用 ControlNet pose 锁人群站位，negative 明确排除“studio lighting”。
-- Runway / Kling / Sora / Veo：首帧图起手，只给手持跟拍一种运镜，6–12 秒，24fps；不要写推轨或环绕。

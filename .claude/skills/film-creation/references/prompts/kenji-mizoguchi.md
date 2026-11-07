@@ -31,8 +31,3 @@ no shot-reverse-shot, no push-in during a woman's suffering, no fast cutting, no
  - 构图：horizontal scroll, figure at the lower edge, headroom of wall and sky.
  - 材质：silk folds, wood, paper, water, mist.
 - 禁止漂移：no drone, no handheld, no shallow focus, no modern costumes, no teal-and-orange, no crisp digital fog, no centered portrait.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；明确写 `figure small at the bottom of frame, large empty upper space`；用一张长镜头静帧做 `--sref`；避免 `epic`。
-- SDXL / ComfyUI：ControlNet depth 做前中后景深焦；用横幅式构图提示；negative 写 `close-up, shallow depth of field, fast cut energy`。
-- Runway / Kling / Sora / Veo：只给一次横向移动（lateral truck），8–12 秒、24fps；转场用前景柱子或帘子划过镜头，在剪辑里完成，不靠模型切场。

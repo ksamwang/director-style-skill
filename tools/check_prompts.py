@@ -11,7 +11,7 @@ SUBDIR = sys.argv[1] if len(sys.argv) > 1 else "prompts"
 EXPECTED = int(sys.argv[2]) if len(sys.argv) > 2 else 125
 DIR = os.path.join(ROOT, ".claude", "skills", "film-creation", "references", SUBDIR)
 
-SECTIONS = ["风格锚点", "图像提示", "视频提示", "负面提示", "一致性锚点", "平台备注"]
+SECTIONS = ["风格锚点", "图像提示", "视频提示", "负面提示", "一致性锚点"]
 IMAGE_FIELDS = ["主体 / 场景", "景别 / 构图", "镜头 / 焦段", "光线", "色彩", "材质"]
 VIDEO_FIELDS = ["镜头运动", "主体运动", "时长 / 帧率 / 运动模糊"]
 

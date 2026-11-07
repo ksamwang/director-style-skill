@@ -30,8 +30,3 @@ no glamorous monochrome, no slow-motion violence, no lone-hero close-up, no cart
 - 构图：diagonal, layered, foreground crowd, exits and high ground readable.
 - 材质：plaster, stone, uniforms, newspapers, megaphones, dust.
 - 禁止漂移：no colour grade, no shallow focus, no clean digital skin, no modern weapons, no studio set, no hero framing.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用新闻片黑白静帧做 `--sref`；`--no color, glamour, shallow depth of field, drone`。
-- SDXL / ComfyUI：positive 里写 `handheld, crowded foreground, layered street, visible staircase`；用 ControlNet depth 锁巷道纵深和出口，不要让人物浮在干净背景上。
-- Runway / Kling / Sora / Veo：首帧给拥挤巷道，只写 `handheld follow`；不要叠加推近或环绕；让人群自己挡住镜头，保留遮挡与碰撞。

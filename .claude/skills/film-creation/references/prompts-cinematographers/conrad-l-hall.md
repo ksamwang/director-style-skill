@@ -26,8 +26,3 @@ no flat frontal key, no saturated primary colors, no background as bright as the
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：slate grey, amber, bone white plus one warm accent; 75–150mm; soft side window key at –; off-center face in a dark field; smoke, rain and soft skin.
 - 禁止漂移：no flat fill, no primary palette, no handheld, no clean digital sharpness, no HDR lift.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；`--no flat lighting, saturated colors`；用一张低照度肖像做 `--sref`。
-- SDXL / ComfyUI：negative 固定 `flat key, high saturation, sharp digital`；ControlNet depth 只保留脸与窗两层，其余交给黑。
-- Runway / Kling / Sora / Veo：首帧是已曝光的脸，只写一种极慢推近，8–15 秒，24fps，不加手持与变速。

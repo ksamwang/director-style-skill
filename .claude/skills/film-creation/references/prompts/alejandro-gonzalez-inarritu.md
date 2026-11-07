@@ -30,8 +30,3 @@ no fast-cut montage, no aerial travelogue, no closed causal explanation, no sing
 - 构图：off-center, foreground obstruction, subject at the edge.
 - 材质：dust, sweat, blood, concrete, animal fur, stage wood.
 - 禁止漂移：no drone shot, no clean glass architecture, no teal-orange grade, no digital skin, no smooth gimbal.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用纪实街头静帧做 `--sref`；避免“epic”“award-winning”这类词。
-- SDXL / ComfyUI：正面锁“shoulder-height, off-center, foreground shoulder”；用 ControlNet depth 保持深空间；负面提示保留 no aerial / no centered hero。
-- Runway / Kling / Sora / Veo：首帧给跟拍中景，只写一种“continuous handheld follow”，8–12 秒，24fps；不要写第二种运镜，不要把多线剪进同一条视频。

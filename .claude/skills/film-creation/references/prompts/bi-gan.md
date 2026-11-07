@@ -26,8 +26,3 @@ no long take as mere duration, no global green filter, no poetic voice-over expl
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：green, blue and mold with old neon; 24–35mm; practical light, dense darks; follow behind the head, asymmetric depth, fog behind the figure; mold, water stain, old cloth, film grain.
 - 禁止漂移：no global green filter, no clean digital, no HDR, no drone, no fast cut.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 180`；用一张潮湿室内的静帧做 `--sref`，不要整片绿。
-- SDXL / ComfyUI：negative 强化“green filter, teal and orange”；ControlNet（depth）锁隧道纵深；固定实用光关键词。
-- Runway / Kling / Sora / Veo：单个 20–40 秒长镜，24fps；先给首帧，再只写一种跟拍/环绕运动，不要剪。

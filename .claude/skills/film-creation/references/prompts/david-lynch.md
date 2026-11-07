@@ -26,8 +26,3 @@ no explanation of the dream, no jump scare, no flat black without texture, no ps
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：deep red and blue in dreams, near-natural elsewhere, 35–50mm at , practical lamp and TV light with textured black, doorframe occlusion with half a face, velvet and plastic.
 - 禁止漂移：no full-frame colour filter, no jump-cut horror grammar, no daylight flatness, no symmetrical family-sitcom composition, no digital clean skin, no explained ending.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200 --no symmetry, daylight, explained`；`--sref`用《蓝丝绒》室内静帧；提示词保留 `doorframe`、`curtain`、`practical lamp`。
-- SDXL / ComfyUI：ControlNet depth 锁门框遮挡，不要用 canny（半张脸会被描成硬边）；negative 单列，`neon`一词要慎用，否则模型会铺满全画面。
-- Runway / Kling / Sora / Veo：首帧就是门口视角；只写 `imperceptibly slow push-in`；时长拉到 15 秒以上；不要让它自动产生惊吓节拍。

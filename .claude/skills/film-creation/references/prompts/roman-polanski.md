@@ -30,8 +30,3 @@ no full monster reveal, no jump-scare stinger, no safe outdoor space, no rationa
 - 构图：doorframes and corridors filling the frame, figure at the edge, no exit space.
 - 材质：old wallpaper, carpet, glass, rain.
 - 禁止漂移：no wide establishing exterior, no bright clean interior, no symmetrical framing, no digital sharpness, no modern glass architecture, no consoling pull-back.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`（压迫段落改 ``--sref`。
-- SDXL / ComfyUI：28–35mm 广角 prompt 块 + ControlNet depth 锁走廊透视和人物贴边；negative 写 `wide establishing shot, symmetrical, bright, clean, modern`；同一公寓固定 seed。
-- Runway / Kling / Sora / Veo：首帧给人物背影与门框，运镜只写 `follow from behind`，6–10 秒，24fps；禁止拉远、升高或切到室外。

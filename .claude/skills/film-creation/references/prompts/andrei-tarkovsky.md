@@ -30,8 +30,3 @@ no montage metaphor, no symbolic explanation dialogue, no music filling every ga
 - 构图：low horizon, small figure in a corner, sky and earth dominant.
 - 材质：water, fire, wet walls, mossy wood, ruins.
 - 禁止漂移：no teal-orange grade, no clean modern surfaces, no drone shot, no fast handheld, no digital skin, no centered hero composition.
-
-## 平台备注
-- Midjourney：``raw --stylize 200`；用一张低地平线、人物很小的风景静帧做 `--sref`，不要用奇幻概念图。
-- SDXL / ComfyUI：现实段与记忆段分成两个固定 prompt 块和两套色板；ControlNet depth 锁低地平线和人物角落位置；negative 写 `clean, modern, glossy, centered, fast`。
-- Runway / Kling / Sora / Veo：首帧给低地平线全景，运镜只写 `very slow lateral drift`，单镜 20–60 秒，24fps；让水、火、风先动，人物后动。

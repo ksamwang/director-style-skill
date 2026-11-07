@@ -31,8 +31,3 @@ no beautified poverty, no moral halo on the poor, no clean symmetrical compositi
  - 构图：crowded and asymmetric, bodies among objects, no clean space.
  - 材质：mud, water, planks, fur, grime.
 - 禁止漂移：no clean digital skin, no drone, no color grade, no modern appliances, no tidy set dressing, no shallow-focus portrait, no studio backdrop.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；避免 `cinematic`，改写为 `documentary photo, dirty lens, available light`；用一张粗颗粒静帧做 `--sref`。
-- SDXL / ComfyUI：可加 handheld blur LoRA；ControlNet depth 只定大布局，允许杂乱；negative 强写 `clean, minimal, studio, beautified`。
-- Runway / Kling / Sora / Veo：手持贴地跟拍，3–6 秒、24fps；动物插入镜头单独生成一条，剪辑时不加解释。

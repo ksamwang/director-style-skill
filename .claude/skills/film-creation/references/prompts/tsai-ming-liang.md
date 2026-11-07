@@ -30,8 +30,3 @@ no score, no shortened cut to fix pacing, no psychological flashback or voice-ov
 - 构图：full shot, subject centered or pressed to the edge, room given equal weight.
 - 材质：water, damp wall, mattress, tile, peeling paint.
 - 禁止漂移：no bright clean interior, no music, no camera movement, no glamorous ruin, no fast cut.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用潮湿空房间的实拍参考做 `--sref`，不要用"破败风"室内设计图。
-- SDXL / ComfyUI：固定广角全景 prompt 块；用 ControlNet depth 锁房间与人物位置；negative 排除 clean、bright、glamour。
-- Runway / Kling / Sora / Veo：首帧用固定全景，只给完全静止机位，40–60 秒，24fps；人物离画后继续拍空房间，不要剪短。

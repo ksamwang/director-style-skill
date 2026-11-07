@@ -26,8 +26,3 @@ no close-up, no cutaway reaction shot, no psychological flashback, no explanator
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black-and-white grayscale, 35–50mm at 0.5–2m behind the figure, overcast flat light with textured darks, low horizon and small human figure, wet plaster and mud.
 - 禁止漂移：no colour grade, no drone landscape, no handheld intimacy, no close-up face, no clean modern surfaces, no beautiful-emptiness framing.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150 --no close-up, color`；用一张《撒旦探戈》静帧做 `--sref`，权重压到中低，让灰阶从曝光里来。
-- SDXL / ComfyUI：positive 固定块 + 黑白胶片 LoRA（低强度）；negative 单列；用 ControlNet depth 锁低地平线与人物位置，不要用 canny（会强化轮廓，破坏湿泥的软边）。
-- Runway / Kling / Sora / Veo：从背影首帧开始，只给 “slow follow at walking pace” 一种运镜；时长拉到 30 秒以上；镜头停止跟随的瞬间不要改成推近。

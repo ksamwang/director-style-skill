@@ -26,8 +26,3 @@ no clean digital sharpness, no HDR, no shallow depth of field, no creamy bokeh, 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：steel blue and grey-green with warm skin; 40–65mm large format; overcast window light at –; figure low with sky above; haze, dust, fine grain.
 - 禁止漂移：no HDR, no LED white balance, no modern glass architecture, no crisp digital skin, no orange-teal LUT.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张 65mm 自然光静帧做 `--sref`。
-- SDXL / ComfyUI：大画幅柔度可用 LoRA；ControlNet depth 锁天空与人物比例；negative 排除 HDR 与浅景深。
-- Runway / Kling / Sora / Veo：从首帧开始，只给一种缓慢推近，8–12 秒，24fps，不叠加其他运动。

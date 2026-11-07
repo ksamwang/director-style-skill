@@ -31,8 +31,3 @@ no handheld camera, no unmotivated zoom, no shallow depth of field, no bokeh bac
 - 构图：dead center, camera perpendicular to the wall, chest height.
 - 材质：handmade wallpaper, uniforms, models, handwritten labels.
 - 禁止漂移：no handheld shake, no telephoto compression, no naturalistic dirt, no modern glass architecture, no off-center drift without a story reason.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；对称构图靠参考图，不要只写 symmetrical。
-- SDXL / ComfyUI：固定 prompt 块 + 色板 LoRA；ControlNet canny/depth 锁正面对称与门框位置。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 lateral tracking 或 static，4–6 秒、24fps；不要写甩镜叠加推近。

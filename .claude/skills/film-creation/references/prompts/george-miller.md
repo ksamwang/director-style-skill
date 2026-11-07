@@ -26,8 +26,3 @@ no incoherent shaky blur, no action without geography, no speech mid-combat, no 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：orange-red, cold blue, chrome silver, green / 21–35mm wide, / hard directional sun or fire / center-framed subject, readable silhouette / rust, leather, petrol, sand, sweat.
 - 禁止漂移：no drone aerials, no clean futuristic white, no soft beauty filter, no weightless bodies, no HDR video-game gloss.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用真实沙漠车辆或废土机械照片做 `--sref`；负面压 `soft light, beauty, poster negative space`。
-- SDXL / ComfyUI：ControlNet depth 或 pose 锁中心构图与车身关系；固定硬光 prompt 块；不要用电影感柔光 LoRA。
-- Runway / Kling / Sora / Veo：首帧为低机位车头画面，只给 low mounted tracking；4–6 秒，24fps；每次撞击都要有身体反应，不要生成无后果的飞来飞去。

@@ -26,8 +26,3 @@ no emotional close-up, no shot-reverse-shot, no flashback marker, no dissolve-to
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-green and ochre low saturation, 35–50mm lateral wide, flat overcast light, open line cutting the frame with tiny figures, wet stone and rails.
 - 禁止漂移：no golden-hour glow, no drone reveal, no handheld, no close-up, no saturated blue sky, no modern city skyline.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；`--no close-up, sunny, saturated`；用雾中风景静帧做 `--sref`。
-- SDXL / ComfyUI：固定 prompt 块 + 褪色胶片 LoRA；用 ControlNet depth 锁道路/铁轨的消失线；颜色用 IP-Adapter 喂一张低饱和色板，不要交给提示词硬写。
-- Runway / Kling / Sora / Veo：首帧给大全景；只写 “slow lateral pan”；人物出画后提示 “camera holds on empty landscape”，不要让它自动跟随人物。

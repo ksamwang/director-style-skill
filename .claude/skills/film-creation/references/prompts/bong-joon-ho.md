@@ -26,8 +26,3 @@ no vertical space as pure composition game, no poor-only-virtuous characters, no
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：warm yellow and mold green below, cold white and lawn green above; 24–35mm wide; sourced practical light with class-coded contrast; figure at edge, foreground obstruction, vertical layers; wet concrete, plastic sheet, steel, lawn.
 - 禁止漂移：no uniform teal-orange grade, no glossy modern apartment with no grime, no drone aerials, no symmetrical centered framing, no digital skin, no LED white replacing practical sources.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；`--sref`用《寄生虫》半地下或豪宅静帧，但不要同时锁两种色调；纵向分层靠构图词 + 参考图。
-- SDXL / ComfyUI：ControlNet depth 锁楼梯与楼层关系最有效；色彩按空间分块写进 positive，不要整体调色；negative 单独保留上列。
-- Runway / Kling / Sora / Veo：首帧先给"人在下、空间在上"的构图，只写一种横移扫描；5–7 秒、24fps；灾难段再单独生成手持素材，不要在同一段里混两种运动。

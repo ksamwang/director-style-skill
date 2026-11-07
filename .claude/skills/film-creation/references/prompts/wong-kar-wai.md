@@ -30,8 +30,3 @@ no clean symmetrical composition, no even studio lighting, no modern glass archi
 - 构图：doorframe or window frame, foreground obstruction, off-center.
 - 材质：smoke, rain, wet glass, film grain.
 - 禁止漂移：no modern LED white, no clean glass towers, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用一张电影静帧做 `--sref`。
-- SDXL / ComfyUI：固定 prompt 块 + film-grain LoRA；用 ControlNet 锁门框构图。
-- Runway / Kling / Sora / Veo：从首帧图开始，只给一种运镜，4–6 秒，24fps。

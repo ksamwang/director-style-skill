@@ -26,8 +26,3 @@ no cold detached fixed long take of a struggle session, no unblemished dignity i
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：cold grey and warm yellow per scene, not a gradient; 35–50mm, 85mm push-in; high-key frontal fill; symmetrical stage and table staging at eye level; patches, enamel, old costume, faded slogan.
 - 禁止漂移：no modern LED white, no cool blue moonlight, no drone, no clean digital skin, no desaturated "festival" grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；需要人群与主角同框时用 `--sref`锁高调光。
-- SDXL / ComfyUI：positive / negative 分开；用 ControlNet（pose）锁对称站位，负向提示强调“no detached long take”。
-- Runway / Kling / Sora / Veo：先给正面高亮首帧，只给一次缓慢推近，6–10 秒，24fps；不要加手持。

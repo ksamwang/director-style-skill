@@ -26,8 +26,3 @@ no desaturated grey, no muted palette, no telephoto compression, no soft fill li
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated orange, cyan, magenta; 18–35mm wide; hard rim at –; centered or third-placed body with color-blocked background; metal, sweat, grain.
 - 禁止漂移：no grey LUT, no soft beauty light, no long-lens distance, no HDR clean skin, no pastel palette.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用高饱和动作静帧做 `--sref`，避免灰调参考。
-- SDXL / ComfyUI：negative 强化 `desaturated`；ControlNet depth 锁前景遮挡；色彩可用 IP-Adapter 色板。
-- Runway / Kling / Sora / Veo：首帧给低机位全身，只写低角度跟拍，4–8 秒，24fps，运动模糊打开。

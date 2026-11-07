@@ -26,8 +26,3 @@ no emotional score swell, no clear moral position, no fast cutting in violence o
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：earth yellow, grass green, grey / 18–28mm wide, / natural, no fill, no golden hour / low camera, figure lower third, sky headroom / mud, grass, sweat, fur.
 - 禁止漂移：no aerial drone, no HDR landscape, no warm filter, no glossy skin, no modern architecture.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用低机位风景或纪实照片做 `--sref`，负权重压掉 `golden hour, epic landscape`。
-- SDXL / ComfyUI：固定广角低机位 prompt 块；ControlNet depth 锁人物下三分之二的天空留白；不要加美颜或电影感 LoRA。
-- Runway / Kling / Sora / Veo：首帧为低机位远景，只给 static camera；10–15 秒，24fps；人物动作极小，让环境动。

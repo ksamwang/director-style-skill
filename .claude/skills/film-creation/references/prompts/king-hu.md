@@ -30,8 +30,3 @@ no slow-motion combat, no wire-assisted floating replacing editing and blocking,
 - 构图：three planes — foreground branches, mid-ground figures, background mist; columns cut the frame.
 - 材质：weathered timber, bamboo, brick, old cloth.
 - 禁止漂移：no wire-fu floating, no digital fog, no glossy new costumes, no modern inn furniture.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用一张实景竹林或木构建筑照片做 `--sref`，不要用现代武侠剧照。
-- SDXL / ComfyUI：用 ControlNet depth 锁三层纵深与柱列；negative 排除 wire、CGI fog、slow motion。
-- Runway / Kling / Sora / Veo：先给静止的空间首帧，只允许一次快速甩镜；每段 3–5 秒，24fps，动作靠剪辑而非慢镜。

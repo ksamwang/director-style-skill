@@ -31,8 +31,3 @@ no symmetrical composition, no even studio lighting, no clean seamless backgroun
 - 构图：low camera near ground, low horizon, human small in lower third.
 - 材质：grass, dust, water, sweat, skin, film grain.
 - 禁止漂移：no drone aerial, no golden-hour postcard filter, no clean digital sharpness, no modern architecture, no centered symmetrical portrait.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张自然光广角静帧做 `--sref`，避免默认补光和暖色滤镜。
-- SDXL / ComfyUI：固定风格块 + 胶片颗粒 LoRA；ControlNet depth 锁低地平线与人物下三分之一位置。
-- Runway / Kling / Sora / Veo：先给首帧，只写一种 handheld drift，5–8 秒、24fps；不要同时写推近和环绕。

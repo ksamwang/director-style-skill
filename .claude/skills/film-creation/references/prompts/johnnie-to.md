@@ -30,8 +30,3 @@ no handheld gunfight, no psychological flashback, no long motive speeches, no wa
 - 构图：chessboard group framing, columns and exits dividing the space, all positions legible.
 - 材质：concrete, steel, tile, neon, wet asphalt.
 - 禁止漂移：no handheld camera, no shallow-focus blur, no warm filter, no extra characters without a position.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张停车场或仓库的广角实景做 `--sref`，强调站位而非气氛。
-- SDXL / ComfyUI：用 ControlNet depth 锁柱列与出口；negative 排除 handheld、shallow focus、warm filter。
-- Runway / Kling / Sora / Veo：首帧用全景群像，只给固定机位；爆发靠人物动作与剪辑，6–10 秒，24fps，不用慢镜。

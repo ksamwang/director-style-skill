@@ -26,8 +26,3 @@ no dramatic event to drive the scene, no witty one-liners or aphorisms, no moral
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：natural muted color, 85–200mm long lens; flat available window light with allowed overexposure; off-center figures with wide negative space; plastic tablecloth, soju bottle, concrete, wet coat.
 - 禁止漂移：no cinematic teal grade, no anamorphic flare, no dolly or handheld drift, no glossy production design, no symmetry, no subtitle-style text in frame.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`，刻意压掉美化；不要用 `--sref`电影感强的图，否则会漂成"文艺片"；构图词写 off-center, negative space。
-- SDXL / ComfyUI：不要加风格 LoRA；prompt 保持朴素，负面里明确 no bokeh, no rim light；用 ControlNet depth 控制人物偏置。
-- Runway / Kling / Sora / Veo：首帧固定机位，运动只写 `slow zoom in`；6–10 秒、24fps；不要同时写推拉与横移；人物一致性靠参考图。

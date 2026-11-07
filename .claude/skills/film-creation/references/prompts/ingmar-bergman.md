@@ -26,8 +26,3 @@ no sobbing melodrama, no swelling score, no psychological exposition, no scenic 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：high-contrast black and white, or red-white-black; 50mm two-shot, 85–135mm close-up; single window light with half-face shadow; minimal frame; wood, linen, glass.
 - 禁止漂移：no warm color grade, no handheld, no wide landscape, no crowd, no modern apartment, no soft beauty light, no smiling resolution.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用 1960 年代黑白室内剧剧照做 `--sref`，锁反差与窗光。
-- SDXL / ComfyUI：positive 固定 “single window light, half face in shadow, bare background”；negative 写掉 `softbox lighting`、`shallow bokeh`、`wide shot`。
-- Runway / Kling / Sora / Veo：首帧给双人对坐；运动只写 `very slow dolly in, then hold`，8–12 秒，24fps；不要环绕或手持。

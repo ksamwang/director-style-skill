@@ -30,8 +30,3 @@ no pity close-up, no high-angle shot of the poor, no crying close-up, no sweepin
 - 构图：three depth layers, figure in the inner layer, doorframe division.
 - 材质：mud, jute, cotton, brass, rain, river water.
 - 禁止漂移：no sepia, no HDR, no shallow bokeh, no modern architecture, no digital skin, no handheld.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；加 `1950s Bengali black-and-white, deep focus, soft window light, fine grain`；避免 `sepia`和 `vintage filter`。
-- SDXL / ComfyUI：正向固定“deep-focus humanist realism, fine grain”；负面加 `sepia, HDR, bokeh, high angle`；用 ControlNet depth 锁门框三层。
-- Runway / Kling / Sora / Veo：首帧为纵深构图，只写一种运镜（slow lateral track），8–10 秒，24fps；不要叠加推近。

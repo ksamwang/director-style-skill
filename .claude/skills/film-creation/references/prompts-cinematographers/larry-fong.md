@@ -26,8 +26,3 @@ no soft frontal fill, no even skin tones, no handheld shake, no grey-blue desatu
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber, steel blue and blood red; 27mm or 35–50mm anamorphic; one hard top/back source at –; centered graphic frame; dust, smoke and wet metal.
 - 禁止漂移：no soft key, no handheld, no teal-orange LUT, no daylight naturalism, no clean plastic surfaces.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；加 `--no soft light, handheld`；用高对比电影静帧做 `--sref`。
-- SDXL / ComfyUI：negative 里固定 `soft lighting, flat grey, pastel`；ControlNet canny 锁剪影轮廓，depth 只做两层。
-- Runway / Kling / Sora / Veo：从一张已打光的首帧开始，只写一种摇臂垂直上升，4–8 秒，24fps 加一次变速，不要叠加推近和手持。

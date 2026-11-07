@@ -31,8 +31,3 @@ no beautiful erotic photography, no psychological flashback, no empathic close-u
  - 构图：frontal symmetry, closed boundary, oppressor and victim at the same height.
  - 材质：dry wood, tatami, blood, sweat.
 - 禁止漂移：no soft focus, no natural window light, no handheld, no modern interior, no aestheticized nudity, no color filter used to separate dream from reality, no slow motion.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；写 `frontal symmetrical, direct gaze into camera, hard stage light`；避免 `sensual`、`erotic`这类会触发柔光美化的词。
-- SDXL / ComfyUI：ControlNet pose 锁正面等高的双人构图；negative 必写 `soft light, shallow depth of field, glamour, film noir`。
-- Runway / Kling / Sora / Veo：固定正面机位，4–6 秒、24fps；不做平滑运动；直视镜头用正面首帧生成，被看的感觉靠构图不靠运镜。

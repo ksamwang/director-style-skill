@@ -31,8 +31,3 @@ no handheld camera, no zoom lens, no shot-reverse-shot across the dinner table, 
  - 构图：formal and slightly off-axis, door frame or corridor cutting the group, table seating readable.
  - 材质：porcelain, steam, worn wood, curtain fabric.
 - 禁止漂移：no modern glass office, no LED white, no handheld vérité, no drone shot, no glossy digital skin, no teal-and-orange grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；风格锚点放最前，饭桌与座位关系放主体段；用一张家庭剧静帧做 `--sref`；避免 `dramatic lighting`。
-- SDXL / ComfyUI：固定 prompt 块 + 低饱和胶片 LUT；用 ControlNet depth 锁饭桌座位与门框；positive 写窗光与暗角，negative 单独写手持、正反打、推近。
-- Runway / Kling / Sora / Veo：先出饭桌全景首帧，只给 `static`一种运镜，5–8 秒、24fps；运动交给人物，镜头不动。

@@ -26,8 +26,3 @@ no long take as showmanship, no scene that exists only to illustrate a social th
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：low-saturation earth yellow and grey-green, 35–50mm; overcast natural light, no fill; centered subject compressed by door or wall frame; old plaster, plastic sheet, rain, mud.
 - 禁止漂移：no teal-orange grade, no golden-hour romance, no handheld urgency, no shallow-focus bokeh portrait, no clean modern interiors, no slow-motion, no voice-over explaining the theme.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`，压低美化；`--sref`用《燃烧》或《诗》的阴天外景；不要加 "cinematic lighting" 这类会补光的词。
-- SDXL / ComfyUI：固定块里写明 overcast / no fill light；film-grain LoRA 轻量；ControlNet depth 锁门框与人物距离；避免高对比 LoRA。
-- Runway / Kling / Sora / Veo：首帧给中景，镜头运动写 `static`；10–25 秒、24fps；人物动作写具体小动作（坐下、放下碗、转头看天），不要写"悲伤地"。

@@ -30,8 +30,3 @@ no close-up tears, no emotional close-up, no hidden push-in, no non-diegetic str
 - 构图：frontal eye-level, subject centered or slightly off against a flat wall, camera static.
 - 材质：old wood, enamel, synthetic fabric, ash; worn, not dirty.
 - 禁止漂移：no handheld drift, no warm sepia, no cool Nordic desaturation filter, no modern LED, no glass towers, no digital skin, no teary close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用一张正面平光的电影静帧做 `--sref`，把色块和静止感一起锁住。
-- SDXL / ComfyUI：风格锚点做成固定 prompt 块，加轻微胶片颗粒 LoRA；用 ControlNet depth/pose 锁全身正面站位；negative 里务必写 `cinematic lighting, dramatic shadow, shallow depth of field`。
-- Runway / Kling / Sora / Veo：从首帧静帧开始，运镜选 `static`，只让演员做小动作；4–6 秒，24fps，不加慢镜和运动模糊。

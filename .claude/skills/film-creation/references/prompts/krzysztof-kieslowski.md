@@ -30,8 +30,3 @@ no coincidence explained as fate or divine will, no theme spoken aloud, no warm 
 - 构图：framed and halved by glass, mirror, window or foreground; slightly below eye level.
 - 材质：glass, rain, old wood, wool.
 - 禁止漂移：no teal-orange blockbuster grade, no warm sepia past, no centered clean portrait, no drone shot, no digital glass, no explanatory voice-over.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张玻璃反射中人物的静帧做 `--sref`；色彩制度用关键词锁定，不要每张图换色。
-- SDXL / ComfyUI：用 IP-Adapter 喂单色色板，ControlNet depth 锁窗框/镜子切半构图；同一色彩制度内固定 seed，negative 写 `symmetrical, centered, warm filter, teal orange`。
-- Runway / Kling / Sora / Veo：首帧给玻璃或门框中的中近景，运镜只写 `follow through the corridor, then stop`，6–10 秒，24fps；人物走出画外即结束。

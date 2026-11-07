@@ -26,8 +26,3 @@ no oily swagger without a humiliating beat, no woman existing only as spectacle,
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red-yellow-brown historical, grey-green private; 24–35mm close wide; hard noon sun and dust backlight, warm tungsten night; diagonal tilted framing, subject on high ground; sweat, chipped paint, sorghum.
 - 禁止漂移：no clean HDR, no drone, no modern glass, no cool blue night, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 300`；用一张逆光尘土静帧做 `--sref`，避免默认柔和。
-- SDXL / ComfyUI：广角畸变 LoRA 可选；negative 禁止“oily, glamour”；ControlNet（pose）锁屋顶跑动。
-- Runway / Kling / Sora / Veo：只给一种手持跟跑，4–8 秒，24fps；抒情段落改为静止长镜，不要在同一条里换运动。

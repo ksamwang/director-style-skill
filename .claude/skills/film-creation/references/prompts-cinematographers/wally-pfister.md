@@ -26,8 +26,3 @@ no even fill light, no soft key, no three-point lighting, no flat grey shadows, 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：steel blue and amber, low saturation, deep black; 35–50mm anamorphic; hard key at ; figure off-center in black negative space; rain, smoke, wet glass.
 - 禁止漂移：no LED white, no teal-orange LUT, no daytime exposure, no soft beauty light, no shallow depth of field.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；低键静帧做 `--sref`，不要用彩色霓虹参考。
-- SDXL / ComfyUI：negative 强化 `flat lighting`；ControlNet depth 保留城市纵深；可用低键 LoRA。
-- Runway / Kling / Sora / Veo：首帧给低机位雨夜，只写缓慢推近，6–10 秒，24fps，不叠加摇镜。

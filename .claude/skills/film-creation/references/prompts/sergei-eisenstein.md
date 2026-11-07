@@ -30,8 +30,3 @@ no continuity editing hiding the cuts, no psychological close-up, no voice-over 
 - 构图：diagonal, low angle or overhead, repeated rows, local close-up replacing the wide.
 - 材质：stone, iron, flags, boots, wheels.
 - 禁止漂移：no color, no soft focus, no handheld, no centered individual portrait, no modern crowd, no digital gloss, no even lighting.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用一张高对比黑白群众构图做 `--sref`；单张图无法生成“碰撞”，要成对生成再并置。
-- SDXL / ComfyUI：高对比黑白 LoRA + ControlNet canny 锁对角线、队列和阶梯；分别生成“全景队列”和“局部特写”两组固定 seed 图，剪辑时再碰撞。
-- Runway / Kling / Sora / Veo：每个镜头单独生成，运镜只写 `locked-off`或 `mechanical lateral track`，1–4 秒，24fps；碰撞意义在剪辑台完成，不要指望单条视频生成蒙太奇。

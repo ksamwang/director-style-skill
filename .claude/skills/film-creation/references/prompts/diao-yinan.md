@@ -26,8 +26,3 @@ no neon as decoration, no gangster philosophy, no slow-motion violence, no moral
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：neon red, green and blue zoned separately over wet ground; 35–50mm; hard edge light, half-black face, smoke cutting light; symmetric frame-within-frame with a second space; tile, plastic, old sign, rain, ice.
 - 禁止漂移：no party-neon mix, no HDR, no clean glass towers, no handheld shake, no warm filter.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用一张分区霓虹的巷道静帧做 `--sref`。
-- SDXL / ComfyUI：用 IP-Adapter 或 palette 锁红/绿/蓝分区；ControlNet（depth）锁巷道纵深；negative 禁止“neon everywhere”。
-- Runway / Kling / Sora / Veo：只给一种缓慢横移/推轨，8–15 秒，24fps；机位稳定，不要手持。

@@ -30,8 +30,3 @@ no flat postcard symmetry, no single teal-orange grade, no pure CGI landscape, n
 - 构图：deep diagonals and verticals, figure at the lower edge, landscape above.
 - 材质：stone, moss, wool, leather, mud, miniature texture, 35mm grain.
 - 禁止漂移：no modern glass towers, no neon, no digital skin, no single teal-orange grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用新西兰山景电影静帧做 `--sref`，锁绿金与体积光。
-- SDXL / ComfyUI：ControlNet depth 锁前景草丛、中景人物、远景山脉三层；negative 保留 no CGI landscape。
-- Runway / Kling / Sora / Veo：首帧图起手，只给 aerial crane descent，6–8 秒，24fps；不要叠加横移和推轨。

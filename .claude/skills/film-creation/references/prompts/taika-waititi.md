@@ -30,8 +30,3 @@ no music cue under the joke, no cut immediately after the punchline, no colonial
 - 构图：centered group, family-photo frontality, direct address allowed.
 - 材质：wool, old car paint, grass, weathered wood, plastic.
 - 禁止漂移：no teal-orange grade, no drone landscape, no glamour retouch, no colonial costume drama, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用平光群像静帧做 `--sref`；避免“quirky”“whimsical”这类会导向通用独立喜剧的词。
-- SDXL / ComfyUI：正面锁“centered group, eye level, flat daylight”；用 ControlNet pose 锁一排人正面站立；负面提示保留 no colonial gaze / no glamour lighting。
-- Runway / Kling / Sora / Veo：首帧给正面群像，只写一种“static camera with one snap zoom”，4–6 秒，24fps；笑点后的半秒静止要写进时长，不要让模型自动切走。

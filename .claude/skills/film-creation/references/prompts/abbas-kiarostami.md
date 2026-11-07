@@ -26,8 +26,3 @@ no shot-reverse-shot explaining dialogue, no close-up for sentiment, no music ex
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：ochre, dust yellow, olive, grey-green, low saturation; 50–135mm; natural hard light, no fill; tiny figure on a zigzag road, car-window framing; dust, gravel, olive leaf, plastic seat.
 - 禁止漂移：no drone aerials, no golden-hour postcard grade, no shallow-focus portrait, no modern city glass, no HDR, no added music or voice-over narration.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；构图靠 "extreme wide, tiny figure, zigzag road" 文字 + `--sref`风景静帧；不要写 "epic landscape"。
-- SDXL / ComfyUI：ControlNet depth 锁道路曲线与人物比例；人物占比用 negative 压（no large foreground figure）；避免高饱和 landscape LoRA。
-- Runway / Kling / Sora / Veo：首帧给远景或车窗内构图，运动只写 `static`或单一 car-mounted drift；8–15 秒、24fps；声音另轨做画外，模型不生成对白口型。

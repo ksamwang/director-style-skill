@@ -26,8 +26,3 @@ no medium close-up epic, no centred horizon, no shallow depth of field, no warm 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：landscape-derived earth palette; 65mm deep focus; single sun; low horizon; sand and dust.
 - 禁止漂移：no teal-orange grade, no drone-only aerial, no compressed flat background, no modern vehicles, no artificial haze.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；降低默认美化的饱和，保留沙与雪的灰。
-- SDXL / ComfyUI：ControlNet depth 锁低地平线与三层纵深；避免广角畸变；negative 排除 shallow DOF。
-- Runway / Kling / Sora / Veo：首帧给大远景，只写 slow lateral tracking，12–20 秒，24fps，不加推近。

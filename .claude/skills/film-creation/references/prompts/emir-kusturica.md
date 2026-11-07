@@ -30,8 +30,3 @@ no clean symmetrical frame, no static crowd, no cute-animal prop, no desaturated
 - 构图：diagonal, layered, foreground animal or instrument, crowd in all corners.
 - 材质：mud, feathers, brass, cheap lace, animal hair, dust.
 - 禁止漂移：no clean studio, no desaturated grade, no stabilized gimbal, no modern city, no digital skin, no empty frame.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 350`；用《地下》或《黑猫白猫》的婚礼静帧做 `--sref`；`--no clean background, muted colors, studio light`。
-- SDXL / ComfyUI：positive 里写 `foreground animal, brass band, crowd, mud, sweat`；用 ControlNet depth 锁多层人群，不要让人物排成整齐合影。
-- Runway / Kling / Sora / Veo：首帧给拥挤婚礼，只写 `handheld circular orbit`；不要叠加推近或升降；允许画面被身体撞歪，不要开防抖。

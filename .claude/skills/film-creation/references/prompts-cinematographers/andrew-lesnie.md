@@ -26,8 +26,3 @@ no figure filling the frame without scale reference, no telephoto blur erasing t
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：moss and honey palette with cool shadows; 18–24mm establishing lens; low sun and god rays; low horizon with tiny figures; wet moss and stone.
 - 禁止漂移：no studio lighting, no teal-orange LUT, no modern architecture, no close-up portrait default, no video-game rendering.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用真实山谷航拍做构图参考，避免模型生成游戏概念图。
-- SDXL / ComfyUI：depth ControlNet 锁前景—中景—远景三层；negative 排除 fast drone 与 fluorescent green。
-- Runway / Kling / Sora / Veo：首帧给大全景，只写一种 crane 上升横移；12–25 秒，24fps，不叠加俯冲或甩镜。

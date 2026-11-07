@@ -26,8 +26,3 @@ no flat frontal lighting, no even fill light, no hidden ceiling, no shallow dept
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black-and-white hard tone, 18–25mm deep focus at , hard side key with blind shadows and detailed darks, low angle with ceiling and edge-pushed figures, beams and mirrors.
 - 禁止漂移：no anamorphic flare, no color grade, no soft bokeh, no handheld, no centered hero, no modern glass office.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 180 --no bokeh, flat lighting, color`；`--sref`用《公民凯恩》静帧；提示词里必须出现 “deep focus” 与 “ceiling”。
-- SDXL / ComfyUI：ControlNet depth 是关键，用来强制前中后三层与低机位；不要用 pose，会把群像压成单人。negative 里单独写 `shallow depth of field`。
-- Runway / Kling / Sora / Veo：首帧锁定低角度；只写一种运动 `low-angle crane rising across the room`；结尾加 “camera stops abruptly”，禁止模型自动缓停。

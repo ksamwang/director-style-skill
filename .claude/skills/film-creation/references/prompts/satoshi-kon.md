@@ -31,8 +31,3 @@ no color filter separating dream from reality, no "it was all a dream" ending, n
  - 构图：recurring composition, one reflective device in every frame.
  - 材质：mirror, glass, screen, neon, tile.
 - 禁止漂移：no unified grade, no realistic bokeh, no 3D render, no generic surrealism, no dream filter, no character design change between spaces.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；描述两个空间共用一个形状，而不是写 `psychedelic`；用一张镜像构图静帧做 `--sref`。
-- SDXL / ComfyUI：ControlNet canny 或 lineart 复用同一构图跨空间生成；IP-Adapter 锁角色；negative 写 `photoreal, 3d, bokeh, dream filter`。
-- Runway / Kling / Sora / Veo：单条 2–4 秒；匹配剪辑在剪辑台上完成，不要要求一次生成里穿越两个空间；角色一致性靠参考图。

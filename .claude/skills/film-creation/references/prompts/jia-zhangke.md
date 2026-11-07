@@ -26,8 +26,3 @@ no nostalgia filter, no county town as spectacle, no sad strings for the poor, n
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-yellow and grey-green, low saturation; 35–50mm; natural existing light with dirty darks; fixed passerby height, edge framing, foreground clutter; roller shutter, tile, plastic, rebar.
 - 禁止漂移：no warm filter, no LED clean white, no drone, no modern glass towers, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 25`；用一张县城街景静帧做 `--sref`，压低默认美化。
-- SDXL / ComfyUI：negative 强化“cinematic beauty, golden hour”；ControlNet（depth）锁前景杂物；固定“existing light”块。
-- Runway / Kling / Sora / Veo：固定机位，10–20 秒，24fps；人物出画后镜头停住，不要追。

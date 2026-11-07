@@ -30,8 +30,3 @@ no dolly-in toward emotion, no tearful close-up, no voice-over explaining histor
 - 构图：camera outside the room, door or window framing, subject small, large empty areas.
 - 材质：wood, lime plaster, tatami, rain.
 - 禁止漂移：no push-in, no warm filter, no modern glass, no drone landscape, no digital-clean image.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用门框内景的实拍参考做 `--sref`，强调人物偏小与留白。
-- SDXL / ComfyUI：用 ControlNet depth 锁门框套景与纵深；negative 排除 dolly-in、tearful close-up、nostalgia filter。
-- Runway / Kling / Sora / Veo：首帧用屋外固定远景，只给固定机位，20–40 秒，24fps；不要让人物走向镜头。

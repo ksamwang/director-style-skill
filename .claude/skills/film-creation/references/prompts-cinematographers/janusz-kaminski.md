@@ -26,8 +26,3 @@ no frontal soft light, no correctly exposed windows, no clean smoke-free air, no
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-green desaturation, 21–35mm, backlight with blown window, centered silhouette, smoke and bleach grain.
 - 禁止漂移：no front fill, no clean air, no warm teal-orange LUT, no stabilized drone shot, no sharp digital texture.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用逆光烟雾静帧做 `--sref`，加 `--no soft light`。
-- SDXL / ComfyUI：negative 锁 no fill light / no clean air；可用烟雾 ControlNet 或 depth 图层；加 bleach-bypass LoRA。
-- Runway / Kling / Sora / Veo：首帧给逆光剪影，只写一种手持跟拍，5–12 秒，24fps，不叠加推轨。

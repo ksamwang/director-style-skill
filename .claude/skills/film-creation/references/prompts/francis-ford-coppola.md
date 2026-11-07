@@ -26,8 +26,3 @@ no handheld modern realism, no fast cutting of a ritual, no saturated colour mis
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：amber brown black and blood red, 35–50mm at , warm shadow with candle and top light, doorway corridor depth and ranked group framing, dark wood and velvet.
 - 禁止漂移：no teal-orange digital grade, no handheld, no drone, no fluorescent white, no modern glass tower, no bright primary colours.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250 --no handheld, bright, modern`；`--sref`用《教父》室内群像静帧；把 `amber`、`candle`、`doorway`写进提示词。
-- SDXL / ComfyUI：ControlNet depth 锁桌边与走廊纵深；用 IP-Adapter 喂琥珀色板，避免模型自动加冷蓝补光；negative 单独写 `cool tone`。
-- Runway / Kling / Sora / Veo：首帧定在门外；只写 `slow dolly in toward the table`；仪式动作要完整走完，不要写 `montage`或 `cut`。

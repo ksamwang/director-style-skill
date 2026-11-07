@@ -30,8 +30,3 @@ no yellow-green Vietnam filter, no saturated tropical grade, no food as symbol w
 - 构图：medium close, seated or working height, layered door / window / curtain, hands in foreground.
 - 材质：wood, gauze, steam, oil, copper, fruit skin.
 - 禁止漂移：no drone, no HDR, no clean digital kitchen, no food-styling gloss, no handheld shake, no saturated green grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用静帧做 `--sref`锁色彩；主体写在风格锚点之后。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁窗格与前景手部；可加 palette 参考图锁湿绿与暖褐。
-- Runway / Kling / Sora / Veo：首帧图起，只给 slow dolly / lateral track 一种，8–15 秒，24fps，动作必须完成再停。

@@ -26,8 +26,3 @@ no dramatic hard light explaining emotion, no high-angle shot of suffering, no s
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：warm brown and grey-green with natural skin; 35–50mm; soft window side light; eye-level off-center framing; cotton and wood.
 - 禁止漂移：no studio beauty light, no cold LED, no orange-teal LUT, no aerial or wide establishing default, no plastic skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用自然光人像摄影做 `--sref`，避免杂志美妆感。
-- SDXL / ComfyUI：negative 强化 no skin smoothing；用 palette 参考锁肤色，不锁构图。
-- Runway / Kling / Sora / Veo：首帧给窗边中近景，只写一种轻微 handheld follow；8–15 秒，24fps，不晃成纪录片。

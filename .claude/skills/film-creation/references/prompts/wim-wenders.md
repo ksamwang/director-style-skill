@@ -26,8 +26,3 @@ no scenic road-trip montage, no voice-over explaining loneliness, no witty liter
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：green, magenta, blue sourced from neon and signs; 35–50mm; natural dawn/dusk window light; horizontal frame with horizon through the body and empty space; glass, photograph, neon.
 - 禁止漂移：no teal-orange blockbuster grade, no golden nostalgia, no centered hero portrait, no drone aerials, no crowded urban montage, no modern LED white.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用 1970–80 年代美国公路片静帧做 `--sref`，锁低饱和与窗光。
-- SDXL / ComfyUI：positive 固定 “figure from behind, horizon through body, large negative space”；negative 写掉 `drone shot`、`vibrant travel photography`。
-- Runway / Kling / Sora / Veo：首帧给背对人物与空景；运动只写 `static`或用步行速度的 `slow lateral track`；推近只留给“看见”的那一秒。

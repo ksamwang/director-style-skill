@@ -30,8 +30,3 @@ no voice-over narration, no added score or ambient music bed, no held close-up o
 - 构图：extreme wide, eye level, subject small in a corner, environment dominant.
 - 材质：rust, coal dust, concrete, plastic sheeting, old quilts.
 - 禁止漂移：no clean digital sharpness, no cinematic teal-orange grade, no drone coverage, no staged poverty.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用真实工厂或宿舍的纪实照片做 `--sref`，不要用电影剧照。
-- SDXL / ComfyUI：固定广角全景 prompt 块 + 粗颗粒 LoRA；negative 里锁死 voice-over、score、fill light 等概念。
-- Runway / Kling / Sora / Veo：首帧用广角全景，只给固定机位或一次缓慢跟随，30–60 秒，24fps；不要生成剪辑点或配乐。

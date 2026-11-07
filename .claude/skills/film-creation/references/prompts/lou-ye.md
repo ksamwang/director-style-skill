@@ -26,8 +26,3 @@ no gimbal-stabilised floating, no piano over the shake, no out-of-focus used as 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：cold green and cold blue with one red accent; 24–35mm handheld shallow; practical light, blown window, crushed darks; tilted and obstructed close framing; rain, sweat, glass, peeling wall.
 - 禁止漂移：no gimbal, no HDR, no clean digital, no warm filter, no drone.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 130`；用一张雨夜特写静帧做 `--sref`，不要用稳定器感的剧照。
-- SDXL / ComfyUI：手持/运动模糊 LoRA 可选；ControlNet（pose）只做参考，不要锁死成对称；negative 禁止“smooth, stabilized”。
-- Runway / Kling / Sora / Veo：手持跟拍一种，5–10 秒，24fps；不要加稳定器；首帧就带失焦或遮挡。

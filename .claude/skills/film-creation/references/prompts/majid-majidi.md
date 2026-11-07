@@ -30,8 +30,3 @@ no ironic distance, no adult voice-over, no shaky handheld realism, no grey-blue
 - 构图：child's eye level, low horizon, centered child, foreground grass or wheat.
 - 材质：dust, mud brick, wool, water, worn shoes, film grain.
 - 禁止漂移：no teal-orange grade, no modern city, no digital skin, no drone shots, no studio softbox.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用自然光儿童纪实照片做 `--sref`，不要用广告式暖调。
-- SDXL / ComfyUI：固定 prompt 块 + 细颗粒 LoRA；用 ControlNet depth 锁低机位与前景麦草，色彩用土黄绿色板。
-- Runway / Kling / Sora / Veo：首帧图起手，只给低机位手持跟拍一种运镜，6–12 秒，24fps；不要叠加推近和环绕。

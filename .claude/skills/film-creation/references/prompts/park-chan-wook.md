@@ -26,8 +26,3 @@ no symmetrical composition as decoration, no symmetry without a power relation, 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：jewel red-green-violet-gold, high saturation, clean darks; 35–85mm compressed; practical light with hard-edged shadow zones; one-point centered symmetry, door and corridor frames; velvet, lacquer, tile, wallpaper.
 - 禁止漂移：no desaturated grey palette, no handheld realism, no modern glass office towers, no LED white, no naturalistic flat daylight, no symmetrical frame with no one inside it.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用一张《小姐》或《老男孩》静帧做 `--sref`锁珠宝色与对称；构图靠 `--sref`比靠文字稳。
-- SDXL / ComfyUI：positive 固定块 + 高饱和珠宝色 palette 参考（IP-Adapter）；用 ControlNet depth 或 canny 锁一点透视与门洞；negative 单独成块，保留上列全部条目。
-- Runway / Kling / Sora / Veo：先给首帧对称构图图，只写一种横移；5–8 秒、24fps；人物脸与服装用参考图/角色 ID 保持，不靠形容词；不要同时写推轨与升降。

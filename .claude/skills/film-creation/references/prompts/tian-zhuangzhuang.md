@@ -26,8 +26,3 @@ no score under emotion, no close-up crying, no explanatory voice-over, no ethnic
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey-green, earth yellow, faded red and grey-white, low saturation; 28–50mm; overcast natural light, no fill; extreme long shot with figure at the edge or one corner; cracked boots, worn saddle, peeling door, ice.
 - 禁止漂移：no warm nostalgia filter, no drone aerial, no HDR, no digital clean skin, no modern clothing.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用一张广角风景静帧做 `--sref`，避免默认美化。
-- SDXL / ComfyUI：negative 强化“no postcard, no warm filter”；ControlNet（depth）保住人与地貌的比例。
-- Runway / Kling / Sora / Veo：固定机位为主，12–25 秒，24fps；人物出画后不要追摇，留给环境。

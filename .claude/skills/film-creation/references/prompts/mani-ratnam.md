@@ -30,8 +30,3 @@ no grey documentary realism, no static tripod song, no empty landscape postcard,
 - 构图：figures at the edge of a vast landscape; crowds in depth.
 - 材质：wet earth, rain, silk, railway steel, dust.
 - 禁止漂移：no grey desaturation, no clean digital sky, no drone tourism shot, no static music-video framing, no modern skyline.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；加 `anamorphic flare, rain backlight, saturated earth palette`；避免 `documentary`。
-- SDXL / ComfyUI：正向固定“Tamil epic song, anamorphic, rain backlight”；负面加 `grey, static, postcard, handheld`；用 ControlNet depth 锁纵深人群。
-- Runway / Kling / Sora / Veo：首帧给雨中大景，只写一种运镜（360-degree orbit），6–8 秒，24fps；不要同时写升降和横移。

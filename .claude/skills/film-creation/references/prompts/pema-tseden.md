@@ -30,8 +30,3 @@ no postcard grassland, no horizon pinned to the rule of thirds, no pristine land
 - 构图：frontal and centered, near-thangka frontality, background wall or grassland.
 - 材质：mud wall, plastic sheeting, worn sweater, motorcycle, used prayer flags.
 - 禁止漂移：no tourism-postcard horizon, no clean new props, no mystical haze, no drone landscape.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张正面中景的藏地生活照做 `--sref`，避免风景图参考。
-- SDXL / ComfyUI：固定正面构图 prompt 块；用 ControlNet depth 锁人物居中与背景墙体；negative 里强制排除 postcard、mystical glow。
-- Runway / Kling / Sora / Veo：从正面中景首帧开始，只给固定机位，10–20 秒，24fps；不要加推近或手持。

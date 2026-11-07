@@ -26,8 +26,3 @@ no hysterical madness, no picturesque travel-brochure landscape, no postcard com
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black-green and blinding white, ungraded; 25–35mm wide; natural backlight and fog; figure at lower edge, sky at two-thirds; mud, water, rust, ice.
 - 禁止漂移：no golden-hour postcard, no saturated HDR, no clean CGI vista, no smooth gimbal glide, no modern city, no heroic low-angle portrait, no clear resolution.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用 1970 年代 16mm 丛林纪录片静帧做 `--sref`，压掉风光摄影的漂亮。
-- SDXL / ComfyUI：positive 锁 “figure at lower edge, sky two-thirds”；negative 写掉 `aerial view`、`drone photography`、`HDR landscape`。
-- Runway / Kling / Sora / Veo：要么纯风景静止，要么手持跟拍，二选一；时长写 8–12 秒，运动写 `heavy, labored`，不要写 `smooth`。

@@ -30,8 +30,3 @@ no music punctuating conversation, no reaction close-up mid-speech, no camera co
 - 构图：medium shot/reverse-shot, table height, plain and non-intrusive.
 - 材质：books, tablecloth, wine glasses, summer clothes, sand.
 - 禁止漂移：no handheld, no drone, no shallow bokeh, no warm Instagram grade, no luxurious set, no music-video movement.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用桌边谈话静帧做 `--sref`；避免 “cinematic bokeh”。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet depth 锁桌边正反打；negative 里禁 “dramatic lighting / shallow depth”。
-- Runway / Kling / Sora / Veo：首帧图起，fixed camera 单一运镜，8–15 秒，24fps，不加音乐与变速。

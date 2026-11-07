@@ -31,8 +31,3 @@ no handheld realism, no shaky camera, no contemporary smartphones or social medi
 - 构图：low angle, figures off-center at the edges, reaction space open.
 - 材质：film grain, leather, wood, neon tubes, vinyl.
 - 禁止漂移：no modern digital cleanliness, no smartphone screens, no cool blue teal grade, no drone shots.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用 70 年代胶片静帧做 `--sref`，避免默认现代锐度。
-- SDXL / ComfyUI：固定 prompt 块 + 颗粒 LoRA；ControlNet depth 锁双人边缘构图。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 static 或 single short push；6–10 秒、24fps，不写慢镜暴力。

@@ -26,8 +26,3 @@ no backlight with cherry blossoms, white dress and piano all at once, no overexp
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：cream white, pale green, faded pink, or cold cyan and screen blue / 24–35mm wide, 85–135mm detail, or / backlight with a named source, blown highlights allowed / vast negative space or extreme close-up, no medium two-shot / lace, plastic raincoat, CRT, miniDV.
 - 禁止漂移：no modern smartphone, no crisp 4K digital skin, no drone snowscape, no warm golden filter, no music-video gloss.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用真实雪景或胶片扫描做 `--sref`；负面压 `cherry blossom, white dress, piano, soft focus`，避免四件套同时出现。
-- SDXL / ComfyUI：固定逆光 prompt 块 + 轻颗粒 LoRA；ControlNet 锁大远景留白或手部特写；不要加日系美颜 LoRA。
-- Runway / Kling / Sora / Veo：首帧为雪原或窗边手部特写，只给 slow lateral tracking；6–8 秒，24fps；重逢用固定全景，不要推近。

@@ -26,8 +26,3 @@ no flat teal-orange LUT, no even fill light, no smoke obscuring the subject, no 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：teal and cyan against amber and blood red; 25–50mm anamorphic; smoke-visible backlight at –; symmetrical doorway framing; rain, velvet, polished metal.
 - 禁止漂移：no orange-teal LUT, no LED white, no handheld shakiness, no clean modern interiors, no desaturated grey.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用带烟光的哥特静帧做 `--sref`。
-- SDXL / ComfyUI：negative 排除 `flat lighting`；ControlNet depth 锁对称门框；可用青橙分离的 palette 参考。
-- Runway / Kling / Sora / Veo：首帧给对称走廊，只写缓慢穿过门洞的推近，8–12 秒，24fps。

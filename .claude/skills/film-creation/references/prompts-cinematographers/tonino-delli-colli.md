@@ -26,8 +26,3 @@ no even soft fill light, no designed symbolic colour scheme, no shallow backgrou
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：ochre-rust-olive; 135–250mm close-ups; single hard sun; off-axis eye-line; sweat and dust.
 - 禁止漂移：no teal-orange grade, no soft romantic glow, no saturated poster palette, no handheld, no modern interiors.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；明确 hard sunlight 与 deep shadow，避免模型自动补光。
-- SDXL / ComfyUI：ControlNet depth 锁前景遮挡与门框；negative 排除 soft fill 与 bokeh。
-- Runway / Kling / Sora / Veo：首帧给大特写，只写 very slow dolly in，10–15 秒，24fps，不加剪辑。

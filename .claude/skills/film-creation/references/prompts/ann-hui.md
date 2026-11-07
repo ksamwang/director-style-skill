@@ -30,8 +30,3 @@ no poverty as spectacle, no tear-jerking score, no melodramatic reversal, no imp
 - 构图：eye-level medium, asymmetrical, cluttered domestic foreground allowed.
 - 材质：tile, iron gate, old wood, rain, worn furniture.
 - 禁止漂移：no sepia filter, no stylized poverty, no clean showroom interiors, no handheld melodrama.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用公屋厨房或街市的实拍生活照做 `--sref`，不要用电影剧照。
-- SDXL / ComfyUI：固定平视中景 prompt 块；用 ControlNet depth 锁房间杂乱前景；negative 排除 tear-jerking、sepia、glossy design。
-- Runway / Kling / Sora / Veo：首帧用平视中景，只给固定机位或短暂跟拍，8–12 秒，24fps；不要加配乐或推近。

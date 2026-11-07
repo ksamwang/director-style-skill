@@ -30,8 +30,3 @@ no smooth continuity editing, no naturalistic soft light, no muted tasteful pale
 - 构图：frontal center, direct address, mirror or screen inside frame.
 - 材质：plywood, plastic, gold foil, old posters, VHS.
 - 禁止漂移：no soft bokeh, no natural window light, no muted teal-orange grade, no clean modern interior, no invisible fourth wall.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；降低默认美化，保留俗艳和廉价材质；不要加 `cinematic`以免滑向通用大片。
-- SDXL / ComfyUI：正向锁“frontal direct address, wide-angle distortion, flat stage light”；负面加 `soft light, bokeh, muted palette`；用 ControlNet 正面构图。
-- Runway / Kling / Sora / Veo：首帧就是直视镜头的特写，只写一种运镜（fast push-in），3–5 秒，24fps；不要叠加甩镜。

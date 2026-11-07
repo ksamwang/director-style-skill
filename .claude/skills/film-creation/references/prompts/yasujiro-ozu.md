@@ -31,8 +31,3 @@ no moving camera, no pan or dolly, no handheld, no shot-reverse-shot with matche
  - 构图：frontal symmetry, figure to one side, empty frame on the other, layered doorways.
  - 材质：tatami, shoji paper, wood, cotton.
 - 禁止漂移：no handheld, no drone, no modern apartment, no LED white, no teal-and-orange, no shallow bokeh, no camera height drift, no Western living room.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；避免 `cinematic lighting`（会加戏剧光），改写成 `flat even daylight`；用榻榻米房间静帧做 `--sref`。
-- SDXL / ComfyUI：ControlNet depth 或 canny 锁门框格子与正面构图；固定 50mm 描述；negative 必写 `dramatic lighting, rim light, high angle`。
-- Runway / Kling / Sora / Veo：只给 `static`一种运镜，6–10 秒、24fps；人物出画后的空房间单独生成一条 hold 镜头，再在剪辑里接上。

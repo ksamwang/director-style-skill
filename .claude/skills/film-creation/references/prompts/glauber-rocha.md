@@ -31,8 +31,3 @@ no soft light, no pretty poverty, no smooth continuity editing, no psychological
 - 构图：sky and land dominate, figure cuts the horizon.
 - 材质：dust, sweat, blood, coarse cloth, dry earth, grain.
 - 禁止漂移：no drone aerials, no soft-focus humanism, no clean digital color, no modern city, no passive victim framing.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；黑白段落直接写 `high-contrast black and white`，避免默认彩色。
-- SDXL / ComfyUI：固定 prompt 块 + 粗颗粒 LoRA；ControlNet depth 锁低机位仰拍与大面积天空。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 handheld push-in 或 sudden zoom，3–6 秒、24fps；不要平滑运镜。

@@ -26,8 +26,3 @@ no graphic on-screen violence, no thrilling impact shot, no reaction close-up, n
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：grey, white, beige with a single red object; 35–50mm; flat fluorescent light; fixed wide frame from the room corner; tile, glass, monitor image.
 - 禁止漂移：no teal grade, no shallow-focus portrait, no handheld intimacy, no dramatic backlight, no warm domestic glow, no drone or crane, no reaction shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；`--sref`用监控截图或冷调欧洲室内静帧，压掉默认电影感。
-- SDXL / ComfyUI：negative 首行写 `cinematic dramatic lighting, shallow depth of field`；用 ControlNet depth 锁房间角落的固定机位。
-- Runway / Kling / Sora / Veo：首帧就是完整构图；运动只写 `static locked-off camera`，时长写 10–15 秒，不要加任何推拉。

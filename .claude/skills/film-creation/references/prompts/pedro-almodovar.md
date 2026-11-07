@@ -30,8 +30,3 @@ no grey desaturated distance, no ironic distance from tears, no punishing or cur
 - 构图：symmetrical frontal, doorframes and mirrors framing the figure.
 - 材质：lacquer, glass, plastic, printed fabric, tiles.
 - 禁止漂移：no grey arthouse grade, no desaturated skin, no shaky camera, no empty minimalist set, no ironic distance, no naturalistic window-only light.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用一张红黄蓝成组的室内静帧做 `--sref`，不要用时尚大片做参考。
-- SDXL / ComfyUI：用 IP-Adapter 锁红/黄/蓝色板；ControlNet pose/depth 锁正面对称和门框；同一场戏固定 seed，negative 写 `desaturated, grey, minimalist, handheld`。
-- Runway / Kling / Sora / Veo：从首帧人物正面中近景开始，运镜只写 `slow push-in on the face`，8–12 秒，24fps；坦白段落不要切走。

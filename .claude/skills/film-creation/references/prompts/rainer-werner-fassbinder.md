@@ -26,8 +26,3 @@ no shouting argument, no noir shadow or venetian-blind villainy, no sympathetic 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：green, red, gold catalogue saturation; 35–50mm room distance; flat shadowless light; frame-within-frame with figures on opposite sides; wallpaper, glass, plastic, mirror.
 - 禁止漂移：no cool blue-grey arthouse grade, no warm wood nostalgia, no handheld coverage, no wide open space, no glamorous fashion lighting, no period-accurate nostalgia haze.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用 1970 年代德国彩色情节剧静帧做 `--sref`，锁墙纸色与平光。
-- SDXL / ComfyUI：用 ControlNet depth 或 canny 锁门框/桌角分隔；negative 写掉 `cinematic dramatic lighting`、`shallow depth of field`。
-- Runway / Kling / Sora / Veo：首帧给框中框双人，运动只写 `static`或 `very slow lateral track`；人物动作按舞台节拍写，不要写自然即兴。

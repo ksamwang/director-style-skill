@@ -26,8 +26,3 @@ no unified teal-orange LUT, no even beauty lighting, no gimbal-smooth replacemen
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：tungsten amber against daylight cyan, ochre and earth; 35–50mm; mixed practical light; off-center through frames; grain and sweat.
 - 禁止漂移：no unified grade, no studio fill, no gimbal glide, no fashion lighting, no modern glass skyline.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用纪实街头摄影做 `--sref`，避免“异国情调”美化。
-- SDXL / ComfyUI：palette 参考锁冷暖分离；negative 排除 beauty lighting 与 teal-orange。
-- Runway / Kling / Sora / Veo：首帧给手持中近景，只写一种 handheld follow；8–20 秒，24fps，不叠加推进或摇镜。

@@ -30,8 +30,3 @@ no full flashback explaining the trauma, no therapy dialogue ("when I was young�
 - 构图：child height, asymmetric, half the body cut off, empty center.
 - 材质：water, sweat, oil, fogged glass.
 - 禁止漂移：no adult eye-level camera, no clean symmetrical framing, no red wash, no digital sharpness, no full-body staging, no modern interior.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`（童年段落改 ``--sref`。
-- SDXL / ComfyUI：用 ControlNet depth 锁“主体偏边、中心留空”的构图；IP-Adapter 只喂色板，不喂完整场景；negative 务必写 `symmetrical, centered, full body, clean background`。
-- Runway / Kling / Sora / Veo：首帧给局部特写，运镜只写 `slight handheld drift, then freeze`，2–4 秒，24fps；声音设计先于画面，不要生成完整动作过程。

@@ -26,8 +26,3 @@ no song-and-dance as decoration or music video, no song that resolves the confli
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black-and-white high contrast, 50–85mm; hard side-back light with split face and no fill; subject at edge, empty chair or stage at center, tilted frame; velvet, smoke, cut glass, wet street.
 - 禁止漂移：no modern color grade, no LED even light, no handheld, no contemporary wardrobe, no bright high-key look, no soft-focus glamour without a dark half.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；黑白与高对比写在最前；`--sref`用《诗人》或《纸花》静帧；加 `--no color`。
-- SDXL / ComfyUI：chiaroscuro / film-noir 光照 LoRA（轻权重）；ControlNet depth 锁倾斜与人物压边；不要把 "beauty lighting" 写进 positive。
-- Runway / Kling / Sora / Veo：首帧给半明半暗的脸，运动只写 `slow dolly in`；5–8 秒、24fps；歌曲段落单独生成，不要在同一段里叠加升降与横移。

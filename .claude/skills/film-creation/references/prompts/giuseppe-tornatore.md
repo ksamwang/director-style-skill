@@ -30,8 +30,3 @@ no source-less golden glow, no sepia-only grade, no modern digital sharpness, no
 - 构图：symmetrical, frontal, frame-within-frame; device in the foreground.
 - 材质：film reels, dust, velvet, plaster, old posters, linen.
 - 禁止漂移：no modern multiplex, no LED white, no digital skin, no drone shot, no CGI crowd, no clean empty frame.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用《天堂电影院》放映室或广场静帧做 `--sref`；`--no sepia, modern cinema, handheld`。
-- SDXL / ComfyUI：用 ControlNet canny 锁门框/放映窗口的画中画；positive 里写明 `projector beam visible, dust in beam`，否则模型会给无源暖光。
-- Runway / Kling / Sora / Veo：首帧给放映机与光束，只写 `slow dolly in`；最后两秒写 `hold`，不要让它自动切到人群或拉远。

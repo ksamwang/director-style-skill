@@ -26,8 +26,3 @@ no every-shot-as-poster, no voice-over summarising the theme, no slogan lines wi
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：earth yellow and blue-grey with gold-red ritual accent; 50–85mm; hard backlight through smoke; low angle for the believer, deep stage staging; loess, brick, opera costume, snow, sweat.
 - 禁止漂移：no modern glass, no LED white, no clean digital face, no handheld, no symmetrical postcard for every shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用一张戏台或门洞透视静帧做 `--sref`。
-- SDXL / ComfyUI：ControlNet（depth）锁门洞纵深；negative 里禁“smoke everywhere”与“poster”；固定 与 50–85mm 关键词。
-- Runway / Kling / Sora / Veo：独白镜头完全静止；只给一次升降或横移，8–15 秒，24fps。

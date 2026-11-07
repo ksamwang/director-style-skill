@@ -30,8 +30,3 @@ no handheld camera, no fast cutting, no medium-shot dialogue coverage, no warm d
 - 构图：low or high horizon, figure small on the line, deep measurable space.
 - 材质：sand, sweat, canvas, steel, ice, wool.
 - 禁止漂移：no teal-orange grade, no golden-hour glow, no drone shot, no modern vehicles, no clean digital skin, no medium two-shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用 70mm 宽银幕静帧做 `--sref`，锁住沙黄与石板蓝；`--no medium shot, warm filter, drone view`。
-- SDXL / ComfyUI：positive 明确写 `extreme wide`或 `extreme close-up`，二选一，不留中间值；用 ControlNet depth 锁地平线高度与人物比例。
-- Runway / Kling / Sora / Veo：首帧用大远景，只写 `slow forward tracking`；人物停下时补一句 `camera stops with the figure`，不要同时要求推近和升降。

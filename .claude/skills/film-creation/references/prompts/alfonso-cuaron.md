@@ -26,8 +26,3 @@ no unmotivated camera move, no hidden cuts inside the long take, no score summar
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：monochrome or grey-green (choose one per film) / 21–35mm wide, deep focus, / explainable window, headlight, fire, sun / asymmetrical, figure at edge, corridor center / water, dust, glass, concrete.
 - 禁止漂移：no drone aerials, no modern glass towers, no LED white, no clean digital skin, no handheld shake.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用真实室内广角照片做 `--sref`；`--no color`只在需要黑白时使用。
-- SDXL / ComfyUI：ControlNet depth 锁走廊纵深与门槛；固定广角深焦 prompt 块；negative 压掉 multi-shot、cut、montage。
-- Runway / Kling / Sora / Veo：首帧给完整走廊，只给一个 continuous tracking move；8–12 秒，24fps；不要让模型自动切镜。

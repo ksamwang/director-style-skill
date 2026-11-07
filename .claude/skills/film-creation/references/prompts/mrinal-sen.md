@@ -30,8 +30,3 @@ no beautiful poverty, no sympathetic close-up, no classical continuity, no senti
 - 构图：frontal tableau, rows of people, direct address, no frame-within-frame comfort.
 - 材质：dust, sweat, cotton, newspaper, concrete.
 - 禁止漂移：no digital clarity, no warm sepia, no shallow bokeh, no smooth gimbal, no modern glass architecture.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；加 `grain, underexposed, 16mm documentary`；避免 `cinematic lighting`。
-- SDXL / ComfyUI：正向固定“frontal tableau, available light, political documentary”；负面加 `beautiful, soft, sentimental, bokeh`；用 ControlNet 锁正面站位。
-- Runway / Kling / Sora / Veo：首帧为正面群像，只写一种运镜（handheld whip pan），4–6 秒，24fps；不要叠加推轨或变焦。

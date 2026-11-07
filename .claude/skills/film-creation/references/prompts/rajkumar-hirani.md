@@ -30,8 +30,3 @@ no pure villain, no cruelty toward the poor or the sick, no handheld shake, no d
 - 构图：ensemble in one frame, authority centered, trickster at the edge.
 - 材质：painted plaster, cotton, steel tiffin, paper, fine grain.
 - 禁止漂移：no modern glass towers, no LED white, no desaturated grey, no shaky handheld, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；参考图选一张群像喜剧静帧，不要用单人英雄照。
-- SDXL / ComfyUI：正向固定“warm high-key Hindi ensemble comedy”块；负面加 `handheld, desaturated, neon`；用 ControlNet 锁群像站位。
-- Runway / Kling / Sora / Veo：先给群像首帧，只写一种运镜（slow dolly in），5–7 秒，24fps；不要同时写推和摇。

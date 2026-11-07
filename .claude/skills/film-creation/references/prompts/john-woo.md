@@ -30,8 +30,3 @@ no unmotivated slow motion, no doves in every scene, no ironic anti-hero deconst
 - 构图：symmetrical, low angle, two-shot, props blocking half the body.
 - 材质：smoke, wax, stained glass, trench coats, doves.
 - 禁止漂移：no handheld shake, no digital-clean gunfire, no tactical realism, no muted grey grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 400`；用教堂烛光与彩窗的实拍参考做 `--sref`，不要堆 "John Woo" 名字。
-- SDXL / ComfyUI：固定对称低角度 prompt 块；用 ControlNet pose 锁双人背靠背站位；negative 排除 handheld、gore、irony。
-- Runway / Kling / Sora / Veo：首帧用对称双人全景，只给一次环绕，5–8 秒，24fps；慢镜只保留一个节拍。

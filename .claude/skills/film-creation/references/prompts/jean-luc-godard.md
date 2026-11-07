@@ -30,8 +30,3 @@ no continuity editing, no wall-to-wall score, no music illustrating a political 
 - 构图：jump-axis, off-center, half a head cropped, printed text in frame.
 - 材质：printed matter, posters, books, TV screen.
 - 禁止漂移：no clean digital look, no drone, no gimbal smoothness, no warm nostalgia grade, no Instagram grain.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`（宽银幕期改 ``--sref`；避免 “balanced composition”。
-- SDXL / ComfyUI：固定 prompt 块；把 negative 的 “continuity / symmetrical” 写死；ControlNet 不必锁得太准，允许偏移。
-- Runway / Kling / Sora / Veo：首帧图起，handheld follow 单一运镜，4–8 秒，24fps，结尾硬切，不淡出。

@@ -31,8 +31,3 @@ no stabilizer, no polished symmetrical composition, no soft beauty lighting, no 
 - 构图：unstable, face-centered, subject may be cut off.
 - 材质：sweat, smoke, wrinkles, worn fabric, 16mm grain.
 - 禁止漂移：no gimbal smoothness, no HDR, no digital clarity, no modern apartment interiors, no fashion lighting.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用 16mm 手持近景静帧做 `--sref`，降低默认美颜。
-- SDXL / ComfyUI：固定 prompt 块 + 粗颗粒 LoRA；ControlNet openpose 允许人物互相遮挡，不锁完美构图。
-- Runway / Kling / Sora / Veo：首帧图 + 只写 handheld follow；8–12 秒、24fps，保留失焦与被挡。

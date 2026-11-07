@@ -26,8 +26,3 @@ no poverty as spectacle, no music cueing sadness before the character turns, no 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：monochrome tonal range, 35–50mm; available daylight with window key and no fill; frame-within-frame, subject in one corner, sightline out of frame; mud wall, old wood, cotton, brass, rain.
 - 禁止漂移：no modern crisp digital black-and-white, no bleeding highlights, no anamorphic flare, no aerial vista, no contemporary clothing or interiors, no forced shallow depth of field.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；黑白用 `black and white film still`前置并加 `--no color`；`--sref`用《大地之歌》静帧。
-- SDXL / ComfyUI：B&W 胶片 LoRA 轻量；ControlNet canny 或 depth 锁门框／窗框；negative 里压掉 `sepia, warm tint, HDR`。
-- Runway / Kling / Sora / Veo：首帧多为静止中景或远景，运动写 `static`；10–25 秒、24fps；动作具体到"修补琴弦""写字"；不要写 pan + zoom 组合。

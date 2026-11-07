@@ -26,8 +26,3 @@ no fast cutting, no handheld shaky action, no slow-motion duel effects, no clean
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：ochre, rust red, faded blue; 25–35mm wide and 85–150mm close-up, nothing between; hard noon key; horizon upper third, low camera; dust, leather, sweat, wood.
 - 禁止漂移：no green or teal grade, no clean new props, no modern firearms, no shirtless glamour, no soft portrait lighting, no medium two-shot, no fast zoom.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用 1960 年代意大利西部片 静帧做 `--sref`，锁住褪色土色。
-- SDXL / ComfyUI：positive 里明确 `extreme wide`或 `extreme close-up`二选一，不要留给模型折中；用 ControlNet canny 锁地平线高度。
-- Runway / Kling / Sora / Veo：首帧用大远景，运动只写 `static hold`或 `very slow push in`；不要在同一段里要求推近和横摇。

@@ -26,8 +26,3 @@ no rim light on faces, no unified teal-orange LUT, no symmetrical composition, n
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：sodium amber, fluorescent green, neutral daylight; 40–100mm anamorphic; motivated practicals at –; off-center deep staging; sweat, dust and worn surfaces.
 - 禁止漂移：no teal night, no rim light, no studio fill, no drone skyline, no HDR cleanliness.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 80`；用真实室内实用光的照片做 `--sref`，避免模型加轮廓光。
-- SDXL / ComfyUI：ControlNet depth 锁房间纵深；negative 固定 `rim lighting, studio softbox, symmetrical`。
-- Runway / Kling / Sora / Veo：首帧已带实用光，只写一种极慢推近，8–20 秒，24fps，不手持、不变速。

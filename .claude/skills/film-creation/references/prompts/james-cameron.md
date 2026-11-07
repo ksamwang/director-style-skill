@@ -30,8 +30,3 @@ no handheld shake, no ironic tone, no desaturated grey grade, no dry studio ligh
 - 构图：centered and stable, human lower third, mass above.
 - 材质：water, steel, glass, rubber, wet skin, 35mm grain.
 - 禁止漂移：no neon cyberpunk, no grey desaturation, no clean digital skin, no drone aerial.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 250`；用水下电影静帧做 `--sref`，锁蓝橙互补。
-- SDXL / ComfyUI：ControlNet depth 锁人体与机械比例；positive 固定 "volumetric light shafts"；negative 保留 no dry lighting。
-- Runway / Kling / Sora / Veo：首帧图起手，只给 smooth underwater tracking shot，5–8 秒，24fps；运动写慢，不要叠加推进。

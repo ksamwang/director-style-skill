@@ -26,8 +26,3 @@ no red-and-gold for every film, no folk ritual forced into a contemporary urban 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：one dominant hue per scene with arrays; 24–35mm; hard backlight with dust; symmetric central axis, extreme wide plus extreme close; red cloth, silk, loess, snow, lantern.
 - 禁止漂移：no candy-colour multicast, no modern glass, no LED white, no handheld documentary look, no scattered random crowd.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 350`；用单张静帧做 `--sref`，不要只靠文字堆“红”。
-- SDXL / ComfyUI：用 IP-Adapter 锁单场主色；ControlNet（depth/canny）锁中轴与阵列；negative 里禁止第二个主色。
-- Runway / Kling / Sora / Veo：只给一种运动（横移或穿门推轨或升降），5–8 秒，24fps；先定首帧的轴线。

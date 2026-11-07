@@ -30,8 +30,3 @@ no handheld camera, no zoom, no crying close-up, no glamorous swordplay, no natu
 - 构图：symmetrical, geometric marks, threshold in frame, figures small in the room.
 - 材质：tatami, wood, paper, armor lacing, snow, blood, film grain.
 - 禁止漂移：no color grade, no warm lantern light, no handheld drift, no modern architecture, no digital sharpness.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用黑白武士片静帧做 `--sref`，加 `monochrome`防偏色。
-- SDXL / ComfyUI：固定 prompt 块 + 黑白胶片 LoRA；用 ControlNet depth 锁房间纵深与人物站位，negative 明确排除色彩。
-- Runway / Kling / Sora / Veo：首帧图起手，全程静止，8–15 秒，24fps，不要给推轨或环绕。

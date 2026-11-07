@@ -26,8 +26,3 @@ no gimbal smoothness, no soft beauty light, no unified LUT, no clean digital ski
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red-black or desaturated grey; 18–35mm wide; hard side light at +; off-balance close framing; 16mm grain, sweat, halation.
 - 禁止漂移：no smooth gimbal, no soft key, no clean skin, no HDR, no neutral grey LUT, no wide establishing distance.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用高颗粒手持静帧做 `--sref`，关掉默认美化。
-- SDXL / ComfyUI：negative 排除 `smooth`、`beauty lighting`；ControlNet pose 锁身体；颗粒可在后期叠加而不是靠 prompt。
-- Runway / Kling / Sora / Veo：首帧给贴脸广角，只写手持跟随，5–10 秒，24fps，不开稳定器。

@@ -30,8 +30,3 @@ no close-up fragmentation of the body, no shallow depth of field, no sepia or wa
 - 构图：centered proscenium, full body, visible floor.
 - 材质：35mm grain, worn wool, hard leather, bamboo, brick.
 - 禁止漂移：no color, no modern clothing, no handheld, no lens flare, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150 --no color`；用一张老黑白静帧做 `--sref`，不要用“vintage”这类词。
-- SDXL / ComfyUI：负面提示固定成块；用 ControlNet pose 锁全身姿态，depth 锁地面与门框；加轻胶片颗粒 LoRA。
-- Runway / Kling / Sora / Veo：从全身构图首帧开始，只给静态机位，6–8 秒，24fps；动作写成分解步骤，不写“搞笑”。

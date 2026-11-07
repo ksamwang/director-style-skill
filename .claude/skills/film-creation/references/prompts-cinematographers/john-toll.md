@@ -26,8 +26,3 @@ no close-up instead of landscape, no centered fully lit face, no even fill light
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：wheat-gold and earth-brown palette; 75–300mm; backlit natural sun; low horizon with tiny off-center figure; grass and dust.
 - 禁止漂移：no studio lighting, no teal-orange LUT, no aerial-only landscape, no portrait framing, no modern glass architecture.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用一张逆光草原电影静帧做 `--sref`，避免默认的“史诗海报”美化。
-- SDXL / ComfyUI：长焦压缩用 depth ControlNet 强化层叠山脊；negative 明确排除 close-up 与 even lighting。
-- Runway / Kling / Sora / Veo：首帧给远景，只写一种缓慢横摇；10–20 秒，24fps，不切镜，不升格。

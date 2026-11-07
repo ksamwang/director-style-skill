@@ -26,8 +26,3 @@ no battle scene, no psychological backstory for armed men, no cartoon evil, no s
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：earth yellow, grey-blue, white / 35mm wide, 85mm detail, / natural, hard noon, long dusk / seated eye level, static, doorway framing / sand, dust, cloth, tin, enamel.
 - 禁止漂移：no drone desert aerials, no modern glass, no saturated orange grade, no clean digital skin, no handheld urgency.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用真实庭院或沙漠边缘照片做 `--sref`；负面压 `epic, battle, war film`。
-- SDXL / ComfyUI：ControlNet depth 锁门口框景；固定 35mm 静态 prompt 块；避免高对比 HDR 与战争片 LUT。
-- Runway / Kling / Sora / Veo：首帧为门口全景，只给 static camera；10–15 秒，24fps；暴力留在画外，不要生成枪战。

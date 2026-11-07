@@ -30,8 +30,3 @@ no soft beauty lighting, no clean skin, no objective wide shot explaining the lo
 - 构图：centered pressure, face at frame edge, mirror doubling.
 - 材质：sweat, skin, glass, needle, blood, concrete.
 - 禁止漂移：no softbox glow, no clean digital skin, no drone shot, no warm sunset, no symmetrical beauty frame.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用皮肤/后台特写做 `--sref`；避免“cinematic”“beautiful”这类词。
-- SDXL / ComfyUI：正面锁“extreme close-up, sweat, pores, hard overhead light”；负面提示加重 no soft lighting / no clean skin；用 ControlNet depth 锁贴脸距离。
-- Runway / Kling / Sora / Veo：首帧给极特写，只写一种“handheld follow”，4–6 秒，24fps；把“呼吸式抖动”写成 camera shake amplitude，不写“紧张”。

@@ -26,8 +26,3 @@ no soft focus, no warm nostalgia filter, no sepia, no even fill light, no natura
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red-white-gold with fog blue at night; 35–50mm wide; frontal hard key; centered radial crowd with the face emerging; plaster, wig, painted canvas.
 - 禁止漂移：no even studio lighting, no soft beauty light, no clean modern interiors, no digital skin, no tasteful muted palette, no empty frame without a crowd.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 300`；用一张 1960 年代意大利黑白或彩色静帧做 `--sref`，锁住颗粒与硬光。
-- SDXL / ComfyUI：固定风格锚点块 + 粗颗粒 LoRA；用 ControlNet depth 锁圆形/放射构图，避免模型默认给对称单人肖像。
-- Runway / Kling / Sora / Veo：先给一张人群环绕的首帧图，只写一种环绕运镜，5–8 秒，24fps；不要同时要求推近与环绕。

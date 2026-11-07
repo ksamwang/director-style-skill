@@ -26,8 +26,3 @@ no handheld, no whip pan, no improvised zoom, no asymmetrical composition to sig
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：red white blue blocks or neutral, 18–25mm frontal at , flat even practical light, one-point perspective with the subject on axis, carpet and geometric furniture.
 - 禁止漂移：no teal-orange grade, no handheld shake, no drone, no asymmetric art framing, no retro grain, no soft bokeh, no modern minimal white interior.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100 --no handheld, bokeh, warm`；对称构图靠 `symmetrical`、`one-point perspective`、`on the central axis`三个词，不靠 `--tile`。
-- SDXL / ComfyUI：ControlNet canny 或 mlsd 锁走廊的消失线；固定 seed 保证同一空间的多镜头一致；negative 里必须出现 `asymmetry`与 `film grain`。
-- Runway / Kling / Sora / Veo：首帧是正面中轴；只写 `constant-speed dolly forward`，明确 `no easing, no acceleration`；时长 12 秒以上，让机械感成立。

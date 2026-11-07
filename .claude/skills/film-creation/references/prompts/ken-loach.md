@@ -30,8 +30,3 @@ no single villain, no evil official, no outsider savior (no lawyer, journalist o
 - 构图：eye level never above the subject, person and room together, continuous readable geography.
 - 材质：synthetic clothing, worn carpet, plastic furniture, paper forms.
 - 禁止漂移：no handheld melodrama, no teal-orange grade, no shallow-focus beauty, no modern glass offices, no drone shots, no digital skin.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；用一张纪实摄影或真实室内照片做 `--sref`，避免模型自动美化。
-- SDXL / ComfyUI：自然光写实 prompt 块 + 轻颗粒 LoRA；用 ControlNet depth 锁房间四面墙和门的位置；同一场戏固定 seed，negative 里写 `cinematic, dramatic lighting, shallow depth of field, glamour`。
-- Runway / Kling / Sora / Veo：从首帧图开始，运镜只写 `handheld follow from behind`，8–12 秒，24fps；抖动来自走路，不要加情绪化推拉。

@@ -26,8 +26,3 @@ no clear villain, no score guiding sympathy, no flashbacks explaining the past, 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：plain beige-grey natural palette, 35–50mm; available daylight plus ceiling bulb, no shaping; doorframe splits the frame, crowded over-shoulder two-shots; peeling wall, tile, plastic bag, paper, thin door.
 - 禁止漂移：no teal-orange grade, no shallow-focus bokeh portrait, no symmetrical staging, no dolly moves, no glossy middle-class advertising interior, no drone.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 50`；写 `cramped apartment, doorway in foreground`；不要用高电影感 `--sref`，会把画面美化。
-- SDXL / ComfyUI：ControlNet depth 锁门框与过肩关系；避免浅景深 LoRA；negative 单独压 `cinematic lighting, bokeh, symmetrical`。
-- Runway / Kling / Sora / Veo：首帧给门框分割的双人构图，运动只写 `handheld follow, camera changes sides`；10–20 秒、24fps；结尾走廊另起一段 `static`镜头，不混在同一段。

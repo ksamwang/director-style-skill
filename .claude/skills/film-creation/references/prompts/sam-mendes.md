@@ -30,8 +30,3 @@ no handheld shake, no fast cutting, no dutch angle, no saturated color, no music
 - 构图：classical symmetry, doorway or window frame, deep staged space.
 - 材质：wood, glass, mud, water, wool, smoke, 35mm grain.
 - 禁止漂移：no modern glass architecture, no neon, no digital skin, no drone aerial.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用古典绘画或电影静帧做 `--sref`，锁低饱和。
-- SDXL / ComfyUI：ControlNet depth 锁纵深与门框；positive 固定 "classical symmetrical composition"；negative 保留 no handheld。
-- Runway / Kling / Sora / Veo：首帧图起手，只给 steady Steadicam follow，6–10 秒，24fps；不要叠加推轨和摇镜。

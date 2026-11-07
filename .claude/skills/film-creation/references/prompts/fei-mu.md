@@ -26,8 +26,3 @@ no close-up tears, no fast cutting inside an argument, no villain dialogue frami
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：blue-grey and earth yellow, low saturation, one candle accent; 35–50mm deep focus; natural window light, side-back, half-face shadow; door and window frames halving the frame, figure at the threshold; peeling plaster, damp brick, old timber, cotton.
 - 禁止漂移：no modern glass, no LED white, no clean digital skin, no crane or drone, no telephoto compression.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 120`；用一张黑白或低饱和电影静帧做 `--sref`。
-- SDXL / ComfyUI：固定 prompt 块 + 胶片颗粒 LoRA；用 ControlNet（canny/depth）锁门框切割，negative 里保留“no fast cutting”类反向词。
-- Runway / Kling / Sora / Veo：从首帧图开始，只给一种缓慢横移，8–12 秒，24fps；不要叠加推近。

@@ -30,8 +30,3 @@ no dialogue explaining colonial history, no music that explains desire, no compl
 - 构图：extreme close-up against a non-establishing medium, low camera, body cropped.
 - 材质：skin, sweat, uniform, iron, dust.
 - 禁止漂移：no drone, no clean establishing wide, no warm filter, no soft-focus skin, no stabilized gimbal.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用逆光皮肤特写静帧做 `--sref`；不要写 “beautiful skin” 或 “soft lighting”。
-- SDXL / ComfyUI：固定 prompt 块；ControlNet 锁低机位与身体裁切；negative 里禁 “establishing shot / warm grade”。
-- Runway / Kling / Sora / Veo：首帧图起，handheld follow 单一运镜，5–10 秒，24fps；暴力时把镜头移开，只留声音。

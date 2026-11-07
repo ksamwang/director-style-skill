@@ -26,8 +26,3 @@ no hard shadow on the face, no low-key practical lighting, no handheld, no cool 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：full-range black and white or pastel Metrocolor; 50–100mm portrait lens; butterfly key plus hair rim at –; centered symmetry; satin, fur and polished wood.
 - 禁止漂移：no modern cool grade, no handheld, no hard side light, no grime, no digital skin smoothing.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；加 `--no harsh shadows, modern grade`；用一张 1940 年代片厂肖像做 `--sref`。
-- SDXL / ComfyUI：negative 固定 `hard shadow, low key, handheld, teal orange`；用 IP-Adapter 锁面部柔焦与缎面质感。
-- Runway / Kling / Sora / Veo：首帧是完整的正面肖像，只写一种缓慢推近，6–12 秒，24fps，不加手持与变速。

@@ -26,8 +26,3 @@ no neutral white key, no large grey areas, no soft flat face light, no post-prod
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：primary plus complement, seven-three; 35–50mm anamorphic; hard arc key; lateral colour blocks; silk and lacquer.
 - 禁止漂移：no modern grey palette, no soft daylight, no digital clean edges, no cropped , no muted pastel.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 300`；提示里明确 primary 与 accent 两个色名，避免模型平均配色。
-- SDXL / ComfyUI：用 palette LoRA 或色卡参考锁七三比例；ControlNet canny 锁布景线条；negative 排除 flat fill。
-- Runway / Kling / Sora / Veo：首帧定色块，只写 slow lateral dolly，6–10 秒，24fps，不加推近。

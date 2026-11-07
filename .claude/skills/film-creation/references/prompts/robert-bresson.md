@@ -30,8 +30,3 @@ no professional actor emoting, no emotional close-up of a face, no psychological
 - 构图：detail close-up, action-only framing, half the face or environment cut off.
 - 材质：wood, iron, coarse cloth, stone, skin.
 - 禁止漂移：no shallow-focus bokeh, no modern glass, no warm grade, no handheld, no drone.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用黑白局部特写静帧做 `--sref`；不要写 “beautiful”。
-- SDXL / ComfyUI：固定 prompt 块 + 硬光负面；ControlNet canny 锁手与门把的局部构图；不要加浅景深 LoRA。
-- Runway / Kling / Sora / Veo：首帧图起，fixed camera 单一运镜，3–6 秒，24fps，动作完成即停。

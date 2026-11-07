@@ -26,8 +26,3 @@ no ethnographic panorama explaining Africa, no dialogue explaining motivation, n
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：saturated red, yellow, blue, green / 18–35mm wide, / hard noon or neon, deliberately mixed / tilted, off-balance, figure at edge / printed cloth, chrome, plastic, dust.
 - 禁止漂移：no teal-orange blockbuster grade, no clean digital sharpness, no drone city montage, no sepia, no modern minimalist interiors.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 400`；用高饱和街头时尚或西非布料的照片做 `--sref`；负面压 `desaturated, muted, documentary`。
-- SDXL / ComfyUI：固定高饱和 prompt 块 + 轻颗粒 LoRA；ControlNet 锁倾斜构图；不要用统一色调的 film LUT。
-- Runway / Kling / Sora / Veo：首帧为倾斜街角，只给 handheld bump-in 的运动；3–5 秒，24fps；允许跳切感，不要平滑稳定器。

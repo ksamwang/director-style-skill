@@ -26,8 +26,3 @@ no voice-over explaining history, no villain arriving with a motive, no musical 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：white, tile blue, mango green, old wood / 35mm, / natural plus practical, hard noon allowed / eye-level static, door or window frame, figure at one edge / terrazzo, louvers, plastic, magnetic tape.
 - 禁止漂移：no modern glass towers, no LED white, no clean digital skin, no drone aerials, no warm nostalgia sepia.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张真实公寓或街道照片做 `--sref`，不要用电影海报。
-- SDXL / ComfyUI：固定 prompt 块 + 轻颗粒 LoRA；ControlNet depth 锁门框/窗框套框；negative 里保留 sound-design 类词，防止模型加惊悚光效。
-- Runway / Kling / Sora / Veo：首帧为静止室内全景，只给 static camera；6–8 秒，24fps；威胁用画外声提示，不要生成入室镜头。

@@ -26,8 +26,3 @@ no shallow depth of field, no blurred background, no even fill light, no blue fi
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：blue-cyan and amber, low saturation, deep black; 35–50mm anamorphic; moonlight plus practicals at –; deep-focus foreground frame; fog, wet glass, grain.
 - 禁止漂移：no shallow focus, no LED white, no neon, no clean digital look, no blue monochrome grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用 80 年代变形宽银幕夜戏静帧做 `--sref`。
-- SDXL / ComfyUI：negative 强化 `shallow depth of field`；ControlNet depth 锁三层景深；避免现代室内模型。
-- Runway / Kling / Sora / Veo：首帧给深焦走廊，只写缓慢 Steadicam 推近，10–20 秒，24fps。

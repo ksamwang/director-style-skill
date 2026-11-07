@@ -26,8 +26,3 @@ no score for sentiment, no fast cutting, no character stating the theme, no land
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：low-saturation ochre, slate blue, snow white; 50–135mm; natural window key, backlit dark faces, warm-cool split; figures in a corner, two-shot, environment dominant; snow, mud, wool, old wood, mist.
 - 禁止漂移：no teal-orange grade, no drone aerials, no golden-hour glow, no handheld, no modern glass interiors, no shallow depth of field isolating a face, no added music.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；`--sref`用《冬眠》或《远方》静帧；构图写 `figures small, environment dominant`。
-- SDXL / ComfyUI：ControlNet depth 锁人物占角与窗框；长焦压缩用 prompt 写 135mm；negative 压 `bokeh, close-up, warm grade`。
-- Runway / Kling / Sora / Veo：首帧给两人同框远景，运动只写 `static`（必要时 `very slow push-in`）；生成上限内按 10 秒切段，最后剪成一个长镜头；20–60 秒、24fps。

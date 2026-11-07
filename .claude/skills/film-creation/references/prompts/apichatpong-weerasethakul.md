@@ -30,8 +30,3 @@ no postcard tropical filter, no saturated peacock green, no teal-and-orange grad
 - 构图：medium-long, figure off to one side, foreground obstruction, empty sky or ceiling, head cropped.
 - 材质：mosquito net, wet tile, old wood, plastic chair.
 - 禁止漂移：no drone aerial, no LED white, no clean digital skin, no travel-brochure saturation, no symmetrical centered hero shot.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用一张实景静帧做 `--sref`，不要加 “cinematic lighting” 之类美化词。
-- SDXL / ComfyUI：固定 prompt 块打头；用 ControlNet depth 锁前景树叶/风扇遮挡；不要套 HDR 或高对比 LoRA。
-- Runway / Kling / Sora / Veo：先给首帧图，只写 static camera，20–40 秒或平台上限，24fps，不加运动模糊与变速。

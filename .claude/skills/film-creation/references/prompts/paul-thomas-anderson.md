@@ -31,8 +31,3 @@ no handheld shake, no improvised camera, no cut to close-up at the emotional pea
 - 构图：low angle, figure and room in the same frame, power holder centered.
 - 材质：wood, carpet, pool water, wallpaper, fabric, film grain.
 - 禁止漂移：no handheld documentary shake, no modern LED white, no digital skin, no empty minimalist interiors, no present-day devices.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 200`；用年代室内静帧做 `--sref`锁色温。
-- SDXL / ComfyUI：固定 prompt 块 + 颗粒 LoRA；ControlNet depth 锁房间纵深与人物站位，IP-Adapter 给年代色板。
-- Runway / Kling / Sora / Veo：首帧图 + 只写一种 Steadicam follow；8–12 秒、24fps，不要叠加推轨和手持。

@@ -26,8 +26,3 @@ no gothic horror shadow, no expressionist distortion, no low-angle looking down 
 ## 一致性锚点
 - 色彩 / 镜头 / 光线 / 构图 / 材质：black and white, 35–50mm at desk level, medium contrast with clear faces, symmetrical furniture grid, glass partitions and phones.
 - 禁止漂移：no film-noir pools of black, no neon, no colour grade, no handheld, no widescreen, no modern open-plan office, no glamour close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150 --no noir, color, bokeh`；`--sref`用《公寓》或《双重赔偿》静帧；把 “desk level” 和 “symmetrical” 写进提示词。
-- SDXL / ComfyUI：ControlNet canny 锁桌线与门框直线；不要用 depth，容易把隔间虚化掉。negative 里加 `low angle, dramatic shadow`。
-- Runway / Kling / Sora / Veo：首帧是人物隔着桌子的正面机位；只写 “static camera”；动作只做坐下、递东西、点烟；不要写任何推拉。

@@ -30,8 +30,3 @@ no musical score, no reaction-shot cutting, no handheld shake, no warm color gra
 - 构图：eye-level, off-center, doorframe or corridor at the edge, two or three bodies per frame.
 - 材质：worn furniture, tiles, plastic, slush, paper forms, film grain.
 - 禁止漂移：no modern glass architecture, no LED white, no drone shots, no digital skin, no teal-orange grade.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 150`；用低饱和纪实摄影做 `--sref`，不要用电影海报。
-- SDXL / ComfyUI：固定 prompt 块 + 细颗粒 LoRA；用 ControlNet depth 锁门框与纵深，negative 保留“no score”语义的视觉对应项。
-- Runway / Kling / Sora / Veo：从首帧图开始，全程静止，8–15 秒，24fps，不要叠加推拉。

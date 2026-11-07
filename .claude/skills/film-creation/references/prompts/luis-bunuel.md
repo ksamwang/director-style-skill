@@ -30,8 +30,3 @@ no soft-focus dream haze, no fog, no dream color grade, no "it must be a dream" 
 - 构图：symmetrical and upright, long dining table filling the frame, camera at guest height.
 - 材质：linen, silver, wood, religious fabric.
 - 禁止漂移：no dream haze, no surreal CGI glow, no fisheye, no handheld, no modern bourgeois glass apartment, no moralizing close-up.
-
-## 平台备注
-- Midjourney：`--style raw --stylize 100`；用一张对称餐桌的静帧做 `--sref`，不要用超现实绘画做参考。
-- SDXL / ComfyUI：用 ControlNet depth/canny 锁对称构图和长餐桌透视线；negative 必写 `dreamy, foggy, soft focus, glow, surreal collage`；异物只写一个，不叠加。
-- Runway / Kling / Sora / Veo：首帧给完整客厅中远景，运镜只写 `slow lateral tracking`，6–10 秒，24fps；不要给异物特写或音效强调。
